@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 <div align="center">
 
 # ☕ Java Notes
@@ -478,3 +480,9 @@ Build a **complete, searchable and continuously improving Java knowledge base** 
 **Mukesh Pilla**
 
 </div>
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🗺️ [Learning Roadmap](#-learning-roadmap)
