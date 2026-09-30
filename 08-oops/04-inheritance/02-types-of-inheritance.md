@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🌳 Types of Inheritance in Java
 
 > **Topic 23 • Inheritance**
@@ -184,3 +186,9 @@ Multiple child classes share the same parent class.
 ➡️ [Access & Inheritance](./03-access-and-inheritance.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
