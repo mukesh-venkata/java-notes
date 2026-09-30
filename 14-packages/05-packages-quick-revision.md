@@ -102,28 +102,57 @@ entity
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. **What is a package?**  
-   A namespace used to group related Java types and organize code.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-2. **How many package declarations can one source file have?**  
-   One.
+<details>
+<summary>1. What is a package?</summary>
+<br>
 
-3. **Which package is automatically imported?**  
-   `java.lang`.
+A namespace used to group related Java types and organize code.
 
-4. **Does `import java.util.*` import `java.util.concurrent`?**  
-   No. Subpackages are not imported by a wildcard.
+</details>
 
-5. **Can we use a class without importing it?**  
-   Yes, if it is in the same package, in `java.lang`, or referenced by its fully qualified name (subject to accessibility).
+<details>
+<summary>2. How many package declarations can one source file have?</summary>
+<br>
 
-6. **What is a common package naming convention?**  
-   Lowercase names using a reversed domain prefix, followed by meaningful application/module names.
+One package declaration can appear in a Java source file.
 
----
+</details>
 
+<details>
+<summary>3. Which package is automatically imported?</summary>
+<br>
+
+java.lang.
+
+</details>
+
+<details>
+<summary>4. Does import java.util.* import java.util.concurrent?</summary>
+<br>
+
+No. A wildcard import covers types directly in the specified package; it does not import subpackages.
+
+</details>
+
+<details>
+<summary>5. Can we use a class without importing it?</summary>
+<br>
+
+Yes, if it is in the same package, in java.lang, or referenced by its fully qualified name, subject to accessibility.
+
+</details>
+
+<details>
+<summary>6. What is a common package naming convention?</summary>
+<br>
+
+Use lowercase names, commonly beginning with a reversed domain name, followed by meaningful application or module names.
+
+</details>
 ## 🧠 Memory Trick
 
 > **Package = where the class belongs**  
