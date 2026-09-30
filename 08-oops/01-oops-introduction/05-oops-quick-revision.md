@@ -57,21 +57,57 @@ new Student() → creates object
 
 ---
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**OOP?** → Programming around objects, state and behavior.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Four pillars?** → Abstraction, Encapsulation, Inheritance, Polymorphism.
+<details>
+<summary>OOP?</summary>
+<br>
 
-**Class?** → A type definition.
+Programming around objects, state and behavior.
 
-**Object?** → An instance of a class.
+</details>
 
-**Reference?** → A variable that refers to an object.
+<details>
+<summary>Four pillars?</summary>
+<br>
 
-**hashCode unique?** → No, uniqueness is not guaranteed.
+Abstraction, Encapsulation, Inheritance, Polymorphism.
 
----
+</details>
+
+<details>
+<summary>Class?</summary>
+<br>
+
+A type definition.
+
+</details>
+
+<details>
+<summary>Object?</summary>
+<br>
+
+An instance of a class.
+
+</details>
+
+<details>
+<summary>Reference?</summary>
+<br>
+
+A variable that refers to an object.
+
+</details>
+
+<details>
+<summary>hashCode unique?</summary>
+<br>
+
+No, uniqueness is not guaranteed.
+
+</details>
 
 ## 🚀 What's Next?
 
