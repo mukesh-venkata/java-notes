@@ -35,42 +35,42 @@ StringBuilder→ Mutable + No synchronization
 
 ## 🎯 Interview Questions & Answers
 
-> **Try answering each question yourself first. Click the question to reveal the answer.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
 <details>
-<summary>Why is String immutable?</summary>
+<summary>1. Why is String immutable?</summary>
 <br>
 
-`String` objects cannot be changed after creation. This supports safe sharing, String Pool reuse, and predictable behavior.
+String objects cannot be changed after creation. This supports safe sharing, String Pool reuse, and predictable behavior.
 
 </details>
 
 <details>
-<summary>Is String final?</summary>
+<summary>2. Is String final?</summary>
 <br>
 
-Yes. `String` is a `final` class.
+Yes. String is a final class and cannot be subclassed.
 
 </details>
 
 <details>
-<summary>Which package contains String?</summary>
+<summary>3. Which package contains String?</summary>
 <br>
 
-`java.lang`.
+java.lang.
 
 </details>
 
 <details>
-<summary>What happens when concat() is called without assigning its result?</summary>
+<summary>4. What happens when concat() is called without assigning its result?</summary>
 <br>
 
-A new String is returned, but the original reference is unchanged if the result is not stored.
+A new String is returned, but the original String remains unchanged if the result is not stored.
 
 </details>
 
 <details>
-<summary>When does an old String become eligible for garbage collection?</summary>
+<summary>5. When does an old String become eligible for garbage collection?</summary>
 <br>
 
 When no live reference can reach that String object. Eligibility does not mean collection happens immediately.
@@ -78,29 +78,28 @@ When no live reference can reach that String object. Eligibility does not mean c
 </details>
 
 <details>
-<summary>What is the difference between StringBuffer and StringBuilder?</summary>
+<summary>6. What is the difference between StringBuffer and StringBuilder?</summary>
 <br>
 
-`StringBuffer` is mutable and synchronized; `StringBuilder` is mutable and not synchronized.
+StringBuffer is mutable and synchronized; StringBuilder is mutable and not synchronized.
 
 </details>
 
 <details>
-<summary>Which one is synchronized?</summary>
+<summary>7. Which one is synchronized?</summary>
 <br>
 
-`StringBuffer`.
+StringBuffer is synchronized; StringBuilder is not.
 
 </details>
 
 <details>
-<summary>Why is StringBuilder commonly used in single-threaded code?</summary>
+<summary>8. Why is StringBuilder commonly used in single-threaded code?</summary>
 <br>
 
-`StringBuilder` avoids synchronization overhead and is commonly used when thread-safe mutation is not required.
+It avoids synchronization overhead and provides mutable String operations when thread-safe mutation is not required.
 
 </details>
-
 ## 🔗 Related Notes
 
 - [String Overview →](01-string-overview.md)
