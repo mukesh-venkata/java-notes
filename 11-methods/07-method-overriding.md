@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧬 Java Method Overriding
 
 > **Topic 18 • Methods**
@@ -71,3 +73,9 @@ No.
 ➡️ [Method Binding](./05-method-binding.md)
 
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
