@@ -1,89 +1,35 @@
-# ⚡ Java Method Execution — Quick Revision
+# ⚡ Method Execution — Quick Revision
 
-> **Topic 19 • 30-Second Revision**
+> **Topic 19 • 30 Seconds**
 
-## 🧠 Master Flow
+~~~text
+Method Call
+    ↓
+Stack Frame
+    ↓
+Method Executes
+    ↓
+Method Finishes
+    ↓
+Frame Removed
+    ↓
+Back to Caller
+~~~
 
-```text
-             METHOD CALL
-                  ↓
-          STACK FRAME CREATED
-                  ↓
-           FRAME BECOMES ACTIVE
-                  ↓
-            METHOD EXECUTES
-                  ↓
-           METHOD COMPLETES
-                  ↓
-            FRAME DISCARDED
-                  ↓
-          CONTROL → CALLER
-```
+**Stack Frame** → Working area for one active method call.
 
-## 📦 Stack Frame
+**Java Stack** → Stack associated with a thread.
 
-Conceptually includes:
+**Call Stack** → Active chain of method calls.
 
-- Local variable array
-- Operand stack
-- Reference to the runtime constant pool
+**Recursion** → A method calling itself.
 
-Implementation details may vary.
+**StackOverflowError** → Can happen when too many calls remain active.
 
-## 🧵 JVM Stack
+### 🎯 Interview Question
 
-```text
-Each Thread
-     ↓
-Private JVM Stack
-     ↓
-Method invocations
-     ↓
-Stack frames
-```
+**What happens when a method is called?**
 
-## 🔁 Recursion
-
-```text
-Recursive call
-      ↓
-New active invocation
-      ↓
-New frame
-      ↓
-Base case
-      ↓
-Frames return / discard
-```
-
-## 🎯 Interview One-Liners
-
-**What is a stack frame?**  
-Runtime data associated with one method invocation.
-
-**When is it created?**  
-When the method is invoked.
-
-**When is it discarded?**  
-When that invocation completes.
-
-**Does each thread have its own JVM stack?**  
-Yes.
-
-**What is the operand stack?**  
-A stack used by JVM bytecode instructions for intermediate computation.
-
-**Why is this useful in debugging?**  
-The active call path helps explain stack traces.
-
-**Why can recursion cause StackOverflowError?**  
-Too many active calls can exhaust available stack space.
-
-## 🔗 Navigation
-
-⬅️ [Method Call](./01-method-call-and-stack-frame.md)  
-⬅️ [Stack Frame](./02-stack-frame.md)  
-⬅️ [Execution Flow](./03-method-execution-flow.md)  
-⬅️ [Java Stack & Call Stack](./04-java-stack-and-call-stack.md)
+A stack frame is created, the method runs, and when it finishes the frame is removed and control returns to the caller.
 
 🏠 [Java Notes Home](../README.md)
