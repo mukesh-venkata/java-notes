@@ -101,21 +101,49 @@ Student(int)
 age initialized
 ```
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Constructor:** Special class member used during object construction.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Default constructor:** Compiler-provided constructor when no constructor declaration exists.
+<details>
+<summary>Constructor:</summary>
+<br>
 
-**Overloading:** Multiple constructors with different parameter lists.
+Special class member used during object construction.
 
-**this():** Calls another constructor in the same class.
+</details>
 
-**super():** Calls a parent-class constructor.
+<details>
+<summary>Default constructor:</summary>
+<br>
 
-🏠 [Java Notes Home](../../README.md)
+Compiler-provided constructor when no constructor declaration exists.
 
----
+</details>
+
+<details>
+<summary>Overloading:</summary>
+<br>
+
+Multiple constructors with different parameter lists.
+
+</details>
+
+<details>
+<summary>this():</summary>
+<br>
+
+Calls another constructor in the same class.
+
+</details>
+
+<details>
+<summary>super():</summary>
+<br>
+
+Calls a parent-class constructor.
+
+</details>
 
 ## 🧭 Navigation
 
