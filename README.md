@@ -40,16 +40,17 @@
 | 16 | [🖥️ Command-Line Arguments](#-16--command-line-arguments--complete) | ✅ Done | Program startup input via main(String[] args) |
 | 17 | [📚 Java Standard Library](#-17--java-standard-library--complete) | ✅ Done | Standard API, java.lang & commonly used packages |
 | 18 | [🔄 Type Casting](#-18--type-casting--complete) | ✅ Done | Primitive & reference casting, literals, instanceof |
-| 19 | [🟡 Exception Handling](#-19--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 20 | [🔷 Collections](#-20--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 21 | [🟢 Generics](#-21--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 22 | [🔵 Java 8](#-22--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 23 | [🔴 Stream API](#-23--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 24 | [🔴 Multithreading](#-24--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 25 | [🟠 I/O & NIO](#-25--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 26 | [🟣 JDBC](#-26--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 27 | [⚙️ JVM & Internals](#-27--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 28 | [🚀 Modern Java](#-28--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 19 | [🔤 String](#-19--string--complete) | ✅ Done | String immutability, StringBuffer & StringBuilder |
+| 20 | [🟡 Exception Handling](#-20--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 21 | [🔷 Collections](#-21--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 22 | [🟢 Generics](#-22--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 23 | [🔵 Java 8](#-23--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 24 | [🔴 Stream API](#-24--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 25 | [🔴 Multithreading](#-25--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 26 | [🟠 I/O & NIO](#-26--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 27 | [🟣 JDBC](#-27--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 28 | [⚙️ JVM & Internals](#-28--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 29 | [🚀 Modern Java](#-29--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
