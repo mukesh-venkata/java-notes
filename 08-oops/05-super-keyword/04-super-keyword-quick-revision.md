@@ -61,23 +61,41 @@ super.method() → parent implementation
 
 **super → PARENT**
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**What is `super`?**  
-A keyword used to access the immediate superclass context.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**What is `super()`?**  
-Parent constructor invocation.
+<details>
+<summary>What is `super`?</summary>
+<br>
 
-**What is `super.method()`?**  
-Parent method implementation.
 
-**What is `super.field`?**  
-Parent field access.
 
-🏠 [Java Notes Home](../../README.md)
+</details>
 
----
+<details>
+<summary>What is `super()`?</summary>
+<br>
+
+
+
+</details>
+
+<details>
+<summary>What is `super.method()`?</summary>
+<br>
+
+
+
+</details>
+
+<details>
+<summary>What is `super.field`?</summary>
+<br>
+
+
+
+</details>
 
 ## 🧭 Navigation
 
