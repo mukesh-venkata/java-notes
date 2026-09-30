@@ -81,20 +81,41 @@ System.out.println(p instanceof Child); // false
 
 The operator does not throw `NullPointerException` merely because the reference is null.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What does instanceof do?
-It checks reference compatibility with a type.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Why use instanceof before downcasting?
-To check the runtime type before performing the cast.
+<details>
+<summary>Q1. What does instanceof do?</summary>
+<br>
 
-### Q3. What happens when an incompatible cast is attempted?
-A `ClassCastException` can occur at runtime.
+It checks whether a reference is compatible with a specified type at runtime.
 
-### Q4. What does null instanceof SomeType return?
-`false`.
+</details>
 
+<details>
+<summary>Q2. Why use instanceof before downcasting?</summary>
+<br>
+
+To check the runtime type before performing the cast and avoid an invalid downcast.
+
+</details>
+
+<details>
+<summary>Q3. What happens when an incompatible cast is attempted?</summary>
+<br>
+
+A ClassCastException can occur at runtime.
+
+</details>
+
+<details>
+<summary>Q4. What does null instanceof SomeType return?</summary>
+<br>
+
+false.
+
+</details>
 ## 🔗 Related Notes
 
 - [Reference Upcasting & Downcasting →](04-reference-upcasting-and-downcasting.md)
