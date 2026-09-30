@@ -104,23 +104,65 @@ String result = age >= 18 ? "Adult" : "Minor";
 
 ---
 
-## 🎯 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Operator?** → Performs an operation on one or more operands.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Operand?** → Value/expression acted upon by an operator.
+<details>
+<summary>Operator?</summary>
+<br>
 
-**`10 / 3` with ints?** → `3`.
+Performs an operation on one or more operands.
 
-**`++a` vs `a++`?** → Prefix uses updated value; postfix uses original value in the expression.
+</details>
 
-**`==` vs `.equals()` for objects?** → `==` compares references; `.equals()` is commonly used for logical/content equality.
+<details>
+<summary>Operand?</summary>
+<br>
 
-**`>>` vs `>>>`?** → Signed right shift vs zero-fill right shift.
+Value/expression acted upon by an operator.
 
-**Ternary syntax?** → `condition ? trueValue : falseValue`.
+</details>
 
----
+<details>
+<summary>`10 / 3` with ints?</summary>
+<br>
+
+`3`.
+
+</details>
+
+<details>
+<summary>`++a` vs `a++`?</summary>
+<br>
+
+Prefix uses updated value; postfix uses original value in the expression.
+
+</details>
+
+<details>
+<summary>`==` vs `.equals()` for objects?</summary>
+<br>
+
+`==` compares references; `.equals()` is commonly used for logical/content equality.
+
+</details>
+
+<details>
+<summary>`>>` vs `>>>`?</summary>
+<br>
+
+Signed right shift vs zero-fill right shift.
+
+</details>
+
+<details>
+<summary>Ternary syntax?</summary>
+<br>
+
+`condition ? trueValue : falseValue`.
+
+</details>
 
 ## 🗺️ Final Memory Map
 
