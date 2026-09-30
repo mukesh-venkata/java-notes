@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔂 Java `do-while` Loop
 
 > **Topic 13 • Java Fundamentals**
@@ -108,3 +110,9 @@ A: A semicolon.
 ➡️ [Enhanced for Loop](./05-enhanced-for-loop.md)
 
 ➡️ [Quick Revision](./07-looping-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
