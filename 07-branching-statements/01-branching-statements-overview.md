@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔀 Java Branching Statements — Overview
 
 > **Topic 14 • Java Fundamentals**
@@ -77,3 +79,9 @@ A: It terminates the current method, optionally returning a value.
 ➡️ [return Statement](./04-return-statement.md)
 
 ➡️ [Quick Revision](./05-branching-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
