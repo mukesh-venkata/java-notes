@@ -57,20 +57,41 @@ System.out.println(a.equals(b));  // true
 
 The String Pool is commonly discussed as part of Java's string interning mechanism. Modern JVMs manage pooled strings in the heap, but the important programming concept is **canonical reuse of interned String values**.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Where are String literals interned?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. Where are String literals interned?</summary>
+<br>
+
 In the String Pool.
 
-### Q2. Why can two identical literals have the same reference?
-The same pooled String can be reused.
+</details>
 
-### Q3. Does == compare String content?
-No. It compares references.
+<details>
+<summary>Q2. Why can two identical literals have the same reference?</summary>
+<br>
 
-### Q4. Which method compares String content?
-`equals()`.
+The same canonical pooled String can be reused for identical literals.
 
+</details>
+
+<details>
+<summary>Q3. Does == compare String content?</summary>
+<br>
+
+No. For objects, == compares references.
+
+</details>
+
+<details>
+<summary>Q4. Which method compares String content?</summary>
+<br>
+
+equals().
+
+</details>
 ## 🔗 Related Notes
 
 - [Creating String Objects Overview →](08-creating-string-objects-overview.md)
