@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🪜 Java `if-else-if` Ladder
 
 > **Topic 12 • Java Fundamentals**
@@ -99,3 +101,9 @@ A: No. Once a condition matches, the rest of that chain is skipped.
 ➡️ [Nested if](./05-nested-if.md)
 
 ➡️ [switch](./06-switch-statement.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
