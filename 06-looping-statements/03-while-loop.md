@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔁 Java `while` Loop
 
 > **Topic 13 • Java Fundamentals**
@@ -109,3 +111,9 @@ A: The loop state is not changed so that the condition can eventually become fal
 ➡️ [do-while Loop](./04-do-while-loop.md)
 
 ➡️ [Quick Revision](./07-looping-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
