@@ -1,4 +1,13 @@
 # 07. Java Fundamentals — Quick Revision
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-Quick_Revision-2DD4BF?style=for-the-badge)
+
+</div>
+
+---
+
 
 ## Java in One Flow
 
@@ -70,3 +79,10 @@ Native Libraries
 ## Core Idea
 
 > **Java code becomes bytecode, and the JVM provides the platform-specific runtime needed to execute it.**
+
+
+---
+
+## 🧭 Navigation
+
+⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
