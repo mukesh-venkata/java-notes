@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔁 Java Looping Statements — Overview
 
 > **Topic 13 • Java Fundamentals**
@@ -105,3 +107,9 @@ A: Enhanced `for`.
 ➡️ [Nested Loops](./06-nested-loops.md)
 
 ➡️ [Quick Revision](./07-looping-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
