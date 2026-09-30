@@ -1,70 +1,45 @@
-# 📞 Java Method Call & Stack Frame
+# 📞 How a Method Call Works
 
 > **Topic 19 • Method Execution**
 
-When a method is invoked, the JVM creates a new **stack frame** for that invocation and associates it with the current thread's JVM stack.
+When one method calls another, Java creates a **stack frame** for that active method call.
 
-## 🔄 Basic Flow
+## Simple Flow
 
-```text
-Method Call
-    ↓
-New Stack Frame
-    ↓
-Frame becomes active
-    ↓
-Method executes
-```
-
-## 💻 Example
-
-```java
-public class Demo {
-    public static void main(String[] args) {
-        add();
-    }
-
-    static void add() {
-        int a = 10;
-        int b = 20;
-    }
-}
-```
-
-Conceptually:
-
-```text
+~~~text
 main()
-   ↓
-main() frame
-   ↓
+  ↓
 calls add()
-   ↓
-add() frame
-   ↓
-add() executes
-```
+  ↓
+add() gets a stack frame
+  ↓
+add() runs
+  ↓
+add() finishes
+  ↓
+back to main()
+~~~
 
-> **Each active method invocation has its own stack frame.**
+## Example
 
-This becomes especially important in recursion.
+~~~java
+public static void main(String[] args) {
+    add();
+    System.out.println("Back to main");
+}
 
-## 🎤 Interview Quick Check
+static void add() {
+    int a = 10;
+    int b = 20;
+}
+~~~
 
-**What happens when a method is invoked?**  
-A new stack frame is created for that invocation.
+### 🧠 Remember
 
-**Where is the frame associated?**  
-With the current thread's JVM stack.
-
-**Does every method call share one frame?**  
-No. Each active invocation has its own frame.
-
-## 🔗 Navigation
+**One active method call → One stack frame**
 
 ➡️ [Stack Frame](./02-stack-frame.md)  
 ➡️ [Execution Flow](./03-method-execution-flow.md)  
-➡️ [Java Stack & Call Stack](./04-java-stack-and-call-stack.md)  
 ➡️ [Quick Revision](./05-method-execution-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
