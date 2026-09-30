@@ -18,7 +18,7 @@ A **package** is a namespace used to group related Java types such as:
 
 For example, a project might organize incident-management code under:
 
-`com.tcs.ghd.incidentmanagement`
+`com.example.application`
 
 Think of a package as a **folder-like namespace for Java types**.
 
@@ -39,9 +39,9 @@ Packages help us:
 `text
 Application
    │
-   ├── com.tcs.ghd.incidentmanagement
-   ├── com.tcs.ghd.admin
-   └── com.tcs.ghd.user
+   ├── com.example.application
+   ├── com.example.admin
+   └── com.example.user
 `
 
 ---
@@ -59,7 +59,7 @@ package packageName;
 ### Example
 
 `java
-package com.tcs.ghd.incidentmanagement;
+package com.example.application;
 `
 
 This tells Java that the types declared in that source file belong to that package.
@@ -75,7 +75,7 @@ The package declaration appears at the beginning of the Java source file, after 
 `java
 // This is a comment
 
-package com.tcs.ghd.incidentmanagement;
+package com.example.application;
 
 public class IncidentService {
 }
@@ -92,7 +92,7 @@ A Java source file can have **only one package declaration**.
 ### Correct
 
 `java
-package com.tcs.ghd.incidentmanagement;
+package com.example.application;
 
 public class IncidentService {
 }
@@ -101,8 +101,8 @@ public class IncidentService {
 ### Incorrect
 
 `java
-package com.tcs.ghd.incidentmanagement;
-package com.tcs.ghd.admin;   // ❌ Not allowed
+package com.example.application;
+package com.example.admin;   // ❌ Not allowed
 `
 
 One source file belongs to one declared package.
@@ -121,7 +121,7 @@ These keywords have different jobs:
 Example:
 
 `java
-package com.tcs.ghd.incidentmanagement;
+package com.example.application;
 
 import java.util.List;
 `
