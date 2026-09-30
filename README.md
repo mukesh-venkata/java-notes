@@ -281,11 +281,9 @@
 
 | # | Topic | Status |
 |---:|---|:---:|
-| 01 | [Method Call & Stack Frame](12-method-execution/01-method-call-and-stack-frame.md) | ✅ |
-| 02 | [Stack Frame](12-method-execution/02-stack-frame.md) | ✅ |
-| 03 | [Method Execution Flow](12-method-execution/03-method-execution-flow.md) | ✅ |
-| 04 | [Java Stack & Call Stack](12-method-execution/04-java-stack-and-call-stack.md) | ✅ |
-| 05 | [Method Execution Quick Revision](12-method-execution/05-method-execution-quick-revision.md) | ✅ |
+| 01 | [Method Execution](12-method-execution/01-method-execution.md) | ✅ |
+| 02 | [Java Stack, Call Stack & Recursion](12-method-execution/02-stack-and-call-stack.md) | ✅ |
+| 03 | [Method Execution Quick Revision](12-method-execution/03-method-execution-quick-revision.md) | ✅ |
 
 **[📖 Open Method Execution →](12-method-execution/)**
 
@@ -301,11 +299,9 @@
 
 | # | Topic | Status |
 |---:|---|:---:|
-| 01 | [Blocks Overview](13-blocks/01-blocks-overview.md) | ✅ |
-| 02 | [Static Block](13-blocks/02-static-block.md) | ✅ |
-| 03 | [Instance Initialization Block](13-blocks/03-instance-initialization-block.md) | ✅ |
-| 04 | [Constructor & Initialization Order](13-blocks/04-constructor-and-initialization-order.md) | ✅ |
-| 05 | [Blocks Quick Revision](13-blocks/05-blocks-quick-revision.md) | ✅ |
+| 01 | [Blocks — Static, Instance & Constructor](13-blocks/01-blocks.md) | ✅ |
+| 02 | [Initialization Order](13-blocks/02-initialization-order.md) | ✅ |
+| 03 | [Blocks Quick Revision](13-blocks/03-blocks-quick-revision.md) | ✅ |
 
 **[📖 Open Blocks →](13-blocks/)**
 
