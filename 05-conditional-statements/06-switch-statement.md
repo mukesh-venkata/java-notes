@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔀 Java `switch` Statement
 
 > **Topic 12 • Java Fundamentals**
@@ -145,3 +147,9 @@ A: It terminates the switch statement.
 ⬅️ [Nested if](./05-nested-if.md)
 
 ➡️ [Quick Revision](./07-conditional-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
