@@ -29,16 +29,17 @@
 | 07 | [🔵 Branching Statements](#-07--branching-statements--complete) | ✅ Done | break, continue & return |
 | 08 | [🟠 OOP](#-08--oops--in-progress) | 🚧 In Progress | OOP foundations → Basic → Advanced |
 | 09 | [🟢 Variables](#-09--variables--complete) | ✅ Done | Static, instance & local variables |
-| 10 | [🟡 Exception Handling](#-10--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 11 | [🔷 Collections](#-11--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 12 | [🟢 Generics](#-12--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 13 | [🔵 Java 8](#-13--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 14 | [🔴 Stream API](#-14--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 15 | [🔴 Multithreading](#-15--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 16 | [🟠 I/O & NIO](#-16--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 17 | [🟣 JDBC](#-17--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 18 | [⚙️ JVM & Internals](#-18--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 19 | [🚀 Modern Java](#-19--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 10 | [🔵 Scanner](#-10--scanner--complete) | ✅ Done | User input & Scanner methods |
+| 11 | [🟡 Exception Handling](#-11--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 12 | [🔷 Collections](#-12--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 13 | [🟢 Generics](#-13--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 14 | [🔵 Java 8](#-14--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 15 | [🔴 Stream API](#-15--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 16 | [🔴 Multithreading](#-16--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 17 | [🟠 I/O & NIO](#-17--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 18 | [🟣 JDBC](#-18--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 19 | [⚙️ JVM & Internals](#-19--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 20 | [🚀 Modern Java](#-20--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -54,8 +55,9 @@
 07 Branching         ████████████████████ 100% ✅
 08 OOP              ███░░░░░░░░░░░░░░░░░  20% 🚧
 09 Variables        ████████████████████ 100% ✅
-10 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-11 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+10 Scanner          ████████████████████ 100% ✅
+11 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+12 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 ~~~
 
 ---
@@ -218,6 +220,25 @@
 **[📖 Open Variables →](09-variables/)**
 
 > 🎉 **Variables complete!** OOP remains **IN PROGRESS** and will continue growing from Basic → Intermediate → Advanced.
+
+---
+
+## 🔵 10 — Scanner — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Scanner Overview](10-scanner/01-scanner-overview.md) | ✅ |
+| 02 | [next() vs nextLine()](10-scanner/02-scanner-next-and-nextline.md) | ✅ |
+| 03 | [Numeric Input](10-scanner/03-scanner-numeric-input.md) | ✅ |
+| 04 | [Other Input Methods](10-scanner/04-scanner-other-input-methods.md) | ✅ |
+| 05 | [nextInt() + nextLine() Problem](10-scanner/05-nextint-nextline-problem.md) | ✅ |
+| 06 | [Scanner Quick Revision](10-scanner/06-scanner-quick-revision.md) | ✅ |
+
+**[📖 Open Scanner →](10-scanner/)**
+
+> 🎉 **Scanner complete!** The next section is **Exception Handling**.
 
 ---
 
