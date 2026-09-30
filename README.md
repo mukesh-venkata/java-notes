@@ -565,6 +565,7 @@ Each major concept will grow progressively:
 | 19 | [String Constructors Quick Revision](19-string/19-string-constructors-quick-revision.md) | ✅ |
 | 20 | [Overridden Methods in String](19-string/20-overridden-methods-in-string.md) | ✅ |
 | 21 | [Interfaces Implemented by String](19-string/21-interfaces-implemented-by-string.md) | ✅ |
+| 22 | [String Class Methods](19-string/22-string-class-methods.md) | ✅ |
 
 
 
