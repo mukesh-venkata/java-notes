@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔐 Java Method Access & Overriding Rules
 
 > **Topic 18 • Methods**
@@ -82,3 +84,9 @@ A compatible covariant reference return type is allowed.
 ➡️ [Method Hiding](./11-method-hiding.md)
 
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
