@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 📦 Java Variables — Overview
 
 > **Topic 16 • Java Fundamentals**
@@ -140,3 +142,9 @@ A: Fields, including static and instance fields. Local variables must be definit
 ➡️ [Comparison & Quick Revision](./05-variables-comparison-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
