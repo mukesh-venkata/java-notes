@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 02. Java Editions
 <div align="center">
 
@@ -35,9 +37,8 @@ Java is available in different editions for different application needs.
 
 **A:** Java SE for core Java, Java EE (now Jakarta EE) for enterprise applications, and Java ME for mobile/embedded environments.
 
-
 ---
 
 ## 🧭 Navigation
 
-⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
