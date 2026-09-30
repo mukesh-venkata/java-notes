@@ -108,22 +108,41 @@ final class    → ❌ inheritance
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Can a final class be inherited?
-**No.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Can a final class contain methods?
-**Yes.** It can contain fields, constructors, methods, and other class members according to normal Java rules.
+<details>
+<summary>Q1. Can a final class be inherited?</summary>
+<br>
 
-### Q3. Why would a class be declared final?
+No. A final class cannot be extended.
+
+</details>
+
+<details>
+<summary>Q2. Can a final class contain methods?</summary>
+<br>
+
+Yes. It can contain fields, constructors, methods, and other class members according to normal Java rules.
+
+</details>
+
+<details>
+<summary>Q3. Why would a class be declared final?</summary>
+<br>
+
 To prevent other classes from extending it.
 
-### Q4. What happens if we try to extend a final class?
+</details>
+
+<details>
+<summary>Q4. What happens if we try to extend a final class?</summary>
+<br>
+
 The code fails to compile.
 
----
-
+</details>
 ## ⚡ Quick Revision
 
 ```text
