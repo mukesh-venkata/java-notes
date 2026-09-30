@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔄 Passing and Returning `this`
 
 > **Topic 22 • `this` Keyword**
@@ -152,3 +154,9 @@ A style where methods return an object, often `this`, allowing consecutive metho
 ➡️ [Quick Revision](./05-this-keyword-quick-revision.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
