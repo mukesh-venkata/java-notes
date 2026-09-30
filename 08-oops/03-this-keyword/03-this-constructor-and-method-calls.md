@@ -126,27 +126,41 @@ returns to display()
 
 **Dot after `this` → member access**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What does `this()` do?**  
-Invokes another constructor in the same class.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. Where must `this()` appear?**  
+<details>
+<summary>Q1. What does <code>this()</code> do?</summary>
+<br>
+
+It invokes another constructor in the same class.
+
+</details>
+
+<details>
+<summary>Q2. Where must <code>this()</code> appear?</summary>
+<br>
+
 As the first statement when explicitly used in a constructor.
 
-**Q3. What does `this.show()` do?**  
-Calls `show()` on the current object.
+</details>
 
-**Q4. Can `this()` be used inside a normal method?**  
-No. It is constructor-invocation syntax.
+<details>
+<summary>Q3. What does <code>this.show()</code> do?</summary>
+<br>
 
-➡️ [Constructor Chaining](../02-constructors/04-constructor-chaining.md)
-➡️ [Pass & Return `this`](./04-this-as-argument-and-return-value.md)
+It calls show() on the current object.
 
-🏠 [Java Notes Home](../../README.md)
+</details>
 
----
+<details>
+<summary>Q4. Can <code>this()</code> be used inside a normal method?</summary>
+<br>
 
+No. It is constructor-invocation syntax and can only be used from a constructor.
+
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
