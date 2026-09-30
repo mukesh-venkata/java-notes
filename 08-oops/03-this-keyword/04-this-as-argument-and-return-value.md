@@ -136,27 +136,41 @@ return this → returns current object's reference
 
 **RETURN → current object comes back**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. Can `this` be passed as an argument?**  
-Yes, when the parameter type is compatible.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. Does passing `this` create a new object?**  
-No.
+<details>
+<summary>Q1. Can <code>this</code> be passed as an argument?</summary>
+<br>
 
-**Q3. Why return `this`?**  
+Yes, when the parameter type is compatible with the current object.
+
+</details>
+
+<details>
+<summary>Q2. Does passing <code>this</code> create a new object?</summary>
+<br>
+
+No. It passes the current object's reference.
+
+</details>
+
+<details>
+<summary>Q3. Why return <code>this</code>?</summary>
+<br>
+
 To return the current object and, commonly, support method chaining.
 
-**Q4. What is fluent method chaining?**  
-A style where methods return an object, often `this`, allowing consecutive method calls.
+</details>
 
-➡️ [`this` Basics](./01-this-keyword-basics.md)
-➡️ [Quick Revision](./05-this-keyword-quick-revision.md)
+<details>
+<summary>Q4. What is fluent method chaining?</summary>
+<br>
 
-🏠 [Java Notes Home](../../README.md)
+A style where methods return an object, often this, allowing consecutive method calls.
 
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
