@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚠️ Java Scanner — `nextInt()` + `nextLine()` Problem
 
 > **Topic 17 • Scanner**
@@ -140,3 +142,9 @@ A: No. It follows the different token/line-reading semantics of the methods.
 ➡️ [Quick Revision](./06-scanner-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
