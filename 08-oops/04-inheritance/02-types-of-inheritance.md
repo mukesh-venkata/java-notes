@@ -168,27 +168,41 @@ Then remember:
 
 **Multiple classes ❌ | Multiple interfaces ✅**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. Does Java support multiple inheritance through classes?**  
-No.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. Can a class implement multiple interfaces?**  
-Yes.
+<details>
+<summary>Q1. Does Java support multiple inheritance through classes?</summary>
+<br>
 
-**Q3. What is multilevel inheritance?**  
+No. A class cannot extend more than one class.
+
+</details>
+
+<details>
+<summary>Q2. Can a class implement multiple interfaces?</summary>
+<br>
+
+Yes. A class can implement multiple interfaces.
+
+</details>
+
+<details>
+<summary>Q3. What is multilevel inheritance?</summary>
+<br>
+
 An inheritance chain with multiple levels, such as A → B → C.
 
-**Q4. What is hierarchical inheritance?**  
+</details>
+
+<details>
+<summary>Q4. What is hierarchical inheritance?</summary>
+<br>
+
 Multiple child classes share the same parent class.
 
-➡️ [Inheritance Basics](./01-inheritance-basics.md)
-➡️ [Access & Inheritance](./03-access-and-inheritance.md)
-
-🏠 [Java Notes Home](../../README.md)
-
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
