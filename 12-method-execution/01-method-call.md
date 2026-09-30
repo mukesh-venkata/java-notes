@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 📞 Java Method Execution
 
 > **Topic 12 • Method Execution**
@@ -170,3 +172,9 @@ Its invocation completes, its frame is discarded, and control returns to the cal
 No. A definition describes the method; an invocation executes it.
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
