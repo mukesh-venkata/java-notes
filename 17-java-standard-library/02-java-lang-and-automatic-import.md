@@ -55,20 +55,41 @@ import java.util.ArrayList;
 - You normally do not write explicit `java.lang` imports.
 - Other packages such as `java.util` are not automatically imported.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Which Java package is automatically imported?
-`java.lang`.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Is `String` in `java.lang`?
+<details>
+<summary>Q1. Which Java package is automatically imported?</summary>
+<br>
+
+java.lang.
+
+</details>
+
+<details>
+<summary>Q2. Is String in java.lang?</summary>
+<br>
+
 Yes.
 
-### Q3. Do we normally write `import java.lang.String;`?
+</details>
+
+<details>
+<summary>Q3. Do we normally write import java.lang.String?</summary>
+<br>
+
+No. java.lang is automatically imported.
+
+</details>
+
+<details>
+<summary>Q4. Is java.util automatically imported?</summary>
+<br>
+
 No.
 
-### Q4. Is `java.util` automatically imported?
-No.
-
+</details>
 ## 🔗 Related Notes
 
 - [Library Overview →](01-java-standard-library-overview.md)
