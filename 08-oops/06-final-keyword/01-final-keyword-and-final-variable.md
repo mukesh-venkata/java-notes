@@ -146,26 +146,41 @@ For a reference:
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Can a final variable be reassigned?
-**No.** Once it has been assigned, it cannot be assigned again.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Can a final variable be initialized later?
-**Yes**, provided it is definitely assigned before it is read and only assigned once.
+<details>
+<summary>Q1. Can a final variable be reassigned?</summary>
+<br>
 
-### Q3. Does a final reference make an object immutable?
-**No.** It prevents reassignment of the reference; the object's mutability depends on the object/class itself.
+No. Once definitely assigned, it cannot be assigned again.
 
-### Q4. How are constants commonly declared?
-Using `static final`, for example:
+</details>
 
-```java
-static final int MAX_SIZE = 100;
-```
+<details>
+<summary>Q2. Can a final variable be initialized later?</summary>
+<br>
 
----
+Yes, provided it is definitely assigned before it is read and is assigned only once.
 
+</details>
+
+<details>
+<summary>Q3. Does a final reference make an object immutable?</summary>
+<br>
+
+No. final prevents reassignment of the reference; the object's own mutability depends on its class and state.
+
+</details>
+
+<details>
+<summary>Q4. How are constants commonly declared?</summary>
+<br>
+
+Using static final, for example static final int MAX_SIZE = 100.
+
+</details>
 ## ⚡ Quick Revision
 
 | Rule | Remember |
