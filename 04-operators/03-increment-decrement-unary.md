@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔢 Java Increment, Decrement & Unary Operators
 
 > **Topic 11 • Java Fundamentals**
@@ -104,3 +106,9 @@ A: `-11` for an integer value.
 ➡️ [Relational, Logical & Ternary](./04-relational-logical-ternary.md)
 
 ➡️ [Bitwise Operators](./05-bitwise-operators.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
