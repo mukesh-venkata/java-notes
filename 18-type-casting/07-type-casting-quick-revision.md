@@ -38,20 +38,97 @@ U → Up → Child → Parent
 D → Down → Parent → Child
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What is type casting?
-2. What are the two broad categories of type casting?
-3. What is widening?
-4. What is narrowing?
-5. What is upcasting?
-6. What is downcasting?
-7. Why can downcasting throw ClassCastException?
-8. How does instanceof help?
-9. What is the default type of 10.20?
-10. How do you write a float literal?
-11. How do you write a long literal?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What is type casting?</summary>
+<br>
+
+Converting a value or reference from one compatible type to another.
+
+</details>
+
+<details>
+<summary>2. What are the two broad categories of type casting?</summary>
+<br>
+
+Primitive casting and reference casting.
+
+</details>
+
+<details>
+<summary>3. What is widening?</summary>
+<br>
+
+Converting a narrower primitive type to a wider compatible type, usually automatically.
+
+</details>
+
+<details>
+<summary>4. What is narrowing?</summary>
+<br>
+
+Converting a wider primitive type to a narrower type, generally using an explicit cast.
+
+</details>
+
+<details>
+<summary>5. What is upcasting?</summary>
+<br>
+
+Treating a child object through a parent reference.
+
+</details>
+
+<details>
+<summary>6. What is downcasting?</summary>
+<br>
+
+Explicitly converting a parent reference to a more specific child reference when the runtime object is actually compatible.
+
+</details>
+
+<details>
+<summary>7. Why can downcasting throw ClassCastException?</summary>
+<br>
+
+Because the runtime object may not be an instance of the target child type.
+
+</details>
+
+<details>
+<summary>8. How does instanceof help?</summary>
+<br>
+
+It checks reference compatibility with a type before performing a cast.
+
+</details>
+
+<details>
+<summary>9. What is the default type of 10.20?</summary>
+<br>
+
+double.
+
+</details>
+
+<details>
+<summary>10. How do you write a float literal?</summary>
+<br>
+
+Use f or F, for example 10.20f.
+
+</details>
+
+<details>
+<summary>11. How do you write a long literal?</summary>
+<br>
+
+Use L or l, for example 100L. Uppercase L is generally clearer.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-type-casting-overview.md)
