@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔵 Java `if-else` Statement
 
 > **Topic 12 • Java Fundamentals**
@@ -79,3 +81,9 @@ A: No. One branch is selected.
 ➡️ [if-else-if Ladder](./04-if-else-if-ladder.md)
 
 ➡️ [Quick Revision](./07-conditional-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
