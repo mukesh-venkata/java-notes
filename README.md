@@ -261,6 +261,19 @@
 
 **[📖 Open `super` Keyword →](08-oops/05-super-keyword/)**
 
+
+### 🔒 `final` Keyword
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [`final` Keyword & Final Variables](08-oops/06-final-keyword/01-final-keyword-and-final-variable.md) | ✅ |
+| 02 | [Final Method](08-oops/06-final-keyword/02-final-method.md) | ✅ |
+| 03 | [Final Class](08-oops/06-final-keyword/03-final-class.md) | ✅ |
+| 04 | [`final` Keyword Quick Revision](08-oops/06-final-keyword/04-final-keyword-quick-revision.md) | ✅ |
+
+**[📖 Open `final` Keyword →](08-oops/06-final-keyword/)**
+
+
 ## 🟢 09 — Variables — COMPLETE
 
 ### 📚 Topics
