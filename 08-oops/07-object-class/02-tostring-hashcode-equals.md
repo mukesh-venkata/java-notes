@@ -127,23 +127,49 @@ For a class that does not override `equals()`, the inherited Object behavior is 
 > **equals → compare**  
 > **hashCode → hash**
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What does toString() return?
-A String representation of the object.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Is hashCode() a memory address?
-No. It returns an integer hash code.
+<details>
+<summary>Q1. What does toString() return?</summary>
+<br>
 
-### Q3. If equals() returns true, what must be true?
+A String representation of the object. Classes can override it to provide meaningful content.
+
+</details>
+
+<details>
+<summary>Q2. Is hashCode() a memory address?</summary>
+<br>
+
+No. It returns an integer hash code. Its value should not be treated as a memory address.
+
+</details>
+
+<details>
+<summary>Q3. If equals() returns true, what must be true?</summary>
+<br>
+
 The two objects must have the same hash code.
 
-### Q4. Does the default Object.equals() perform logical field comparison?
-No. It is identity-based.
+</details>
 
-### Q5. Why override equals() and hashCode() together?
-Because the hashCode contract requires equal objects to have equal hash codes.
+<details>
+<summary>Q4. Does the default Object.equals() perform logical field comparison?</summary>
+<br>
 
+No. Object.equals() is identity-based unless a class overrides it.
+
+</details>
+
+<details>
+<summary>Q5. Why override equals() and hashCode() together?</summary>
+<br>
+
+Because the hashCode contract requires equal objects to have equal hash codes, which is important for hash-based collections.
+
+</details>
 ## 🔗 Related Notes
 
 - [Object Class Overview →](01-object-class-overview.md)
