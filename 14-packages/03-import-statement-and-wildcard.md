@@ -153,22 +153,41 @@ class Demo {
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What does `import` do?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What does <code>import</code> do?</summary>
+<br>
+
 It allows an accessible type from another package to be referred to by its simple name.
 
-### Q2. What does `import java.io.*` import?
-It imports accessible types directly declared in `java.io` for simple-name use.
+</details>
 
-### Q3. Does `import java.io.*` import subpackages?
-**No.**
+<details>
+<summary>Q2. What does <code>import java.io.*</code> import?</summary>
+<br>
 
-### Q4. Can we use a fully qualified class name without import?
-**Yes.**
+It makes accessible types declared directly in java.io available for simple-name use.
 
----
+</details>
 
+<details>
+<summary>Q3. Does <code>import java.io.*</code> import subpackages?</summary>
+<br>
+
+No. A wildcard import does not include subpackages.
+
+</details>
+
+<details>
+<summary>Q4. Can we use a fully qualified class name without import?</summary>
+<br>
+
+Yes. A fully qualified name identifies the type directly, so an import is not required.
+
+</details>
 ## ⚡ Quick Revision
 
 `text
