@@ -44,15 +44,57 @@ public
 - Top-level classes can be `public` or package-private.
 - Top-level classes cannot be `private` or `protected`.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What are the four access levels?
-2. Which is most restrictive?
-3. Can a top-level class be protected?
-4. Can a top-level class be private?
-5. Does protected mean every class in another package can access it? **No.**
-6. Is default the access modifier keyword for package-private fields/methods? **No.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What are the four access levels?</summary>
+<br>
+
+public, protected, package-private, and private.
+
+</details>
+
+<details>
+<summary>2. Which is most restrictive?</summary>
+<br>
+
+private.
+
+</details>
+
+<details>
+<summary>3. Can a top-level class be protected?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>4. Can a top-level class be private?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>5. Does protected mean every class in another package can access it?</summary>
+<br>
+
+No. Cross-package protected access is subject to the protected inheritance/access rules.
+
+</details>
+
+<details>
+<summary>6. Is default the access modifier keyword for package-private fields/methods?</summary>
+<br>
+
+No. Package-private access is obtained by omitting an access modifier.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-access-modifiers-overview.md)
