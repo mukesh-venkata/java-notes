@@ -97,28 +97,57 @@ These names look similar but mean different things.
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. **What is the purpose of `final` in Java?**  
-   It restricts reassignment, method overriding, or class inheritance depending on where it is applied.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-2. **Can a final variable be initialized later?**  
-   Yes, if it is definitely assigned before use and assigned only once.
+<details>
+<summary>1. What is the purpose of final in Java?</summary>
+<br>
 
-3. **Can a final method be overloaded?**  
-   Yes.
+It restricts reassignment, method overriding, or class inheritance depending on where it is applied.
 
-4. **Can a final class be extended?**  
-   No.
+</details>
 
-5. **Does a final reference make an object immutable?**  
-   No. It prevents reassignment of the reference.
+<details>
+<summary>2. Can a final variable be initialized later?</summary>
+<br>
 
-6. **What is the difference between `final`, `finally`, and `finalize()`?**  
-   They are separate Java concepts: a keyword, an exception-handling block, and a deprecated method respectively.
+Yes, if it is definitely assigned before use and assigned only once.
 
----
+</details>
 
+<details>
+<summary>3. Can a final method be overloaded?</summary>
+<br>
+
+Yes. final prevents overriding, not overloading.
+
+</details>
+
+<details>
+<summary>4. Can a final class be extended?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>5. Does a final reference make an object immutable?</summary>
+<br>
+
+No. It prevents reassignment of the reference, but the referenced object may still be mutable.
+
+</details>
+
+<details>
+<summary>6. What is the difference between final, finally, and finalize()?</summary>
+<br>
+
+They are separate concepts: final is a Java keyword, finally is an exception-handling block, and finalize() is a deprecated-for-removal method associated with finalization.
+
+</details>
 ## ⚡ 30-Second Recall
 
 ```text
