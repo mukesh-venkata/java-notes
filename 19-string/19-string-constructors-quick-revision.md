@@ -33,15 +33,57 @@ byte[]  → decode → String
 Charset → tells Java how bytes become characters
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What are common String constructors?
-2. What does `new String(String)` do?
-3. How is a char[] converted to String?
-4. How is a byte[] converted to String?
-5. Why should a charset be specified when decoding bytes?
-6. What is the difference between `==` and `equals()` for Strings?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What are common String constructors?</summary>
+<br>
+
+Constructors can create Strings from another String, char arrays, byte arrays, and other supported input forms.
+
+</details>
+
+<details>
+<summary>2. What does <code>new String(String)</code> do?</summary>
+<br>
+
+It creates a new String object whose contents are copied from the supplied String.
+
+</details>
+
+<details>
+<summary>3. How is a char[] converted to String?</summary>
+<br>
+
+Use a String constructor such as new String(charArray).
+
+</details>
+
+<details>
+<summary>4. How is a byte[] converted to String?</summary>
+<br>
+
+Decode the bytes using a charset, preferably by specifying an explicit Charset.
+
+</details>
+
+<details>
+<summary>5. Why should a charset be specified when decoding bytes?</summary>
+<br>
+
+To make the result predictable across platforms and environments.
+
+</details>
+
+<details>
+<summary>6. What is the difference between == and equals() for Strings?</summary>
+<br>
+
+== compares object references, while equals() compares String contents.
+
+</details>
 ## 🔗 Related Notes
 
 - [Constructors Overview →](15-string-constructors-overview.md)
