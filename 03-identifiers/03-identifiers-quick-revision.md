@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java Identifiers — Quick Revision
 
 > **Topic 10 • 30-Second Revision**
@@ -103,3 +105,9 @@ class PaymentService {
 ⬅️ [Naming Conventions](./02-java-naming-conventions.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
