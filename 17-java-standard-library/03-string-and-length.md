@@ -73,20 +73,41 @@ int[] numbers = {10, 20, 30};
 System.out.println(numbers.length);
 ~~~
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Which package contains String?
-`java.lang`.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. What does String.length() return?
-The number of characters in the string.
+<details>
+<summary>Q1. Which package contains String?</summary>
+<br>
 
-### Q3. Is length() a method or a field?
-For `String`, `length()` is a method.
+java.lang.
 
-### Q4. Is array length accessed the same way?
-No. Arrays use the `length` field, without parentheses.
+</details>
 
+<details>
+<summary>Q2. What does String.length() return?</summary>
+<br>
+
+The number of UTF-16 code units in the String. For most basic characters this corresponds to the visible character count, but some Unicode characters use two code units.
+
+</details>
+
+<details>
+<summary>Q3. Is length() a method or a field?</summary>
+<br>
+
+For String, length() is a method.
+
+</details>
+
+<details>
+<summary>Q4. Is array length accessed the same way?</summary>
+<br>
+
+No. Arrays use the length field without parentheses.
+
+</details>
 ## 🔗 Related Notes
 
 - [Library Overview →](01-java-standard-library-overview.md)
