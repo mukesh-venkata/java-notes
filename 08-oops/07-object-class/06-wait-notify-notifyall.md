@@ -107,23 +107,49 @@ continues after reacquiring monitor
 | Must own the object's monitor | Does not require owning a monitor |
 | Releases that object's monitor while waiting | Does not release monitors held by the thread |
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Why are wait(), notify(), and notifyAll() methods of Object?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. Why are wait(), notify(), and notifyAll() methods of Object?</summary>
+<br>
+
 Because coordination is associated with an object's monitor, and every object can have a monitor.
 
-### Q2. What happens to the monitor when wait() is called?
-The waiting thread releases that object's monitor.
+</details>
 
-### Q3. Can notify() be called outside synchronized access to the same object?
-No. The caller must own the object's monitor.
+<details>
+<summary>Q2. What happens to the monitor when wait() is called?</summary>
+<br>
 
-### Q4. Does notify() immediately transfer the monitor to the awakened thread?
-No. The awakened thread must compete to reacquire the monitor.
+The waiting thread releases that object's monitor and waits until it is notified or otherwise awakened.
 
-### Q5. What exception occurs when monitor ownership is violated?
-`IllegalMonitorStateException`.
+</details>
 
+<details>
+<summary>Q3. Can notify() be called outside synchronized access to the same object?</summary>
+<br>
+
+No. The calling thread must own the object's monitor.
+
+</details>
+
+<details>
+<summary>Q4. Does notify() immediately transfer the monitor to the awakened thread?</summary>
+<br>
+
+No. The awakened thread must compete to reacquire the monitor after the notifying thread releases it.
+
+</details>
+
+<details>
+<summary>Q5. What exception occurs when monitor ownership is violated?</summary>
+<br>
+
+IllegalMonitorStateException.
+
+</details>
 ## 🔗 Related Notes
 
 - [Object Class Overview →](01-object-class-overview.md)
