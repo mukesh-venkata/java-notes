@@ -29,8 +29,8 @@ New to these notes? Follow this simple path:
 | 🌱 Learn Java from the beginning | [Java Fundamentals](01-fundamentals/) |
 | 🧱 Understand OOP | [OOP](08-oops/) |
 | 🔤 Master Strings | [String](19-string/) |
-| ⚡ Revise quickly | [Quick Revision Notes](#-learning-roadmap) |
-| 💼 Prepare for interviews | [Interview Questions](#-how-each-section-works) |
+| ⚡ Revise quickly | [Quick Revision Notes](quick-revision.md) |
+| 💼 Prepare for interviews | [Interview Questions](interview-questions.md) |
 
 > 💡 **Tip:** Don't try to read everything at once. Pick one section, finish a few topics, revise, and then continue.
 
