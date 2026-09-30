@@ -177,30 +177,49 @@ Inheritance describes the class relationship; object construction still follows 
 
 **CHILD → INHERITED + SPECIALIZED MEMBERS**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What is inheritance?**  
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is inheritance?</summary>
+<br>
+
 A mechanism through which a child class can acquire and use accessible members of a parent class.
 
-**Q2. Which keyword is used for class inheritance?**  
-`extends`.
+</details>
 
-**Q3. What is an IS-A relationship?**  
+<details>
+<summary>Q2. Which keyword is used for class inheritance?</summary>
+<br>
+
+extends.
+
+</details>
+
+<details>
+<summary>Q3. What is an IS-A relationship?</summary>
+<br>
+
 A relationship where a child is a specialized form of the parent, such as Dog IS-A Animal.
 
-**Q4. Are constructors inherited?**  
-No.
+</details>
 
-**Q5. Are private members directly accessible in a child class?**  
-No.
+<details>
+<summary>Q4. Are constructors inherited?</summary>
+<br>
 
-➡️ [Types of Inheritance](./02-types-of-inheritance.md)
-➡️ [Access & Inheritance](./03-access-and-inheritance.md)
+No. Constructors are not inherited.
 
-🏠 [Java Notes Home](../../README.md)
+</details>
 
----
+<details>
+<summary>Q5. Are private members directly accessible in a child class?</summary>
+<br>
 
+No. Private members are directly accessible only within the class that declares them.
+
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
