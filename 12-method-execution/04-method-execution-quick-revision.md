@@ -74,21 +74,49 @@ methodA returns
 main continues
 ```
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Stack frame:** Runtime data associated with one method invocation.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**JVM stack:** A stack associated with each thread for active method execution.
+<details>
+<summary>Stack frame:</summary>
+<br>
 
-**Call stack:** The currently active chain of method invocations.
+Runtime data associated with one method invocation.
 
-**Recursion:** A method directly or indirectly invokes itself.
+</details>
 
-**StackOverflowError:** Can occur when excessive active calls exhaust stack space.
+<details>
+<summary>JVM stack:</summary>
+<br>
 
-🏠 [Java Notes Home](../README.md)
+A stack associated with each thread for active method execution.
 
----
+</details>
+
+<details>
+<summary>Call stack:</summary>
+<br>
+
+The currently active chain of method invocations.
+
+</details>
+
+<details>
+<summary>Recursion:</summary>
+<br>
+
+A method directly or indirectly invokes itself.
+
+</details>
+
+<details>
+<summary>StackOverflowError:</summary>
+<br>
+
+Can occur when excessive active calls exhaust stack space.
+
+</details>
 
 ## 🧭 Navigation
 
