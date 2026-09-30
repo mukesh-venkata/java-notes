@@ -69,13 +69,41 @@ Integer.parseInt()
 27
 ~~~
 
-## Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Are numeric command-line arguments automatically integers? No.
-2. How do you convert a String argument to int? Integer.parseInt().
-3. What happens if the text is not a valid integer? NumberFormatException can occur.
-4. Can command-line arguments be converted to other types? Yes.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. Are numeric command-line arguments automatically integers?</summary>
+<br>
+
+No. Command-line arguments are received as Strings.
+
+</details>
+
+<details>
+<summary>2. How do you convert a String argument to int?</summary>
+<br>
+
+Use Integer.parseInt().
+
+</details>
+
+<details>
+<summary>3. What happens if the text is not a valid integer?</summary>
+<br>
+
+NumberFormatException can occur.
+
+</details>
+
+<details>
+<summary>4. Can command-line arguments be converted to other types?</summary>
+<br>
+
+Yes. Appropriate parsing methods can convert String arguments to types such as long, double, float, and boolean.
+
+</details>
 ## Related Notes
 
 - [Basics →](01-command-line-arguments-basics.md)
