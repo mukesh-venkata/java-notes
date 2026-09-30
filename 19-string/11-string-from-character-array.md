@@ -48,17 +48,33 @@ Strings can also be produced by operations that return String values, for exampl
 
 These are not separate fundamental object-creation mechanisms in the same sense as the String constructor, but they can produce new String results.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Can a char array be converted to String?
-Yes, using `new String(char[])`.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. What does `new String(chars)` produce?
-A String containing the characters from the array.
+<details>
+<summary>Q1. Can a char array be converted to String?</summary>
+<br>
 
-### Q3. Are substring() and concat() constructors?
-No. They are String methods that can return String results.
+Yes, for example by using new String(char[]).
 
+</details>
+
+<details>
+<summary>Q2. What does new String(chars) produce?</summary>
+<br>
+
+It produces a String containing the characters represented by the array.
+
+</details>
+
+<details>
+<summary>Q3. Are substring() and concat() constructors?</summary>
+<br>
+
+No. They are String methods that can return String results; they are not constructors.
+
+</details>
 ## 🔗 Related Notes
 
 - [Creating String Objects Overview →](08-creating-string-objects-overview.md)
