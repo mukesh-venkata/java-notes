@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ `super` Keyword — Quick Revision
 
 > **Topic 24 • 30-Second Revision**
@@ -74,3 +76,9 @@ Parent method implementation.
 Parent field access.
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
