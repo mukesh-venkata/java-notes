@@ -27,7 +27,7 @@
 | 05 | [🔵 Conditional Statements](#-05--conditional-statements--complete) | ✅ Done | if, if-else, nested if & switch |
 | 06 | [🟢 Looping Statements](#-06--looping-statements--complete) | ✅ Done | for, while, do-while & enhanced for |
 | 07 | [🔵 Branching Statements](#-07--branching-statements--complete) | ✅ Done | break, continue & return |
-| 08 | [🟠 OOP](#-08--oops--upcoming) | ⏳ Upcoming | Classes, objects & OOP principles |
+| 08 | [🟠 OOP](#-08--oops--in-progress) | 🚧 In Progress | OOP foundations → Basic → Advanced |
 | 09 | [🟡 Exception Handling](#-09--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
 | 10 | [🔷 Collections](#-10--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
 | 11 | [🟢 Generics](#-11--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
@@ -51,7 +51,7 @@
 05 Conditional      ████████████████████ 100% ✅
 06 Looping           ████████████████████ 100% ✅
 07 Branching         ████████████████████ 100% ✅
-08 OOP              ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+08 OOP              ███░░░░░░░░░░░░░░░░░  20% 🚧
 09 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 10 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 11 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
@@ -188,9 +188,29 @@
 
 ---
 
-## 🟠 08 — OOPs — UPCOMING
+## 🟠 08 — OOPs — IN PROGRESS
 
-**Classes → Objects → Encapsulation → Inheritance → Polymorphism → Abstraction**
+### 📚 OOP Introduction
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [OOP Overview](08-oops/01-oops-introduction/01-oops-overview.md) | ✅ |
+| 02 | [Four Pillars](08-oops/01-oops-introduction/02-four-pillars.md) | ✅ |
+| 03 | [Class vs Object](08-oops/01-oops-introduction/03-class-vs-object.md) | ✅ |
+| 04 | [Object Basics](08-oops/01-oops-introduction/04-object-basics.md) | ✅ |
+| 05 | [OOP Quick Revision](08-oops/01-oops-introduction/05-oops-quick-revision.md) | ✅ |
+
+**[📖 Open OOP Introduction →](08-oops/01-oops-introduction/)**
+
+### 🌱 OOP Growth Plan
+
+**Classes & Objects → Encapsulation → Inheritance → Polymorphism → Abstraction → Advanced OOP**
+
+Each major concept will grow progressively:
+
+**Basic → Intermediate → Advanced**
+
+> 🎯 **OOP is intentionally marked IN PROGRESS.** This introduction is the foundation; deeper concepts will be added as new notes arrive.
 
 ---
 
