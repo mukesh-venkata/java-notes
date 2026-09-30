@@ -62,24 +62,33 @@ method(this)
 return this
 ~~~
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What does `this` refer to?**  
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What does <code>this</code> refer to?</summary>
+<br>
+
 The current object whose instance method or constructor is executing.
 
-**Q2. Can `this` be used directly in a static method?**  
-No.
+</details>
 
-**Q3. Is `this` a normal variable?**  
+<details>
+<summary>Q2. Can <code>this</code> be used directly in a static method?</summary>
+<br>
+
+No. A static context does not have a current object reference represented by this.
+
+</details>
+
+<details>
+<summary>Q3. Is <code>this</code> a normal variable?</summary>
+<br>
+
 No. It is a Java keyword representing the current object reference in an instance context.
 
-➡️ [Instance Members](./02-this-for-instance-members.md)
-➡️ [Constructor & Method Calls](./03-this-constructor-and-method-calls.md)
-
-🏠 [Java Notes Home](../../README.md)
-
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
