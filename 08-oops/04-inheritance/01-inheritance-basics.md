@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧬 Java Inheritance Basics
 
 > **Topic 23 • Inheritance**
@@ -196,3 +198,9 @@ No.
 ➡️ [Access & Inheritance](./03-access-and-inheritance.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
