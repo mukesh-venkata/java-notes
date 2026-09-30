@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🪆 Java Nested Loops
 
 > **Topic 13 • Java Fundamentals**
@@ -116,3 +118,9 @@ A: O(n²).
 ⬅️ [Enhanced for Loop](./05-enhanced-for-loop.md)
 
 ➡️ [Quick Revision](./07-looping-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
