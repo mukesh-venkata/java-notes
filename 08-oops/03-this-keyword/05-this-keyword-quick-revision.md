@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ `this` Keyword — Quick Revision
 
 > **Topic 22 • 30-Second Revision**
@@ -73,3 +75,9 @@ class Student {
 **What does `return this` do?** Returns the current object reference.
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
