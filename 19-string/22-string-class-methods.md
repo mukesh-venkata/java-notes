@@ -511,21 +511,105 @@ POOL      → intern()
 
 > **Small methods, many possibilities — String provides a rich API for working with text.**
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Why does `String` return a new object from methods such as `concat()` and `replace()`?
-2. What is the difference between `length()` and `isEmpty()`?
-3. What is the difference between `indexOf()` and `lastIndexOf()`?
-4. What is the difference between `substring()` and `subSequence()`?
-5. What does `split()` return?
-6. Why is `String.valueOf()` static?
-7. What does `startsWith(String, int)` do?
-8. What does `trim()` remove, and how is it different from `strip()`?
-9. What does `matches()` check?
-10. What is the purpose of `intern()`?
-11. What is the difference between `equals()` and `compareTo()`?
-12. What does `String.join()` do?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. Why does String return a new object from methods such as concat() and replace()?</summary>
+<br>
+
+Because String is immutable; these operations cannot change the original String.
+
+</details>
+
+<details>
+<summary>2. What is the difference between length() and isEmpty()?</summary>
+<br>
+
+length() returns the number of UTF-16 code units; isEmpty() returns true only when the length is zero.
+
+</details>
+
+<details>
+<summary>3. What is the difference between indexOf() and lastIndexOf()?</summary>
+<br>
+
+indexOf() returns the first occurrence; lastIndexOf() returns the last occurrence.
+
+</details>
+
+<details>
+<summary>4. What is the difference between substring() and subSequence()?</summary>
+<br>
+
+substring() returns a String, while subSequence() returns a CharSequence representing the requested range.
+
+</details>
+
+<details>
+<summary>5. What does split() return?</summary>
+<br>
+
+A String[] containing the parts separated according to the supplied regular-expression delimiter.
+
+</details>
+
+<details>
+<summary>6. Why is String.valueOf() static?</summary>
+<br>
+
+It converts supplied values or objects to their String representation and does not require an existing String instance.
+
+</details>
+
+<details>
+<summary>7. What does startsWith(String, int) do?</summary>
+<br>
+
+It checks whether the specified prefix occurs starting at the given zero-based offset.
+
+</details>
+
+<details>
+<summary>8. What does trim() remove, and how is it different from strip()?</summary>
+<br>
+
+trim() removes leading and trailing characters up to U+0020; strip() uses Unicode-aware whitespace rules.
+
+</details>
+
+<details>
+<summary>9. What does matches() check?</summary>
+<br>
+
+Whether the entire String matches the supplied regular expression.
+
+</details>
+
+<details>
+<summary>10. What is the purpose of intern()?</summary>
+<br>
+
+It returns the canonical pooled String for the same contents.
+
+</details>
+
+<details>
+<summary>11. What is the difference between equals() and compareTo()?</summary>
+<br>
+
+equals() checks logical content equality and returns boolean; compareTo() determines natural lexicographical ordering and returns an integer.
+
+</details>
+
+<details>
+<summary>12. What does String.join() do?</summary>
+<br>
+
+It joins multiple character sequences using a specified delimiter.
+
+</details>
 ## 🔗 Related Notes
 
 - [String Overview →](01-string-overview.md)
