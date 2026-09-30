@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 📝 Java Method Declaration & Definition
 
 > **Topic 18 • Methods**
@@ -68,3 +70,9 @@ A call that requests execution of a method.
 ➡️ [Method Signature](./03-method-signature.md)
 
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
