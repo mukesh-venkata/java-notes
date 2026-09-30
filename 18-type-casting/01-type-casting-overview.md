@@ -85,20 +85,41 @@ Requires an explicit cast and is safe only when the runtime object is compatible
 | Numeric/character conversion rules | Type hierarchy compatibility |
 | No `instanceof` for primitive values | `instanceof` can check reference compatibility |
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What is type casting?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is type casting?</summary>
+<br>
+
 Converting a value or reference from one compatible type to another.
 
-### Q2. What are the two broad categories?
+</details>
+
+<details>
+<summary>Q2. What are the two broad categories?</summary>
+<br>
+
 Primitive casting and reference casting.
 
-### Q3. What is widening?
+</details>
+
+<details>
+<summary>Q3. What is widening?</summary>
+<br>
+
 Converting a narrower primitive type to a wider compatible type, usually automatically.
 
-### Q4. What is upcasting?
-Converting a child reference to a parent reference.
+</details>
 
+<details>
+<summary>Q4. What is upcasting?</summary>
+<br>
+
+Converting a child reference to a parent reference. It is generally implicit when the types are compatible.
+
+</details>
 ## 🔗 Related Notes
 
 - [Primitive Widening & Narrowing →](02-primitive-widening-and-narrowing.md)
