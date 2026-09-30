@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔄 Java Initialization Order
 
 > **Topic 13 • Blocks**
@@ -109,3 +111,9 @@ This is only a preview. The detailed constructor-chaining rules will be covered 
 ➡️ [Quick Revision](./03-blocks-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
