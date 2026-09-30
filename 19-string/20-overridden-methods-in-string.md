@@ -256,21 +256,89 @@ because the references point to different objects.
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Which `Object` methods are commonly overridden by `String`?
-2. What does `String.toString()` return?
-3. How is a String's `hashCode()` calculated?
-4. Why do equal Strings have the same hash code?
-5. What does `String.equals()` compare?
-6. What is the difference between `==` and `equals()` for Strings?
-7. Why can two String literals make `==` return `true`?
-8. Why does `new String("Java") == new String("Java")` return `false`?
-9. Can two unequal Strings have the same hash code?
-10. Why is `equals()` important when Strings are used as keys in a `HashMap`?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
----
+<details>
+<summary>1. Which Object methods are commonly overridden by String?</summary>
+<br>
 
+String overrides methods such as toString(), hashCode(), and equals() to provide behavior based on String content.
+
+</details>
+
+<details>
+<summary>2. What does String.toString() return?</summary>
+<br>
+
+The String's own content.
+
+</details>
+
+<details>
+<summary>3. How is a String's hashCode() calculated?</summary>
+<br>
+
+It is calculated from the characters in the String according to the String hash-code algorithm.
+
+</details>
+
+<details>
+<summary>4. Why do equal Strings have the same hash code?</summary>
+<br>
+
+Because the equals/hashCode contract requires objects considered equal to have equal hash codes.
+
+</details>
+
+<details>
+<summary>5. What does String.equals() compare?</summary>
+<br>
+
+The contents of two Strings.
+
+</details>
+
+<details>
+<summary>6. What is the difference between == and equals() for Strings?</summary>
+<br>
+
+== compares references for String objects, while equals() compares String contents.
+
+</details>
+
+<details>
+<summary>7. Why can two String literals make == return true?</summary>
+<br>
+
+Identical literals can refer to the same canonical String in the String Pool.
+
+</details>
+
+<details>
+<summary>8. Why does new String("Java") == new String("Java") return false?</summary>
+<br>
+
+Each new expression creates a distinct String object, so the references differ.
+
+</details>
+
+<details>
+<summary>9. Can two unequal Strings have the same hash code?</summary>
+<br>
+
+Yes. Hash collisions are possible; equal hash codes do not prove equality.
+
+</details>
+
+<details>
+<summary>10. Why is equals() important when Strings are used as keys in a HashMap?</summary>
+<br>
+
+HashMap uses hashCode() to locate candidate buckets and equals() to distinguish keys that have the same hash code.
+
+</details>
 ## ⚡ Quick Revision
 
 | Method / Operator | String Behavior | Example |
