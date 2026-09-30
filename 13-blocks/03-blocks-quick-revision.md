@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Blocks — Quick Revision
 
 > **Topic 13 • 30-Second Revision**
@@ -56,3 +58,9 @@ Constructor
 **Instance block every object construction?** Yes.
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
