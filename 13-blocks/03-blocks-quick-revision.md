@@ -45,21 +45,49 @@ Instance fields / instance block
 Constructor
 ~~~
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Static block?** Runs during class initialization.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Instance block?** Runs during object construction before the constructor body.
+<details>
+<summary>Static block?</summary>
+<br>
 
-**Constructor?** Runs as part of object creation and initializes the object.
+Runs during class initialization.
 
-**Static block every object?** No.
+</details>
 
-**Instance block every object construction?** Yes.
+<details>
+<summary>Instance block?</summary>
+<br>
 
-🏠 [Java Notes Home](../README.md)
+Runs during object construction before the constructor body.
 
----
+</details>
+
+<details>
+<summary>Constructor?</summary>
+<br>
+
+Runs as part of object creation and initializes the object.
+
+</details>
+
+<details>
+<summary>Static block every object?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>Instance block every object construction?</summary>
+<br>
+
+Yes.
+
+</details>
 
 ## 🧭 Navigation
 
