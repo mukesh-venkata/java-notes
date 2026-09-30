@@ -53,15 +53,57 @@ if (p instanceof Child) {
 | `10.20` | `double` |
 | `10.20f` | `float` |
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What is the difference between widening and narrowing?
-2. What is the difference between upcasting and downcasting?
-3. Which conversions are normally implicit?
-4. Why can narrowing lose information?
-5. Why can downcasting throw ClassCastException?
-6. What is the role of instanceof?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What is the difference between widening and narrowing?</summary>
+<br>
+
+Widening converts to a broader compatible primitive type and is usually implicit; narrowing converts to a smaller type and generally requires an explicit cast.
+
+</details>
+
+<details>
+<summary>2. What is the difference between upcasting and downcasting?</summary>
+<br>
+
+Upcasting treats a child object through a parent reference and is generally implicit. Downcasting converts a parent reference to a more specific child reference and requires an explicit cast.
+
+</details>
+
+<details>
+<summary>3. Which conversions are normally implicit?</summary>
+<br>
+
+Primitive widening and compatible reference upcasting are normally implicit.
+
+</details>
+
+<details>
+<summary>4. Why can narrowing lose information?</summary>
+<br>
+
+A smaller target type may not be able to represent every value of the source type, so precision or magnitude can be lost.
+
+</details>
+
+<details>
+<summary>5. Why can downcasting throw ClassCastException?</summary>
+<br>
+
+The runtime object may not actually be an instance of the target child type, so the cast is invalid.
+
+</details>
+
+<details>
+<summary>6. What is the role of instanceof?</summary>
+<br>
+
+It tests whether a reference is compatible with a specified type before performing a reference cast or using type-specific behavior.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-type-casting-overview.md)
