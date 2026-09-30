@@ -1,4 +1,13 @@
 # 06. Features of Java
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-Java_Features-2DD4BF?style=for-the-badge)
+
+</div>
+
+---
+
 
 Java provides a combination of portability, object-oriented programming, automatic memory management and runtime optimization.
 
@@ -58,3 +67,10 @@ The JIT compiler can compile frequently executed bytecode into native machine co
 ### 30-Second Revision
 
 **Java = Platform Independent + WORA + Portable + Architecturally Neutral + Multithreading + GC + OOPs + JIT**
+
+
+---
+
+## 🧭 Navigation
+
+⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
