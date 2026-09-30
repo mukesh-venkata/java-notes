@@ -1,84 +1,52 @@
-# ⚡ Java Static Block
+# ⚡ Static Block
 
 > **Topic 20 • Blocks**
 
-A **static block** is a block declared with the `static` keyword.
+A **static block** uses the static keyword.
 
-```java
+~~~java
 static {
     System.out.println("Static Block");
 }
-```
+~~~
 
-## 🔹 When Does It Run?
+## When Does It Run?
 
-A static block executes during **class initialization**.
+It runs when the class is **initialized**.
 
-For the usual application entry-point class, class initialization happens before `main()` is invoked. More generally, remember that static initialization happens when the JVM initializes the class.
+For the normal application class containing main, this happens before main starts.
 
-## 🔹 How Often?
+## How Many Times?
 
-Static initialization occurs once for a given class initialization. Multiple static blocks execute in textual order.
+Static initialization runs once for the class. Multiple static blocks run in the order they appear.
 
-```java
+~~~java
 class Demo {
     static {
-        System.out.println("Static 1");
+        System.out.println("First");
     }
+
     static {
-        System.out.println("Static 2");
+        System.out.println("Second");
     }
 }
-```
+~~~
 
-Conceptually:
+Output:
 
-```text
-Class initialization
-       ↓
-Static 1
-       ↓
-Static 2
-       ↓
-Initialization completes
-```
+~~~text
+First
+Second
+~~~
 
-## 💻 Example
+### 🧠 Easy Trick
 
-```java
-class Demo {
-    static {
-        System.out.println("Static block");
-    }
+**Static → Class → Once**
 
-    public static void main(String[] args) {
-        System.out.println("main");
-    }
-}
-```
+### 🎯 Interview
 
-Typical output:
+**Does a static block run every time an object is created?**  
+No. It belongs to class initialization.
 
-```text
-Static block
-main
-```
-
-## 🎯 Common Use
-
-Static blocks can perform class-level initialization that requires statements rather than a simple field initializer.
-
-## 🎤 Interview Quick Check
-
-**What identifies a static block?** `static`.
-
-**When does it execute?** During class initialization.
-
-**Can a class have multiple static blocks?** Yes; they execute in textual order.
-
-## 🔗 Navigation
-
-⬅️ [Blocks Overview](./01-blocks-overview.md)  
-➡️ [Instance Initialization Block](./03-instance-initialization-block.md)  
-➡️ [Constructor & Initialization Order](./04-constructor-and-initialization-order.md)  
-➡️ [Quick Revision](./05-blocks-quick-revision.md)
+➡️ [Instance Block](./03-instance-initialization-block.md)  
+➡️ [Initialization Order](./04-constructor-and-initialization-order.md)
