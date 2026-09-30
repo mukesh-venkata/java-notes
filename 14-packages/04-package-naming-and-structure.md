@@ -14,16 +14,16 @@ A common approach is to start with the organization's **reversed domain name**.
 
 ### Example
 
-For an organization using the domain `tcs.com`, a package might begin with:
+For an organization using the domain `example.com`, a package might begin with:
 
 `text
-com.tcs...
+com.example...
 `
 
 A project-specific package could be:
 
 `java
-com.tcs.ghd.incidentmanagement
+com.example.application
 `
 
 ---
@@ -37,15 +37,15 @@ Think:
 `text
 Original domain
       ↓
-    tcs.com
+    example.com
       ↓ reverse domain
-    com.tcs
+    com.example
       ↓
  application/module
-    com.tcs.ghd
+    com.example
       ↓
  feature/module
-    com.tcs.ghd.incidentmanagement
+    com.example.application
 `
 
 ---
@@ -55,19 +55,19 @@ Original domain
 Example:
 
 `text
-com.tcs.ghd.incidentmanagement
+com.example.application
 `
 
 | Part | Meaning |
 |---|---|
 | `com` | Domain-level prefix |
-| `tcs` | Organization/company |
+| `example` | Organization/company |
 | `ghd` | Application/project |
 | `incidentmanagement` | Module or feature area |
 
 So:
 
-**com → tcs → ghd → incidentmanagement**
+**com → example → application**
 
 ---
 
@@ -79,7 +79,7 @@ For example:
 
 `text
 com
-└── tcs
+└── example
     └── ghd
         ├── incidentmanagement
         ├── admin
@@ -91,7 +91,7 @@ Inside a module, packages can be organized further by responsibility.
 For example:
 
 `text
-com.tcs.ghd.incidentmanagement
+com.example.application
 ├── controller
 ├── service
 ├── repository
@@ -110,7 +110,7 @@ In normal Java project layouts, package names correspond to directory paths.
 For:
 
 `java
-package com.tcs.ghd.incidentmanagement;
+package com.example.application;
 `
 
 the source path is typically organized like:
@@ -119,7 +119,7 @@ the source path is typically organized like:
 src/
 └── ...
     └── com/
-        └── tcs/
+        └── example/
             └── ghd/
                 └── incidentmanagement/
                     └── IncidentService.java
@@ -137,7 +137,7 @@ Lowercase names, commonly starting with the organization's reversed domain name.
 ### Q2. Why use a reversed domain name?
 To reduce the chance of package-name collisions between organizations.
 
-### Q3. What does `com.tcs.ghd.incidentmanagement` represent?
+### Q3. What does `com.example.application` represent?
 A hierarchical package namespace representing an organization, application, and module/feature area.
 
 ### Q4. Can package names contain uppercase letters?
