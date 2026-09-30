@@ -275,19 +275,16 @@
 
 ## 🔵 12 — Method Execution — COMPLETE
 
-> **Simple idea:** Method Call → Stack Frame → Execute → Return.
+> **Simple idea:** Method Call → Stack Frame → Java Stack → Recursion → Return.
 
 ### 📚 Topics
 
 | # | Topic | Status |
 |---:|---|:---:|
-| 01 | [Method Call](12-method-execution/01-method-call.md) | ✅ |
+| 01 | [Method Execution](12-method-execution/01-method-call.md) | ✅ |
 | 02 | [Stack Frame](12-method-execution/02-stack-frame.md) | ✅ |
-| 03 | [Method Execution Flow](12-method-execution/03-method-execution-flow.md) | ✅ |
-| 04 | [Java Stack](12-method-execution/04-java-stack.md) | ✅ |
-| 05 | [Call Stack](12-method-execution/05-call-stack.md) | ✅ |
-| 06 | [Recursion & Stack](12-method-execution/06-recursion-and-stack.md) | ✅ |
-| 07 | [Method Execution Quick Revision](12-method-execution/07-method-execution-quick-revision.md) | ✅ |
+| 03 | [Java Stack, Call Stack & Recursion](12-method-execution/03-java-stack-and-call-stack.md) | ✅ |
+| 04 | [Method Execution Quick Revision](12-method-execution/04-method-execution-quick-revision.md) | ✅ |
 
 **[📖 Open Method Execution →](12-method-execution/)**
 
@@ -303,13 +300,9 @@
 
 | # | Topic | Status |
 |---:|---|:---:|
-| 01 | [Blocks Introduction](13-blocks/01-blocks-introduction.md) | ✅ |
-| 02 | [Static Block](13-blocks/02-static-block.md) | ✅ |
-| 03 | [Instance Initialization Block](13-blocks/03-instance-initialization-block.md) | ✅ |
-| 04 | [Constructor](13-blocks/04-constructor.md) | ✅ |
-| 05 | [Static vs Instance Block](13-blocks/05-static-vs-instance-block.md) | ✅ |
-| 06 | [Initialization Order](13-blocks/06-initialization-order.md) | ✅ |
-| 07 | [Blocks Quick Revision](13-blocks/07-blocks-quick-revision.md) | ✅ |
+| 01 | [Blocks — Static, Instance & Constructor](13-blocks/01-blocks.md) | ✅ |
+| 02 | [Initialization Order](13-blocks/02-initialization-order.md) | ✅ |
+| 03 | [Blocks Quick Revision](13-blocks/03-blocks-quick-revision.md) | ✅ |
 
 **[📖 Open Blocks →](13-blocks/)**
 
