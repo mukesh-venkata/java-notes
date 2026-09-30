@@ -60,13 +60,41 @@ Accessible only inside the declaring class.
 **Default → Package**  
 **Private → Class**
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What are the four access levels? `public`, `protected`, package-private, and `private`.
-2. Which is most restrictive? `private`.
-3. What happens when no modifier is specified? Package-private access.
-4. Are access modifiers related to encapsulation? Yes.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What are the four access levels?</summary>
+<br>
+
+public, protected, package-private, and private.
+
+</details>
+
+<details>
+<summary>2. Which is most restrictive?</summary>
+<br>
+
+private.
+
+</details>
+
+<details>
+<summary>3. What happens when no modifier is specified?</summary>
+<br>
+
+The member has package-private access, meaning it is directly accessible within the same package, subject to normal Java rules.
+
+</details>
+
+<details>
+<summary>4. Are access modifiers related to encapsulation?</summary>
+<br>
+
+Yes. Access control helps restrict direct access to implementation details and supports encapsulation.
+
+</details>
 ## 🔗 Related Notes
 
 - [public & private →](02-public-and-private.md)
