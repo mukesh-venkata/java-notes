@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ✍️ Java Naming Conventions
 
 > **Topic 10 • Java Fundamentals**
@@ -191,3 +193,9 @@ L → lowercase        → Package
 ⬅️ [Identifiers Overview](./01-identifiers-overview.md)
 
 ➡️ [Quick Revision](./03-identifiers-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
