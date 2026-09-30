@@ -98,20 +98,41 @@ Reference type        Runtime object
                            Child
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Is upcasting automatic?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. Is upcasting automatic?</summary>
+<br>
+
 Yes, when the reference types are compatible.
 
-### Q2. Is downcasting automatic?
+</details>
+
+<details>
+<summary>Q2. Is downcasting automatic?</summary>
+<br>
+
 No. An explicit cast is required.
 
-### Q3. When can downcasting fail?
+</details>
+
+<details>
+<summary>Q3. When can downcasting fail?</summary>
+<br>
+
 When the runtime object is not compatible with the target child type.
 
-### Q4. What exception can occur?
-`ClassCastException`.
+</details>
 
+<details>
+<summary>Q4. What exception can occur?</summary>
+<br>
+
+ClassCastException.
+
+</details>
 ## 🔗 Related Notes
 
 - [Type Casting Overview →](01-type-casting-overview.md)
