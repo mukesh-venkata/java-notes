@@ -223,6 +223,18 @@
 
 **[📖 Open Constructors →](08-oops/02-constructors/)**
 
+### 🎯 `this` Keyword
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [`this` Keyword Basics](08-oops/03-this-keyword/01-this-keyword-basics.md) | ✅ |
+| 02 | [`this` for Instance Members](08-oops/03-this-keyword/02-this-for-instance-members.md) | ✅ |
+| 03 | [`this()` & Instance Method Calls](08-oops/03-this-keyword/03-this-constructor-and-method-calls.md) | ✅ |
+| 04 | [Passing & Returning `this`](08-oops/03-this-keyword/04-this-as-argument-and-return-value.md) | ✅ |
+| 05 | [`this` Keyword Quick Revision](08-oops/03-this-keyword/05-this-keyword-quick-revision.md) | ✅ |
+
+**[📖 Open `this` Keyword →](08-oops/03-this-keyword/)**
+
 ## 🟢 09 — Variables — COMPLETE
 
 ### 📚 Topics
