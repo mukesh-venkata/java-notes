@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🎯 Java `this` Keyword
 
 > **Topic 22 • `this` Keyword**
@@ -75,3 +77,9 @@ No. It is a Java keyword representing the current object reference in an instanc
 ➡️ [Constructor & Method Calls](./03-this-constructor-and-method-calls.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
