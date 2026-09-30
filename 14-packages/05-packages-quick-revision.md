@@ -24,7 +24,7 @@
 ## 1️⃣ Package Declaration
 
 `java
-package com.tcs.ghd.incidentmanagement;
+package com.example.application;
 `
 
 Remember:
@@ -72,7 +72,7 @@ It does **not** mean:
 `text
 com
  ↓
-tcs
+example
  ↓
 ghd
  ↓
