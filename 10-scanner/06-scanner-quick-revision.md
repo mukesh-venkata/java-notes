@@ -80,21 +80,57 @@ String name = sc.nextLine();
 
 ---
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Scanner?** → A utility class commonly used to parse input from sources such as standard input.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**`next()`?** → Reads the next token.
+<details>
+<summary>Scanner?</summary>
+<br>
 
-**`nextLine()`?** → Reads the remaining input on the current line.
+A utility class commonly used to parse input from sources such as standard input.
 
-**`nextInt()`?** → Reads the next integer token.
+</details>
 
-**Why does `nextInt()` + `nextLine()` cause trouble?** → The line separator after the integer may remain, so `nextLine()` can consume the rest of that line immediately.
+<details>
+<summary>`next()`?</summary>
+<br>
 
-**Does Scanner only read keyboard input?** → No. It can parse other input sources such as strings, files and streams.
+Reads the next token.
 
----
+</details>
+
+<details>
+<summary>`nextLine()`?</summary>
+<br>
+
+Reads the remaining input on the current line.
+
+</details>
+
+<details>
+<summary>`nextInt()`?</summary>
+<br>
+
+Reads the next integer token.
+
+</details>
+
+<details>
+<summary>Why does `nextInt()` + `nextLine()` cause trouble?</summary>
+<br>
+
+The line separator after the integer may remain, so `nextLine()` can consume the rest of that line immediately.
+
+</details>
+
+<details>
+<summary>Does Scanner only read keyboard input?</summary>
+<br>
+
+No. It can parse other input sources such as strings, files and streams.
+
+</details>
 
 ## 🔗 Navigation
 
