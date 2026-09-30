@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧩 Java Object Basics
 
 > **Topic 15 • OOP Introduction**
@@ -135,3 +137,9 @@ A: No.
 ➡️ [Quick Revision](./05-oops-quick-revision.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
