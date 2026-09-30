@@ -32,16 +32,17 @@
 | 10 | [🔵 Scanner](#-10--scanner--complete) | ✅ Done | User input & Scanner methods |
 | 11 | [🟣 Methods](#-11--methods--complete) | ✅ Done | Methods, overloading, overriding & recursion |
 | 12 | [🔵 Method Execution](#-12--method-execution--complete) | ✅ Done | Stack frames, Java Stack & call flow |
-| 13 | [🟡 Exception Handling](#-13--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 14 | [🔷 Collections](#-14--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 15 | [🟢 Generics](#-15--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 16 | [🔵 Java 8](#-16--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 17 | [🔴 Stream API](#-17--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 18 | [🔴 Multithreading](#-18--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 19 | [🟠 I/O & NIO](#-19--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 20 | [🟣 JDBC](#-20--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 21 | [⚙️ JVM & Internals](#-21--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 22 | [🚀 Modern Java](#-22--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 13 | [🟢 Blocks](#-13--blocks--complete) | ✅ Done | Static, instance blocks & initialization order |
+| 14 | [🟡 Exception Handling](#-14--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 15 | [🔷 Collections](#-15--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 16 | [🟢 Generics](#-16--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 17 | [🔵 Java 8](#-17--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 18 | [🔴 Stream API](#-18--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 19 | [🔴 Multithreading](#-19--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 20 | [🟠 I/O & NIO](#-20--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 21 | [🟣 JDBC](#-21--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 22 | [⚙️ JVM & Internals](#-22--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 23 | [🚀 Modern Java](#-23--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -60,8 +61,9 @@
 10 Scanner          ████████████████████ 100% ✅
 11 Methods          ████████████████████ 100% ✅
 12 Method Execution ████████████████████ 100% ✅
-13 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-14 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+13 Blocks           ████████████████████ 100% ✅
+14 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+15 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 ~~~
 
 ---
@@ -285,7 +287,25 @@
 
 **[📖 Open Method Execution →](12-method-execution/)**
 
-> 🎉 **Method Execution complete!** The next section is **Exception Handling**.
+> 🎉 **Method Execution complete!** The next section is **Blocks**.
+
+---
+
+## 🟢 13 — Blocks — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Blocks Overview](13-blocks/01-blocks-overview.md) | ✅ |
+| 02 | [Static Block](13-blocks/02-static-block.md) | ✅ |
+| 03 | [Instance Initialization Block](13-blocks/03-instance-initialization-block.md) | ✅ |
+| 04 | [Constructor & Initialization Order](13-blocks/04-constructor-and-initialization-order.md) | ✅ |
+| 05 | [Blocks Quick Revision](13-blocks/05-blocks-quick-revision.md) | ✅ |
+
+**[📖 Open Blocks →](13-blocks/)**
+
+> 🎉 **Blocks complete!** The next section is **Exception Handling**.
 
 ---
 
