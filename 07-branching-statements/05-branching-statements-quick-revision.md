@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java Branching Statements — Quick Revision
 
 > **Topic 14 • 30-Second Revision**
@@ -90,3 +92,9 @@ Exit current method
 ⬅️ [return](./04-return-statement.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
