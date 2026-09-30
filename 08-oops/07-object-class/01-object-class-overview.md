@@ -73,20 +73,41 @@ Object
         └── notifyAll()
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Which class is the root of the Java class hierarchy?
-`java.lang.Object` for classes.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Is Object automatically available?
-Yes. `java.lang` is automatically imported.
+<details>
+<summary>Q1. Which class is the root of the Java class hierarchy?</summary>
+<br>
 
-### Q3. Do interfaces extend Object?
-No. Interfaces have their own inheritance model.
+java.lang.Object is the root class for Java classes.
 
-### Q4. Why is Object important?
-It provides common behavior available through the class hierarchy, such as equality, hashing, string representation, runtime type information, and thread coordination methods.
+</details>
 
+<details>
+<summary>Q2. Is Object automatically available?</summary>
+<br>
+
+Yes. java.lang is automatically imported.
+
+</details>
+
+<details>
+<summary>Q3. Do interfaces extend Object?</summary>
+<br>
+
+No. Interfaces have their own inheritance model and do not extend Object.
+
+</details>
+
+<details>
+<summary>Q4. Why is Object important?</summary>
+<br>
+
+It provides common methods such as equals(), hashCode(), toString(), getClass(), and monitor coordination methods such as wait(), notify(), and notifyAll().
+
+</details>
 ## 🔗 Related Notes
 
 - [toString(), hashCode() & equals() →](02-tostring-hashcode-equals.md)
