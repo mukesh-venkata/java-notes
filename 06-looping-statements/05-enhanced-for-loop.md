@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔁 Java Enhanced `for` Loop — for-each
 
 > **Topic 13 • Java Fundamentals**
@@ -111,3 +113,9 @@ A: No.
 ➡️ [Nested Loops](./06-nested-loops.md)
 
 ➡️ [Quick Revision](./07-looping-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
