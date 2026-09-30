@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧩 Java Methods — Overview
 
 > **Topic 18 • Methods**
@@ -98,3 +100,9 @@ Yes. A `void` method does not return a value.
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
