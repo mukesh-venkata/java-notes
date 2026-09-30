@@ -43,32 +43,31 @@ Modification → same builder
 
 ## 🎯 Interview Questions & Answers
 
-> **Try answering each question yourself first. Click the question to reveal the answer.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
 <details>
-<summary>Is StringBuilder mutable?</summary>
+<summary>1. Is StringBuilder mutable?</summary>
 <br>
 
-Yes
+**Yes.** Its character sequence can be modified.
 
 </details>
 
 <details>
-<summary>Is StringBuilder synchronized?</summary>
+<summary>2. Is StringBuilder synchronized?</summary>
 <br>
 
-No
+**No.** StringBuilder does not provide synchronization for its operations.
 
 </details>
 
 <details>
-<summary>Why is it commonly faster than StringBuffer?</summary>
+<summary>3. Why is it commonly faster than StringBuffer?</summary>
 <br>
 
-It normally avoids synchronization overhead.
+It normally avoids synchronization overhead, making it suitable when thread-safe mutation is not required.
 
 </details>
-
 ## 🔗 Related Notes
 
 - [String Overview →](01-string-overview.md)
