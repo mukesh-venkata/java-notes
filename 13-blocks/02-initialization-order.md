@@ -99,20 +99,49 @@ This is only a preview. The detailed constructor-chaining rules will be covered 
 
 **OBJECT → INSTANCE → CONSTRUCTOR**
 
-## 🎤 Interview Questions
+## 🎯 Interview Questions & Answers
 
-**When does a static block run?** During class initialization.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**When does an instance block run?** During object construction, before the constructor body for that class.
+<details>
+<summary>When does a static block run?</summary>
+<br>
 
-**What happens before the constructor body?** Instance field initialization and instance initialization actions for that class.
+During class initialization.
 
-⬅️ [Blocks](./01-blocks.md)  
+</details>
+
+<details>
+<summary>When does an instance block run?</summary>
+<br>
+
+During object construction, before the constructor body for that class.
+
+</details>
+
+<details>
+<summary>What happens before the constructor body?</summary>
+<br>
+
+Instance field initialization and instance initialization actions for that class.
+
+</details>
+
+<details>
+<summary>⬅️ [Blocks](./01-blocks.md)</summary>
+<br>
+
 ➡️ [Quick Revision](./03-blocks-quick-revision.md)
 
-🏠 [Java Notes Home](../README.md)
+</details>
+
+<details>
+<summary>🏠 [Java Notes Home](../README.md)</summary>
+<br>
 
 ---
+
+</details>
 
 ## 🧭 Navigation
 
