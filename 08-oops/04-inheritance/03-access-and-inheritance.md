@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔐 Access Modifiers & Inheritance
 
 > **Topic 23 • Inheritance**
@@ -152,3 +154,9 @@ No.
 ➡️ [super & Constructor Chaining](./04-super-and-constructor-chaining.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
