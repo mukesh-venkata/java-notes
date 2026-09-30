@@ -336,6 +336,19 @@
 
 **[📖 Open Methods →](11-methods/)**
 
+#### 🔢 Variable Arguments (Varargs)
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Varargs Basics](11-methods/13-varargs/01-varargs-basics.md) | ✅ |
+| 02 | [Varargs Rules & Parameters](11-methods/13-varargs/02-varargs-rules-and-parameters.md) | ✅ |
+| 03 | [Varargs as Array & Method Calls](11-methods/13-varargs/03-varargs-as-array-and-method-calls.md) | ✅ |
+| 04 | [Varargs Quick Revision](11-methods/13-varargs/04-varargs-quick-revision.md) | ✅ |
+
+**[📖 Open Varargs →](11-methods/13-varargs/)**
+
+
+
 > 🎉 **Methods complete!** The next section is **Method Execution**.
 
 ---
