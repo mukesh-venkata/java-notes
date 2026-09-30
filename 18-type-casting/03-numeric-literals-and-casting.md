@@ -63,20 +63,41 @@ double d = 10.20;  // double literal
 10.20f   → float
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What is the default type of an integer literal?
-`int`, subject to the literal's representable range.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. What is the default type of a decimal floating-point literal?
-`double`.
+<details>
+<summary>Q1. What is the default type of an integer literal?</summary>
+<br>
 
-### Q3. How do you write a float literal?
-Use `f` or `F`.
+int, subject to the literal's representable range.
 
-### Q4. How do you write a long literal?
-Use `L` or `l`; uppercase `L` is generally clearer.
+</details>
 
+<details>
+<summary>Q2. What is the default type of a decimal floating-point literal?</summary>
+<br>
+
+double.
+
+</details>
+
+<details>
+<summary>Q3. How do you write a float literal?</summary>
+<br>
+
+Use f or F, for example 10.20f.
+
+</details>
+
+<details>
+<summary>Q4. How do you write a long literal?</summary>
+<br>
+
+Use L or l; uppercase L is generally clearer.
+
+</details>
 ## 🔗 Related Notes
 
 - [Type Casting Overview →](01-type-casting-overview.md)
