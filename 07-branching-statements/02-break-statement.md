@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🛑 Java `break` Statement
 
 > **Topic 14 • Java Fundamentals**
@@ -131,3 +133,9 @@ A: Only as part of an applicable labeled statement; an ordinary unlabeled `break
 ➡️ [return](./04-return-statement.md)
 
 ➡️ [Quick Revision](./05-branching-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
