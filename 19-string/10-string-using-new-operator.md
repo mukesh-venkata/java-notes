@@ -67,13 +67,41 @@ Why?
 
 Using `new String("Java")` is usually unnecessary when a literal is sufficient, because it deliberately creates another String object.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Does `new String("Java")` create a new object? **Yes.**
-2. Can the literal inside it be pooled? **Yes.**
-3. Why is `a == b` false for two separate `new String()` calls? **They refer to different objects.**
-4. Why can `a.equals(b)` be true? **Their contents are equal.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. Does <code>new String("Java")</code> create a new object?</summary>
+<br>
+
+Yes. The new expression creates a new String object.
+
+</details>
+
+<details>
+<summary>2. Can the literal inside it be pooled?</summary>
+<br>
+
+Yes. The literal can be present in the String Pool while new String("Java") creates another String object.
+
+</details>
+
+<details>
+<summary>3. Why is <code>a == b</code> false for two separate <code>new String()</code> calls?</summary>
+<br>
+
+Each new String() call creates a distinct String object, so the references point to different objects.
+
+</details>
+
+<details>
+<summary>4. Why can <code>a.equals(b)</code> be true?</summary>
+<br>
+
+String.equals() compares String contents rather than object identity.
+
+</details>
 ## 🔗 Related Notes
 
 - [String Literals & String Pool →](09-string-literals-and-string-pool.md)
