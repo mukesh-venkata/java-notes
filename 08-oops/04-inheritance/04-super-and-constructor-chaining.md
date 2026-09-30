@@ -174,27 +174,49 @@ The parent constructor completes before the child constructor body continues.
 
 **super() → parent constructor**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What does `super()` do?**  
-Invokes a constructor of the immediate parent class.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. What does `super.method()` do?**  
-Invokes an accessible method implementation from the immediate parent.
+<details>
+<summary>Q1. What does <code>super()</code> do?</summary>
+<br>
 
-**Q3. What does `super.field` do?**  
-Accesses an accessible field declared in the immediate parent.
+It invokes a constructor of the immediate parent class.
 
-**Q4. Why might a child need explicit `super(args)`?**  
-When the parent has no applicable no-argument constructor.
+</details>
 
-➡️ [Access & Inheritance](./03-access-and-inheritance.md)
-➡️ [Method Overriding](./05-inheritance-and-method-overriding.md)
+<details>
+<summary>Q2. What does <code>super.method()</code> do?</summary>
+<br>
 
-🏠 [Java Notes Home](../../README.md)
+It invokes an accessible method implementation from the immediate parent.
 
----
+</details>
 
+<details>
+<summary>Q3. What does <code>super.field</code> do?</summary>
+<br>
+
+It accesses an accessible field declared in the immediate parent.
+
+</details>
+
+<details>
+<summary>Q4. Why might a child need explicit <code>super(args)</code>?</summary>
+<br>
+
+When the parent has no applicable no-argument constructor, the child must invoke an applicable parent constructor explicitly.
+
+</details>
+
+<details>
+<summary>Q5. Can a constructor explicitly use both <code>this()</code> and <code>super()</code>?</summary>
+<br>
+
+No. A constructor can explicitly begin with only one constructor-invocation statement.
+
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
