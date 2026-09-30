@@ -241,31 +241,49 @@ class Employee {
 
 **SAME NAME + NO RETURN TYPE + INITIALIZE OBJECT**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What is a constructor?**  
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is a constructor?</summary>
+<br>
+
 A class member used during object construction to initialize the newly created object.
 
-**Q2. Can a constructor have a return type?**  
-No. Not even `void`.
+</details>
 
-**Q3. Can constructors be overloaded?**  
+<details>
+<summary>Q2. Can a constructor have a return type?</summary>
+<br>
+
+No. Not even void.
+
+</details>
+
+<details>
+<summary>Q3. Can constructors be overloaded?</summary>
+<br>
+
 Yes, by using different parameter lists.
 
-**Q4. Are constructors inherited?**  
+</details>
+
+<details>
+<summary>Q4. Are constructors inherited?</summary>
+<br>
+
 No.
 
-**Q5. What is the difference between instantiation and initialization?**  
+</details>
+
+<details>
+<summary>Q5. What is the difference between instantiation and initialization?</summary>
+<br>
+
 Instantiation creates an object; initialization establishes its initial state.
 
-➡️ [Constructor Types](./02-constructor-types.md)  
-➡️ [Constructor Overloading](./03-constructor-overloading.md)  
-➡️ [Constructor Chaining](./04-constructor-chaining.md)
-
-🏠 [Java Notes Home](../../README.md)
-
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
