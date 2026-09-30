@@ -59,23 +59,49 @@ This is different from normal `new` creation.
 - The class normally implements `Serializable`.
 - `readObject()` can throw `ClassNotFoundException` and `IOException`.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What is deserialization?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is deserialization?</summary>
+<br>
+
 Reconstructing an object from serialized data.
 
-### Q2. Which class is commonly used to read serialized objects?
-`ObjectInputStream`.
+</details>
 
-### Q3. Which method reads the object?
-`readObject()`.
+<details>
+<summary>Q2. Which class is commonly used to read serialized objects?</summary>
+<br>
 
-### Q4. Is the serializable class's constructor invoked normally?
-No.
+ObjectInputStream.
 
-### Q5. What interface is commonly implemented for Java serialization?
-`Serializable`.
+</details>
 
+<details>
+<summary>Q3. Which method reads the object?</summary>
+<br>
+
+readObject().
+
+</details>
+
+<details>
+<summary>Q4. Is the serializable class's constructor invoked normally?</summary>
+<br>
+
+No. For a Serializable class, its normal constructors are not invoked during default deserialization.
+
+</details>
+
+<details>
+<summary>Q5. What interface is commonly implemented for Java serialization?</summary>
+<br>
+
+Serializable.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-object-creation-overview.md)
