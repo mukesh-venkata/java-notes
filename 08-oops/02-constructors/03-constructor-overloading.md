@@ -189,30 +189,49 @@ Remember:
 
 **NUMBER / TYPE / ORDER → OVERLOAD**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. Can constructors be overloaded?**  
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. Can constructors be overloaded?</summary>
+<br>
+
 Yes.
 
-**Q2. Can constructors differ only by parameter names?**  
-No.
+</details>
 
-**Q3. Does return type participate in constructor overloading?**  
-No.
+<details>
+<summary>Q2. Can constructors differ only by parameter names?</summary>
+<br>
 
-**Q4. Is constructor overloading compile-time polymorphism?**  
-It is commonly described as compile-time polymorphism because the applicable overloaded constructor is selected during compilation.
+No. Overloading requires different parameter lists; parameter names alone do not distinguish constructors.
 
-**Q5. What happens if no matching constructor exists?**  
+</details>
+
+<details>
+<summary>Q3. Does return type participate in constructor overloading?</summary>
+<br>
+
+No. Constructors do not have return types, and return type is not part of overload resolution.
+
+</details>
+
+<details>
+<summary>Q4. Is constructor overloading compile-time polymorphism?</summary>
+<br>
+
+It is commonly described as compile-time polymorphism because the applicable overloaded constructor is selected at compile time.
+
+</details>
+
+<details>
+<summary>Q5. What happens if no matching constructor exists?</summary>
+<br>
+
 The code fails to compile.
 
-➡️ [Constructor Types](./02-constructor-types.md)  
-➡️ [Constructor Chaining](./04-constructor-chaining.md)
-
-🏠 [Java Notes Home](../../README.md)
-
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
