@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 04. JDK → JRE → JVM
 <div align="center">
 
@@ -73,10 +75,8 @@ Since Java 9, Oracle no longer distributes a separate traditional JRE as it did 
 
 **JVM → Execute Bytecode**
 
-
-
 ---
 
 ## 🧭 Navigation
 
-⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
