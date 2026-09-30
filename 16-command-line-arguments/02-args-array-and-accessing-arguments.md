@@ -82,13 +82,41 @@ args[1] → second
 args[2] → third
 ~~~
 
-## Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What is args? A String array.
-2. How do you access the first argument? args[0].
-3. How do you count arguments? args.length.
-4. What happens if args[0] is accessed when there are no arguments? ArrayIndexOutOfBoundsException occurs.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What is args?</summary>
+<br>
+
+A String array containing the command-line arguments passed to the program.
+
+</details>
+
+<details>
+<summary>2. How do you access the first argument?</summary>
+<br>
+
+args[0].
+
+</details>
+
+<details>
+<summary>3. How do you count arguments?</summary>
+<br>
+
+args.length.
+
+</details>
+
+<details>
+<summary>4. What happens if args[0] is accessed when there are no arguments?</summary>
+<br>
+
+ArrayIndexOutOfBoundsException occurs.
+
+</details>
 ## Related Notes
 
 - [Basics →](01-command-line-arguments-basics.md)
