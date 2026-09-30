@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ↩️ Java `return` Statement
 
 > **Topic 14 • Java Fundamentals**
@@ -133,3 +135,9 @@ A: It is not executed because the current method has already ended.
 ➡️ [Branching Overview](./01-branching-statements-overview.md)
 
 ➡️ [Quick Revision](./05-branching-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
