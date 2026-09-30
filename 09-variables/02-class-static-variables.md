@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🏛️ Java Class / Static Variables
 
 > **Topic 16 • Variables**
@@ -139,3 +141,9 @@ A: No. `final` is used for the no-reassignment property.
 ➡️ [Local Variables](./04-local-variables.md)
 
 ➡️ [Quick Revision](./05-variables-comparison-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
