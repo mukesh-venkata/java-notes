@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚙️ Java Operators — Overview
 
 > **Topic 11 • Java Fundamentals**
@@ -119,3 +121,9 @@ A: Yes. For example, `++` is both increment/decrement and unary.
 ➡️ [new & Dot Operators](./06-new-and-dot-operators.md)
 
 ➡️ [Quick Revision](./07-operators-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
