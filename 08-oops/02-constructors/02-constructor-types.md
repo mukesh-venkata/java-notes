@@ -239,27 +239,41 @@ No automatic default constructor
 Define no-arg constructor yourself if needed
 ```
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. When does Java provide a default constructor?**  
-When the class declares no constructor.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. Is a user-defined no-argument constructor a default constructor?**  
+<details>
+<summary>Q1. When does Java provide a default constructor?</summary>
+<br>
+
+When the class declares no constructor, the compiler provides a default no-argument constructor, subject to the class's access context.
+
+</details>
+
+<details>
+<summary>Q2. Is a user-defined no-argument constructor a default constructor?</summary>
+<br>
+
 It is a no-argument constructor, but it is not the compiler-provided default constructor.
 
-**Q3. What happens when you declare only a parameterized constructor?**  
+</details>
+
+<details>
+<summary>Q3. What happens when you declare only a parameterized constructor?</summary>
+<br>
+
 No compiler-provided no-argument constructor is added.
 
-**Q4. What is a parameterized constructor?**  
+</details>
+
+<details>
+<summary>Q4. What is a parameterized constructor?</summary>
+<br>
+
 A constructor that accepts one or more parameters.
 
-➡️ [Constructor Basics](./01-constructor-basics.md)  
-➡️ [Constructor Overloading](./03-constructor-overloading.md)
-
-🏠 [Java Notes Home](../../README.md)
-
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
