@@ -63,19 +63,41 @@ System.out.println(s1 == "Java");          // false
 System.out.println(s1.intern() == "Java"); // true
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What does intern() return?
+> **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>What does intern() return?</summary>
+<br>
+
 The canonical pooled String for the same contents.
 
-### Q2. Does intern() modify the original String?
+</details>
+
+<details>
+<summary>Does intern() modify the original String?</summary>
+<br>
+
 No. String remains immutable.
 
-### Q3. Does intern() move the heap object into the pool?
+</details>
+
+<details>
+<summary>Does intern() move the heap object into the pool?</summary>
+<br>
+
 No. It returns the canonical pooled reference.
 
-### Q4. Why can intern() make == true?
+</details>
+
+<details>
+<summary>Why can intern() make == true?</summary>
+<br>
+
 Because both references can point to the same canonical pooled String.
+
+</details>
 
 ## 🔗 Related Notes
 
