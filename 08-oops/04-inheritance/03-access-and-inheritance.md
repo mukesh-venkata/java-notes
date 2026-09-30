@@ -159,4 +159,38 @@ No.
 
 ## 🧭 Navigation
 
-⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)## 🎤 Interview Questions & Answers
+
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. Can a child directly access a private parent field?</summary>
+<br>
+
+No. A private member is directly accessible only within the class that declares it.
+
+</details>
+
+<details>
+<summary>Q2. Does protected work across packages?</summary>
+<br>
+
+Yes, but only under Java's specific protected-access rules for subclasses; it is not unrestricted access through any reference.
+
+</details>
+
+<details>
+<summary>Q3. Is package-private accessible to a subclass in another package?</summary>
+<br>
+
+No. Package-private access is limited to the same package.
+
+</details>
+
+<details>
+<summary>Q4. Does inheritance make private members public or protected?</summary>
+<br>
+
+No. Inheritance does not change the access modifier of a private member.
+
+</details>
