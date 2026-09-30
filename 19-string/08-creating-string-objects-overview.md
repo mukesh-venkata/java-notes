@@ -34,13 +34,41 @@ Creating String objects
 
 `intern()` is not another normal constructor. It returns the canonical pooled String for the same contents.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What are common ways to create a String?
-2. Where is a String literal stored?
-3. What does `new String()` do?
-4. What does `intern()` return?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What are common ways to create a String?</summary>
+<br>
+
+Common forms include String literals, the String constructors, and methods such as valueOf() that create or return String values.
+
+</details>
+
+<details>
+<summary>2. Where is a String literal stored?</summary>
+<br>
+
+A String literal is interned in the String Pool.
+
+</details>
+
+<details>
+<summary>3. What does <code>new String()</code> do?</summary>
+<br>
+
+It creates a new String object using the selected constructor.
+
+</details>
+
+<details>
+<summary>4. What does <code>intern()</code> return?</summary>
+<br>
+
+The canonical pooled String for the same contents.
+
+</details>
 ## 🔗 Related Notes
 
 - [String Literals & String Pool →](09-string-literals-and-string-pool.md)
