@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Constructors — Quick Revision
 
 > **Topic 21 • 30-Second Revision**
@@ -112,3 +114,9 @@ age initialized
 **super():** Calls a parent-class constructor.
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
