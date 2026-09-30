@@ -78,17 +78,33 @@ Reflection can be useful when:
 
 Reflection can involve checked exceptions and access restrictions. Modern code should prefer the appropriate `Constructor.newInstance()` API instead of the deprecated `Class.newInstance()`.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Is Class.newInstance() the modern approach?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. Is Class.newInstance() the modern approach?</summary>
+<br>
+
 No. It has been deprecated since Java 9.
 
-### Q2. What is the modern reflection approach?
-Obtain a `Constructor` and call `Constructor.newInstance()`.
+</details>
 
-### Q3. Why is reflection useful?
-It enables runtime-driven discovery and creation of objects.
+<details>
+<summary>Q2. What is the modern reflection approach?</summary>
+<br>
 
+Obtain a Constructor and call Constructor.newInstance().
+
+</details>
+
+<details>
+<summary>Q3. Why is reflection useful?</summary>
+<br>
+
+It enables runtime-driven discovery and creation of objects, subject to reflection access and module rules.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-object-creation-overview.md)
