@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ☕ Java OOP — Introduction
 
 > **Topic 15 • Object-Oriented Programming**
@@ -166,3 +168,9 @@ A: No. A class defines a type; an object is an instance of that class.
 ➡️ [Quick Revision](./05-oops-quick-revision.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
