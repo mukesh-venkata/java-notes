@@ -122,21 +122,43 @@ import java.util.ArrayList;
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Which package is automatically imported in every Java program?
+> **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Which package is automatically imported in every Java program?</summary>
+<br>
+
 `java.lang`.
 
-### Q2. Name some classes from `java.lang`.
+</details>
+
+<details>
+<summary>Name some classes from `java.lang`.</summary>
+<br>
+
 `String`, `System`, `Math`, `Object`, and wrapper classes such as `Integer`.
 
-### Q3. Do we need to explicitly import `java.lang.String`?
+</details>
+
+<details>
+<summary>Do we need to explicitly import `java.lang.String`?</summary>
+<br>
+
 No. `java.lang` is automatically imported.
 
-### Q4. Is `java.util` automatically imported?
+</details>
+
+<details>
+<summary>Is `java.util` automatically imported?</summary>
+<br>
+
 No.
 
 ---
+
+</details>
 
 ## ⚡ Quick Revision
 
