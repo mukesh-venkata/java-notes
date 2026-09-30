@@ -173,15 +173,15 @@ CLASS  → STATIC
 OBJECT → INSTANCE → CONSTRUCTOR
 ```
 
-## 🎯 Interview Questions & Answers
+## 🎤 Interview Questions & Answers
 
-> **Try answering each question yourself first. Click the question to reveal the answer.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
 <details>
 <summary>What is a block?</summary>
 <br>
 
-A group of statements enclosed in curly braces.
+A block is a group of statements enclosed in curly braces {}.
 
 </details>
 
@@ -189,7 +189,7 @@ A group of statements enclosed in curly braces.
 <summary>What is a static block?</summary>
 <br>
 
-A block used during class initialization.
+A static block is a block declared with static that runs during class initialization.
 
 </details>
 
@@ -197,7 +197,7 @@ A block used during class initialization.
 <summary>What is an instance initialization block?</summary>
 <br>
 
-A non-static block whose initialization actions run during object construction before the constructor body for that class.
+It is a non-static block whose initialization actions run during object construction before the constructor body for that class.
 
 </details>
 
@@ -205,26 +205,9 @@ A non-static block whose initialization actions run during object construction b
 <summary>Is a constructor a block?</summary>
 <br>
 
-No. A constructor is a class member; its body is a block.
+No. A constructor is a class member used during object construction; its body is a block.
 
 </details>
-
-<details>
-<summary>➡️ [Initialization Order](./02-initialization-order.md)</summary>
-<br>
-
-➡️ [Blocks Quick Revision](./03-blocks-quick-revision.md)
-
-</details>
-
-<details>
-<summary>🏠 [Java Notes Home](../README.md)</summary>
-<br>
-
----
-
-</details>
-
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
