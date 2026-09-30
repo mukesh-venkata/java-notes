@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🏗️ Java Class vs Object
 
 > **Topic 15 • OOP Introduction**
@@ -123,3 +125,9 @@ A: A reference variable holds a reference to an object; the object is the runtim
 ➡️ [Object Basics](./04-object-basics.md)
 
 ➡️ [Quick Revision](./05-oops-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
