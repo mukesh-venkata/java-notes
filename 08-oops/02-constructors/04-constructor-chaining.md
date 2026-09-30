@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔗 Constructor Chaining
 
 > **Topic 21 • Constructors**
@@ -346,3 +348,9 @@ A child constructor cannot rely on an implicit `super()`; it must invoke an appl
 ➡️ [Quick Revision](./05-constructors-quick-revision.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
