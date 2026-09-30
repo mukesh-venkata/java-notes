@@ -22,17 +22,18 @@
 |---:|---|:---:|---|
 | 01 | [🟢 Fundamentals](#-01--fundamentals--complete) | ✅ Done | Java basics & JVM foundation |
 | 02 | [🔵 Data Types](#-02--data-types--complete) | ✅ Done | Primitive & reference types |
-| 03 | [🟣 OOP](#-03--oops--upcoming) | ⏳ Upcoming | Classes, objects & OOP principles |
-| 04 | [🟠 Exception Handling](#-04--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 05 | [🟡 Collections](#-05--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 06 | [🔷 Generics](#-06--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 07 | [🟢 Java 8](#-07--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 08 | [🔵 Stream API](#-08--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 09 | [🔴 Multithreading](#-09--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 10 | [🟠 I/O & NIO](#-10--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 11 | [🟣 JDBC](#-11--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 12 | [⚙️ JVM & Internals](#-12--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 13 | [🚀 Modern Java](#-13--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 03 | [🟣 Identifiers](#-03--identifiers--complete) | ✅ Done | Identifier rules & naming conventions |
+| 04 | [🟠 OOP](#-04--oops--upcoming) | ⏳ Upcoming | Classes, objects & OOP principles |
+| 05 | [🟡 Exception Handling](#-05--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 06 | [🔷 Collections](#-06--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 07 | [🟢 Generics](#-07--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 08 | [🔵 Java 8](#-08--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 09 | [🔴 Stream API](#-09--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 10 | [🟠 Multithreading](#-10--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 11 | [🟠 I/O & NIO](#-11--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 12 | [🟣 JDBC](#-12--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 13 | [⚙️ JVM & Internals](#-13--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 14 | [🚀 Modern Java](#-14--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -41,10 +42,11 @@
 ~~~text
 01 Fundamentals     ████████████████████ 100% ✅
 02 Data Types       ████████████████████ 100% ✅
-03 OOP              ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-04 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-05 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-06 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+03 Identifiers      ████████████████████ 100% ✅
+04 OOP              ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+05 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+06 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+07 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 ~~~
 
 ---
@@ -84,67 +86,83 @@
 
 ---
 
-## 🟣 03 — OOPs — UPCOMING
+## 🟣 03 — Identifiers — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Identifiers Overview](03-identifiers/01-identifiers-overview.md) | ✅ |
+| 02 | [Java Naming Conventions](03-identifiers/02-java-naming-conventions.md) | ✅ |
+| 03 | [Identifiers Quick Revision](03-identifiers/03-identifiers-quick-revision.md) | ✅ |
+
+**[📖 Open Identifiers →](03-identifiers/)**
+
+> 🎉 **Identifiers complete!** The next section is **OOP**.
+
+---
+
+## 🟠 04 — OOPs — UPCOMING
 
 **Classes → Objects → Encapsulation → Inheritance → Polymorphism → Abstraction**
 
 ---
 
-## 🟠 04 — Exception Handling — UPCOMING
+## 🟡 05 — Exception Handling — UPCOMING
 
 **try-catch → finally → throw → throws → Custom Exceptions**
 
 ---
 
-## 🟡 05 — Collections — UPCOMING
+## 🔷 06 — Collections — UPCOMING
 
 **List → Set → Map → Queue → Iterators → Collection Internals**
 
 ---
 
-## 🔷 06 — Generics — UPCOMING
+## 🟢 07 — Generics — UPCOMING
 
 **Generic Classes → Generic Methods → Bounds → Wildcards → Type Safety**
 
 ---
 
-## 🟢 07 — Java 8 — UPCOMING
+## 🔵 08 — Java 8 — UPCOMING
 
 **Lambda → Functional Interfaces → Optional → Date/Time API**
 
 ---
 
-## 🔵 08 — Stream API — UPCOMING
+## 🔴 09 — Stream API — UPCOMING
 
 **Filter → Map → Sort → Reduce → Collect → Grouping**
 
 ---
 
-## 🔴 09 — Multithreading — UPCOMING
+## 🔴 10 — Multithreading — UPCOMING
 
 **Threads → Synchronization → Executors → Concurrency**
 
 ---
 
-## 🟠 10 — I/O & NIO — UPCOMING
+## 🟠 11 — I/O & NIO — UPCOMING
 
 **Files → Streams → Readers/Writers → NIO**
 
 ---
 
-## 🟣 11 — JDBC — UPCOMING
+## 🟣 12 — JDBC — UPCOMING
 
 **Connection → SQL → PreparedStatement → ResultSet → Transactions**
 
 ---
 
-## ⚙️ 12 — JVM & Internals — UPCOMING
+## ⚙️ 13 — JVM & Internals — UPCOMING
 
 **Class Loading → Memory → Execution Engine → JIT → GC**
 
 ---
 
-## 🚀 13 — Modern Java — UPCOMING
+## 🚀 14 — Modern Java — UPCOMING
 
 **Post-Java-8 Features → Modern APIs → Current Java Practices**
 
