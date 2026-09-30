@@ -1,4 +1,13 @@
 # 05. JVM — Java Virtual Machine
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-JVM_Architecture-2DD4BF?style=for-the-badge)
+
+</div>
+
+---
+
 
 The **JVM (Java Virtual Machine)** is responsible for executing Java bytecode and providing the runtime environment for Java applications.
 
@@ -100,3 +109,10 @@ Native Libraries
 
 **Class Loader → Runtime Data Areas → Execution Engine → JNI → Native Libraries**
 
+
+
+---
+
+## 🧭 Navigation
+
+⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
