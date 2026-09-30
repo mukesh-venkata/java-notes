@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 01. Data Types Overview
 
 <div align="center">
@@ -113,4 +115,4 @@ name
 
 ## 🧭 Navigation
 
-⬅️ [Java Notes Home](../README.md) • 📚 Data Types
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
