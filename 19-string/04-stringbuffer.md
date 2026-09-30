@@ -49,11 +49,33 @@ Mutable + synchronized
 Modification → same buffer
 ~~~
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Is StringBuffer mutable? **Yes**
-2. Is StringBuffer synchronized? **Yes**
-3. StringBuffer vs StringBuilder? **StringBuffer is synchronized; StringBuilder is not.**
+> **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Is StringBuffer mutable?</summary>
+<br>
+
+Yes
+
+</details>
+
+<details>
+<summary>Is StringBuffer synchronized?</summary>
+<br>
+
+Yes
+
+</details>
+
+<details>
+<summary>StringBuffer vs StringBuilder?</summary>
+<br>
+
+StringBuffer is synchronized; StringBuilder is not.
+
+</details>
 
 ## 🔗 Related Notes
 
