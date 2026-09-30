@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧱 Java OOP — Four Pillars
 
 > **Topic 15 • OOP Introduction**
@@ -140,3 +142,9 @@ P → Different behavior through a common type
 ➡️ [Class vs Object](./03-class-vs-object.md)
 
 ➡️ [Quick Revision](./05-oops-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
