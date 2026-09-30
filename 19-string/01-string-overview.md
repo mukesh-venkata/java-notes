@@ -46,26 +46,26 @@ Here:
 
 ## 🎯 Interview Questions & Answers
 
-> **Try answering each question yourself first. Click the question to reveal the answer.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
 <details>
-<summary>Is String a class?</summary>
+<summary>Q1. Is String a class?</summary>
 <br>
 
-Yes.
+Yes. String is a final class in java.lang.
 
 </details>
 
 <details>
-<summary>Is String final?</summary>
+<summary>Q2. Is String final?</summary>
 <br>
 
-Yes.
+Yes. String is declared final, so it cannot be subclassed.
 
 </details>
 
 <details>
-<summary>Which package contains String?</summary>
+<summary>Q3. Which package contains String?</summary>
 <br>
 
 java.lang.
@@ -73,13 +73,12 @@ java.lang.
 </details>
 
 <details>
-<summary>Is String mutable?</summary>
+<summary>Q4. Is String mutable?</summary>
 <br>
 
-No. String objects are immutable.
+No. String objects are immutable; operations that appear to modify a String return another String instead.
 
 </details>
-
 ## 🔗 Related Notes
 
 - [String Immutability →](02-string-immutability.md)
