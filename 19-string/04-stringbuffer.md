@@ -51,32 +51,31 @@ Modification → same buffer
 
 ## 🎯 Interview Questions & Answers
 
-> **Try answering each question yourself first. Click the question to reveal the answer.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
 <details>
-<summary>Is StringBuffer mutable?</summary>
+<summary>1. Is StringBuffer mutable?</summary>
 <br>
 
-Yes
+**Yes.** Its character sequence can be modified.
 
 </details>
 
 <details>
-<summary>Is StringBuffer synchronized?</summary>
+<summary>2. Is StringBuffer synchronized?</summary>
 <br>
 
-Yes
+**Yes.** StringBuffer provides synchronized methods for its operations.
 
 </details>
 
 <details>
-<summary>StringBuffer vs StringBuilder?</summary>
+<summary>3. StringBuffer vs StringBuilder?</summary>
 <br>
 
-StringBuffer is synchronized; StringBuilder is not.
+StringBuffer is synchronized, while StringBuilder is not. StringBuilder is generally preferred when synchronization is not required.
 
 </details>
-
 ## 🔗 Related Notes
 
 - [String Overview →](01-string-overview.md)
