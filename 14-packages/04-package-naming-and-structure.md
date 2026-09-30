@@ -129,22 +129,41 @@ Build tools and IDEs manage these conventions for us, but the package declaratio
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What naming convention is commonly used for Java packages?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What naming convention is commonly used for Java packages?</summary>
+<br>
+
 Lowercase names, commonly starting with the organization's reversed domain name.
 
-### Q2. Why use a reversed domain name?
+</details>
+
+<details>
+<summary>Q2. Why use a reversed domain name?</summary>
+<br>
+
 To reduce the chance of package-name collisions between organizations.
 
-### Q3. What does `com.example.application` represent?
-A hierarchical package namespace representing an organization, application, and module/feature area.
+</details>
 
-### Q4. Can package names contain uppercase letters?
-Java permits identifiers according to its naming rules, but package names are conventionally written in lowercase.
+<details>
+<summary>Q3. What does <code>com.example.application</code> represent?</summary>
+<br>
 
----
+A hierarchical package namespace representing an organization, application, and module or feature area.
 
+</details>
+
+<details>
+<summary>Q4. Can package names contain uppercase letters?</summary>
+<br>
+
+Java permits valid identifiers according to its lexical rules, but package names are conventionally written in lowercase.
+
+</details>
 ## ⚡ Quick Revision
 
 > **Package naming → lowercase + reversed domain + meaningful modules**
