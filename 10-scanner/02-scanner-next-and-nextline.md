@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔤 Java Scanner — `next()` vs `nextLine()`
 
 > **Topic 17 • Scanner**
@@ -110,3 +112,9 @@ A: Usually `nextLine()`.
 ➡️ [nextInt() + nextLine() Problem](./05-nextint-nextline-problem.md)
 
 ➡️ [Quick Revision](./06-scanner-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
