@@ -117,25 +117,49 @@ Local    → directly within scope
 
 ---
 
-## 🎤 Interview One-Liners
+## 🎤 Interview One-Liners → Collapsible Q&A
 
-**Static vs instance?**  
-→ Static is associated with the class; instance state belongs separately to each object.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Why no default value for locals?**  
-→ Java requires local variables to be definitely assigned before they are read.
+<details>
+<summary>Static vs instance?</summary>
+<br>
 
-**Can a static field change?**  
-→ Yes, unless it is also declared `final` or otherwise constrained by its declaration/access.
+Static state is associated with the class; instance state belongs separately to each object.
 
-**Are static variables always stored in the Method Area?**  
-→ Do not state this as a universal Java rule; exact runtime storage is JVM implementation-dependent.
+</details>
 
-**Are local variables always physically on the stack?**  
-→ No. Stack-frame association is a useful model, but JVM implementations may optimize storage.
+<details>
+<summary>Why no default value for locals?</summary>
+<br>
 
----
+Java requires local variables to be definitely assigned before they are read.
 
+</details>
+
+<details>
+<summary>Can a static field change?</summary>
+<br>
+
+Yes, unless it is also declared final or otherwise constrained by its declaration and access rules.
+
+</details>
+
+<details>
+<summary>Are static variables always stored in the Method Area?</summary>
+<br>
+
+No. Exact runtime storage is JVM implementation-dependent; avoid treating a specific physical memory location as a universal rule.
+
+</details>
+
+<details>
+<summary>Are local variables always physically on the stack?</summary>
+<br>
+
+No. Stack-frame association is a useful model, but JVM implementations may optimize how values are stored.
+
+</details>
 ## 🗺️ Final Memory Map
 
 ```text
