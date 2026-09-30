@@ -1,4 +1,13 @@
 # 03. Java Execution Flow
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-Execution_Flow-2DD4BF?style=for-the-badge)
+
+</div>
+
+---
+
 
 Java follows a compilation + runtime execution process.
 
@@ -48,3 +57,10 @@ Write Java code once, compile it to bytecode, and run the bytecode on different 
 **.java → javac → .class → JVM → Machine Code → Execution**
 
 **Key idea:** Bytecode + JVM gives Java its platform-independent execution model.
+
+
+---
+
+## 🧭 Navigation
+
+⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
