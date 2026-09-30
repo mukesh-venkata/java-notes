@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 04. Data Types — Quick Revision ⚡
 
 <div align="center">
@@ -146,4 +148,4 @@ JAVA DATA TYPES
 
 ## 🧭 Navigation
 
-⬅️ [Data Types Overview](01-data-types-overview.md) • 📚 Data Types
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
