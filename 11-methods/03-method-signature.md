@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ✍️ Java Method Signature
 
 > **Topic 18 • Methods**
@@ -63,3 +65,9 @@ No.
 ➡️ [Overloading](./06-method-overloading.md)
 
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
