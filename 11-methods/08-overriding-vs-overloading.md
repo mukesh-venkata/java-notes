@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚖️ Java Overriding vs Overloading
 
 > **Topic 18 • Methods**
@@ -53,3 +55,9 @@ Overloading changes the parameter list; overriding supplies a subclass implement
 ➡️ [Access & Overriding Rules](./09-method-access-and-overriding-rules.md)
 
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
