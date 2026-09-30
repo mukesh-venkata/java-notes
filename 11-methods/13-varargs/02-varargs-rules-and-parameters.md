@@ -46,11 +46,41 @@ normal parameter(s) → varargs parameter
                            ↑
                          LAST
 ```
-## 🎯 Interview Questions
-1. How many varargs parameters can a method have? **Only one.**
-2. Where must the varargs parameter appear? **Last.**
-3. Can normal parameters appear before varargs? **Yes.**
-4. Can a parameter appear after varargs? **No.**
+## 🎯 Interview Questions & Answers
+
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>1. How many varargs parameters can a method have?</summary>
+<br>
+
+Only one.
+
+</details>
+
+<details>
+<summary>2. Where must the varargs parameter appear?</summary>
+<br>
+
+It must be the last parameter.
+
+</details>
+
+<details>
+<summary>3. Can normal parameters appear before varargs?</summary>
+<br>
+
+Yes.
+
+</details>
+
+<details>
+<summary>4. Can a parameter appear after varargs?</summary>
+<br>
+
+No. The variable-arity parameter must be last.
+
+</details>
 ## 🔗 Related Notes
 - [Varargs Basics →](01-varargs-basics.md)
 - [Varargs as Array & Method Calls →](03-varargs-as-array-and-method-calls.md)
