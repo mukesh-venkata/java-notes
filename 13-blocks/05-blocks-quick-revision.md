@@ -1,75 +1,36 @@
-# ⚡ Java Blocks — Quick Revision
+# ⚡ Blocks — Quick Revision
 
-> **Topic 20 • 30-Second Revision**
+> **Topic 20 • 30 Seconds**
 
-## 🧠 Master Map
+~~~text
+STATIC
+  ↓
+Class initialization
+  ↓
+Once
 
-```text
-              JAVA INITIALIZATION
-                      │
-          ┌───────────┴───────────┐
-          ↓                       ↓
-  CLASS INITIALIZATION       OBJECT CONSTRUCTION
-          │                       │
-          ↓                       ↓
- Static fields / blocks    Instance fields / blocks
-                                  ↓
-                           Constructor body
-```
+INSTANCE
+  ↓
+Object creation
+  ↓
+Before constructor
 
-## 📊 Quick Comparison
+CONSTRUCTOR
+  ↓
+Object initialization
+~~~
 
-| Feature | Static Block | Instance Block | Constructor |
+| | Static Block | Instance Block | Constructor |
 |---|---|---|---|
-| Keyword | `static` | No `static` | Class name |
-| Association | Class initialization | Object construction | Object construction |
-| Frequency | Once per class initialization | Each object construction | Each constructor invocation |
-| Purpose | Class-level initialization | Instance initialization | Object construction |
+| Level | Class | Object | Object |
+| Runs | Class initialization | Object creation | Object creation |
+| Frequency | Once per class initialization | Every object construction | Every constructor call |
+| Main idea | Class setup | Instance setup | Initialize object |
 
-> A constructor is not itself a block; its body is a block.
+### 🔥 One-Line Trick
 
-## 🔥 Memory Trick
-
-```text
-CLASS
-→ Static initialization
-
-OBJECT
-→ Instance initialization
-→ Constructor
-```
-
-For a simple class:
-
-```text
-new Student()
-      ↓
-Instance field initialization
-      ↓
-Instance initialization block
-      ↓
-Constructor body
-```
-
-## 🎤 Interview One-Liners
-
-**What is a block?** A group of statements enclosed in `{ }`.
-
-**Static block?** A `static` block executed during class initialization.
-
-**Instance initialization block?** A non-static initialization block executed as part of object construction.
-
-**Does a static block run for every object?** No.
-
-**Does an instance block run for every object construction?** Yes.
-
-**Can multiple static/instance blocks exist?** Yes; initialization actions follow source order within the relevant phase.
-
-## 🔗 Navigation
-
-⬅️ [Blocks Overview](./01-blocks-overview.md)  
-⬅️ [Static Block](./02-static-block.md)  
-⬅️ [Instance Initialization Block](./03-instance-initialization-block.md)  
-⬅️ [Constructor & Initialization Order](./04-constructor-and-initialization-order.md)
+**Static → Class**  
+**Instance → Object**  
+**Constructor → Initialize Object**
 
 🏠 [Java Notes Home](../README.md)
