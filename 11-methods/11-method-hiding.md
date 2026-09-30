@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🕶️ Java Method Hiding
 
 > **Topic 18 • Methods**
@@ -65,3 +67,9 @@ The compile-time type/class context.
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
