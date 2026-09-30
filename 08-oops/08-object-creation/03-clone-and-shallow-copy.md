@@ -71,20 +71,41 @@ Also remember:
 
 `clone()` comes from `java.lang.Object`, so this topic builds directly on the Object Class topic.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What type of copy does Object.clone() provide?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What type of copy does Object.clone() provide?</summary>
+<br>
+
 A shallow copy.
 
-### Q2. Does cloning automatically duplicate nested referenced objects?
-No.
+</details>
 
-### Q3. What is Cloneable?
+<details>
+<summary>Q2. Does cloning automatically duplicate nested referenced objects?</summary>
+<br>
+
+No. Referenced objects are shared in a shallow copy.
+
+</details>
+
+<details>
+<summary>Q3. What is Cloneable?</summary>
+<br>
+
 A marker interface indicating support for the Object cloning mechanism.
 
-### Q4. Can clone() throw an exception?
-Yes, `CloneNotSupportedException`.
+</details>
 
+<details>
+<summary>Q4. Can clone() throw an exception?</summary>
+<br>
+
+Yes, CloneNotSupportedException can be thrown.
+
+</details>
 ## 🔗 Related Notes
 
 - [Object Class →](../07-object-class/04-clone-and-shallow-copy.md)
