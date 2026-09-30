@@ -44,19 +44,41 @@ Here:
 - "Java" is a String value/object.
 - The reference points to that String.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Is String a class?
+> **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Is String a class?</summary>
+<br>
+
 Yes.
 
-### Q2. Is String final?
+</details>
+
+<details>
+<summary>Is String final?</summary>
+<br>
+
 Yes.
 
-### Q3. Which package contains String?
+</details>
+
+<details>
+<summary>Which package contains String?</summary>
+<br>
+
 java.lang.
 
-### Q4. Is String mutable?
+</details>
+
+<details>
+<summary>Is String mutable?</summary>
+<br>
+
 No. String objects are immutable.
+
+</details>
 
 ## 🔗 Related Notes
 
