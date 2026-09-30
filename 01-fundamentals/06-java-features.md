@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 06. Features of Java
 <div align="center">
 
@@ -68,9 +70,8 @@ The JIT compiler can compile frequently executed bytecode into native machine co
 
 **Java = Platform Independent + WORA + Portable + Architecturally Neutral + Multithreading + GC + OOPs + JIT**
 
-
 ---
 
 ## 🧭 Navigation
 
-⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
