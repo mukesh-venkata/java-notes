@@ -31,8 +31,8 @@
 | 09 | [🟢 Variables](#-09--variables--complete) | ✅ Done | Static, instance & local variables |
 | 10 | [🔵 Scanner](#-10--scanner--complete) | ✅ Done | User input & Scanner methods |
 | 11 | [🟣 Methods](#-11--methods--complete) | ✅ Done | Methods, overloading, overriding & recursion |
-| 12 | [🔵 Method Execution](#-12--method-execution--complete) | ✅ Done | Stack frames, Java Stack & call flow |
-| 13 | [🟢 Blocks](#-13--blocks--complete) | ✅ Done | Static, instance blocks & initialization order |
+| 12 | [🔵 Method Execution](#-12--method-execution--complete) | ✅ Done | How method calls work |
+| 13 | [🟢 Blocks](#-13--blocks--complete) | ✅ Done | Static blocks, instance blocks & constructors |
 | 14 | [🟡 Exception Handling](#-14--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
 | 15 | [🔷 Collections](#-15--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
 | 16 | [🟢 Generics](#-16--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
@@ -275,6 +275,8 @@
 
 ## 🔵 12 — Method Execution — COMPLETE
 
+> **Simple idea:** Method call → Stack frame → Execute → Return.
+
 ### 📚 Topics
 
 | # | Topic | Status |
@@ -292,6 +294,8 @@
 ---
 
 ## 🟢 13 — Blocks — COMPLETE
+
+> **Simple idea:** Class → Static block | Object → Instance block → Constructor.
 
 ### 📚 Topics
 
