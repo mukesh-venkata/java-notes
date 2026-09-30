@@ -1,4 +1,13 @@
 # 01. Java History
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-Java_History-2DD4BF?style=for-the-badge)
+
+</div>
+
+---
+
 
 > **Java:** A statically typed, general-purpose programming language known for compiling source code into bytecode that runs on the JVM.
 
@@ -50,3 +59,10 @@ The language was officially released as **Java**.
 **A:** Java was originally developed by **James Gosling and his team at Sun Microsystems** in **1991**, and it was called **Oak**.
 
 </details>
+
+
+---
+
+## 🧭 Navigation
+
+⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
