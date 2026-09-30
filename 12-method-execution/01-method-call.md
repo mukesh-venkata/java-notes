@@ -160,20 +160,20 @@ This leads naturally to the ideas of the **Java Stack** and **Call Stack**.
 
 **CALL → FRAME → EXECUTE → RETURN → CONTINUE**
 
-## 🎯 Interview Questions & Answers
+## 🎤 Interview Questions & Answers
 
-> **Try answering each question yourself first. Click the question to reveal the answer.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
 <details>
-<summary>What happens when a method is invoked?</summary>
+<summary>Q1. What happens when a method is invoked?</summary>
 <br>
 
-A new method invocation becomes active and the runtime creates the information needed to execute that invocation, conceptually represented by a stack frame.
+A new method invocation becomes active and the runtime creates the information needed to execute it, conceptually represented by a stack frame.
 
 </details>
 
 <details>
-<summary>What happens after a method returns normally?</summary>
+<summary>Q2. What happens after a method returns normally?</summary>
 <br>
 
 Its invocation completes, its frame is discarded, and control returns to the caller.
@@ -181,21 +181,12 @@ Its invocation completes, its frame is discarded, and control returns to the cal
 </details>
 
 <details>
-<summary>Is a method call the same as a method definition?</summary>
+<summary>Q3. Is a method call the same as a method definition?</summary>
 <br>
 
 No. A definition describes the method; an invocation executes it.
 
 </details>
-
-<details>
-<summary>🏠 [Java Notes Home](../README.md)</summary>
-<br>
-
----
-
-</details>
-
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
