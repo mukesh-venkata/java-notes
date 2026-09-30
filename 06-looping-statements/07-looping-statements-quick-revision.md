@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java Looping Statements — Quick Revision
 
 > **Topic 13 • 30-Second Revision**
@@ -148,3 +150,9 @@ Multiple levels of repetition?
 ⬅️ [Nested Loops](./06-nested-loops.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
