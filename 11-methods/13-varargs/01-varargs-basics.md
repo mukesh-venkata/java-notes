@@ -28,15 +28,41 @@ add(10, 20, 30);
 Instead of separate methods for one, two, three, or more inputs, one method can handle a flexible number of inputs.
 ## 🧠 Memory Trick
 > **Varargs = variable number of arguments**
-## 🎯 Interview Questions
-### Q1. What is varargs?
-A feature that allows a method to accept a variable number of arguments.
-### Q2. What symbol represents varargs?
-Three dots.
-### Q3. Can a varargs method be called with zero arguments?
-Yes. The varargs parameter receives an empty array.
-### Q4. What type of values can one varargs parameter accept?
-Values compatible with the declared element type.
+## 🎯 Interview Questions & Answers
+
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is varargs?</summary>
+<br>
+
+A Java feature that allows a method to accept a variable number of arguments of a compatible type.
+
+</details>
+
+<details>
+<summary>Q2. What symbol represents varargs?</summary>
+<br>
+
+Three dots: ...
+
+</details>
+
+<details>
+<summary>Q3. Can a varargs method be called with zero arguments?</summary>
+<br>
+
+Yes. The varargs parameter receives an empty array for that invocation.
+
+</details>
+
+<details>
+<summary>Q4. What type of values can one varargs parameter accept?</summary>
+<br>
+
+Values compatible with the declared element type of the varargs parameter.
+
+</details>
 ## 🔗 Related Notes
 - [Varargs Rules & Parameters →](02-varargs-rules-and-parameters.md)
 - [Varargs as Array & Method Calls →](03-varargs-as-array-and-method-calls.md)
