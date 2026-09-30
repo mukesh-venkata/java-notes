@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔁 Java Recursion
 
 > **Topic 18 • Methods**
@@ -76,3 +78,9 @@ A correct base case and progress toward it.
 ➡️ [Method Hiding](./11-method-hiding.md)
 
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
