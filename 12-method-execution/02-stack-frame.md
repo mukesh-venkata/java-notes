@@ -172,21 +172,33 @@ Do not use the oversimplified rule “everything local is stack and every object
 ➡️ [Java Stack & Call Stack](./03-java-stack-and-call-stack.md)  
 ➡️ [Recursion & Stack](./04-recursion-and-stack.md)
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What is a stack frame?**  
-Runtime data associated with one method invocation.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. What happens to a frame when the method finishes?**  
-The frame is no longer active and is discarded.
+<details>
+<summary>Q1. What is a stack frame?</summary>
+<br>
 
-**Q3. Does every JVM use the same physical frame layout?**  
-No. The JVM specification defines the conceptual behavior; implementations can optimize internal representation.
+Runtime data associated with one method invocation. It conceptually holds information needed while that invocation executes.
 
-🏠 [Java Notes Home](../README.md)
+</details>
 
----
+<details>
+<summary>Q2. What happens to a frame when the method finishes?</summary>
+<br>
 
+The method invocation completes and its frame is no longer active; the runtime can reclaim that invocation's stack space.
+
+</details>
+
+<details>
+<summary>Q3. Does every JVM use the same physical frame layout?</summary>
+<br>
+
+No. The JVM specification defines required behavior, while implementations can use different internal representations and optimizations.
+
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
