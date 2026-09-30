@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔗 `super()` — Parent Constructor
 
 > **Topic 24 • `super` Keyword**
@@ -226,3 +228,9 @@ No.
 ➡️ [`super` Method & Field](./03-super-method-and-field.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
