@@ -59,12 +59,33 @@ The private state is accessed through controlled public methods.
 
 *Normal type accessibility rules also apply.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-- Can another class directly access a private member? **No.**
-- Can a subclass directly access a private parent member? **No.**
-- Is private commonly used for encapsulation? **Yes.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>Can another class directly access a private member?</summary>
+<br>
+
+No. A private member is directly accessible only within the class that declares it.
+
+</details>
+
+<details>
+<summary>Can a subclass directly access a private parent member?</summary>
+<br>
+
+No. A subclass does not directly access the parent's private members; it must use accessible methods or other exposed APIs.
+
+</details>
+
+<details>
+<summary>Is private commonly used for encapsulation?</summary>
+<br>
+
+Yes. Private fields combined with controlled methods are a common way to implement encapsulation.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-access-modifiers-overview.md)
