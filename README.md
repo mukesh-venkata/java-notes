@@ -16,6 +16,26 @@
 
 ---
 
+## 🚀 Start Here
+
+New to these notes? Follow this simple path:
+
+**1. 📖 Learn the concept** → **2. 💻 See the code** → **3. 🧠 Check the interview questions** → **4. ⚡ Revise** → **5. ➡️ Continue to the next topic**
+
+### Choose your path
+
+| I want to... | Start here |
+|---|---|
+| 🌱 Learn Java from the beginning | [Java Fundamentals](01-fundamentals/) |
+| 🧱 Understand OOP | [OOP](08-oops/) |
+| 🔤 Master Strings | [String](19-string/) |
+| ⚡ Revise quickly | [Quick Revision Notes](#-learning-roadmap) |
+| 💼 Prepare for interviews | [Interview Questions](#-how-each-section-works) |
+
+> 💡 **Tip:** Don't try to read everything at once. Pick one section, finish a few topics, revise, and then continue.
+
+---
+
 ## 🗺️ Learning Roadmap
 
 > **Tap any section below to jump directly to its notes.**
@@ -51,6 +71,26 @@
 | 27 | [🟣 JDBC](#-27--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
 | 28 | [⚙️ JVM & Internals](#-28--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
 | 29 | [🚀 Modern Java](#-29--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+
+---
+
+## 🧭 Your Learning Journey
+
+```text
+START
+  ↓
+🌱 Fundamentals
+  ↓
+🧱 OOP
+  ↓
+📦 Core Java APIs
+  ↓
+⚡ Advanced Java
+  ↓
+🚀 Modern Java
+```
+
+> 📍 **Current focus:** OOP is in progress. New sections will be added as the notes grow.
 
 ---
 
@@ -569,12 +609,6 @@ Each major concept will grow progressively:
 | 22 | [String Class Methods](19-string/22-string-class-methods.md) | ✅ |
 
 
-
----
-
-## 🟡 20 — Exception Handling — UPCOMING
-
-**try-catch → finally → throw → throws → Custom Exceptions**
 
 ---
 
