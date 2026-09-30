@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java Operators — Quick Revision
 
 > **Topic 11 • 30-Second Revision**
@@ -154,3 +156,9 @@ String result = age >= 18 ? "Adult" : "Minor";
 ⬅️ [new & Dot Operators](./06-new-and-dot-operators.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
