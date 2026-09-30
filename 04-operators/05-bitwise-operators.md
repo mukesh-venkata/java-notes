@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧮 Java Bitwise & Shift Operators
 
 > **Topic 11 • Java Fundamentals**
@@ -179,3 +181,9 @@ A: `>>` preserves the sign during right shift; `>>>` fills the left side with ze
 ➡️ [new & Dot Operators](./06-new-and-dot-operators.md)
 
 ➡️ [Quick Revision](./07-operators-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
