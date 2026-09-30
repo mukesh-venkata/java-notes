@@ -74,20 +74,41 @@ import java.util.ArrayList;
 
 is normally needed before directly using `ArrayList` by its simple name.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Which package contains ArrayList?
-`java.util`.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Which package provides LocalDate?
-`java.time`.
+<details>
+<summary>Q1. Which package contains ArrayList?</summary>
+<br>
 
-### Q3. Which package is commonly used for traditional file I/O?
-`java.io`.
+java.util.
 
-### Q4. Is java.util automatically imported?
+</details>
+
+<details>
+<summary>Q2. Which package provides LocalDate?</summary>
+<br>
+
+java.time.
+
+</details>
+
+<details>
+<summary>Q3. Which package is commonly used for traditional file I/O?</summary>
+<br>
+
+java.io.
+
+</details>
+
+<details>
+<summary>Q4. Is java.util automatically imported?</summary>
+<br>
+
 No.
 
+</details>
 ## 🔗 Related Notes
 
 - [Library Overview →](01-java-standard-library-overview.md)
