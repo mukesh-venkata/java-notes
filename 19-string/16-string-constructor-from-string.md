@@ -68,13 +68,41 @@ String s = "Java";
 
 Using `new String("Java")` is mainly useful when you specifically need a distinct String object.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Does `new String("Java")` create a new object? **Yes.**
-2. Is the literal `"Java"` also an interned String? **Yes.**
-3. Why can two `new String()` references be different? **They refer to different objects.**
-4. Why can `equals()` still return true? **Their contents are equal.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. Does <code>new String("Java")</code> create a new object?</summary>
+<br>
+
+Yes.
+
+</details>
+
+<details>
+<summary>2. Is the literal <code>"Java"</code> also an interned String?</summary>
+<br>
+
+Yes. String literals are interned in the String Pool.
+
+</details>
+
+<details>
+<summary>3. Why can two <code>new String()</code> references be different?</summary>
+<br>
+
+They refer to different String objects created by separate new expressions.
+
+</details>
+
+<details>
+<summary>4. Why can <code>equals()</code> still return true?</summary>
+<br>
+
+String.equals() compares contents, which can be equal even when the objects are different.
+
+</details>
 ## 🔗 Related Notes
 
 - [Constructors Overview →](15-string-constructors-overview.md)
