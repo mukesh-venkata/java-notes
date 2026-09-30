@@ -665,7 +665,7 @@ Topics may include:
 - 📊 Comparison tables
 - 💻 Java examples
 - 🧠 Memory tricks
-- 🎯 Interview questions
+- 🎯 Interview questions with collapsible answers
 - ⚡ Quick revision
 - 🔗 Navigation between related notes
 
