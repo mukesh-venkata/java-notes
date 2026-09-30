@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔀 Java Conditional Statements — Overview
 
 > **Topic 12 • Java Fundamentals**
@@ -98,3 +100,9 @@ A: `if`, `if-else`, `if-else-if`, nested `if`, and `switch`.
 ➡️ [switch Statement](./06-switch-statement.md)
 
 ➡️ [Quick Revision](./07-conditional-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
