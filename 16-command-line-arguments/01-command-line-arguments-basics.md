@@ -51,20 +51,41 @@ java HelloWorld Kotlin
 - args[0] represents the first argument.
 - If no arguments are supplied, args.length is 0.
 
-## Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What are command-line arguments?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What are command-line arguments?</summary>
+<br>
+
 Values supplied to a Java program when it is started from the command line.
 
-### Q2. Where are command-line arguments received?
+</details>
+
+<details>
+<summary>Q2. Where are command-line arguments received?</summary>
+<br>
+
 In the String[] args parameter of main().
 
-### Q3. What is the type of args?
+</details>
+
+<details>
+<summary>Q3. What is the type of args?</summary>
+<br>
+
 String[].
 
-### Q4. What does args.length represent?
+</details>
+
+<details>
+<summary>Q4. What does args.length represent?</summary>
+<br>
+
 The number of command-line arguments supplied.
 
+</details>
 ## Related Notes
 
 - [args Array & Accessing Arguments →](02-args-array-and-accessing-arguments.md)
