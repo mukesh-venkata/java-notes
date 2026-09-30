@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🎯 `this` for Instance Variables
 
 > **Topic 22 • `this` Keyword**
@@ -143,3 +145,9 @@ Often yes.
 ➡️ [Constructor & Method Calls](./03-this-constructor-and-method-calls.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
