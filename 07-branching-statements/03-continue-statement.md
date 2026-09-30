@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⏭️ Java `continue` Statement
 
 > **Topic 14 • Java Fundamentals**
@@ -126,3 +128,9 @@ A: The update expression still runs after `continue`.
 ➡️ [return](./04-return-statement.md)
 
 ➡️ [Quick Revision](./05-branching-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
