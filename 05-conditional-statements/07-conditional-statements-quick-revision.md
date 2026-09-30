@@ -95,25 +95,73 @@ Traditional switch does not support `float` or `double` selectors.
 
 ---
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Condition type?** → Java `if` conditions must be boolean expressions.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**`if-else`?** → Provides two execution paths.
+<details>
+<summary>Condition type?</summary>
+<br>
 
-**`if-else-if`?** → Checks conditions from top to bottom.
+Java `if` conditions must be boolean expressions.
 
-**Nested `if`?** → An `if` inside another `if`.
+</details>
 
-**Fall-through?** → Traditional switch execution continues into later cases when not terminated.
+<details>
+<summary>`if-else`?</summary>
+<br>
 
-**`default`?** → Executes when no case matches.
+Provides two execution paths.
 
-**`break`?** → Terminates the traditional switch.
+</details>
 
-**Decimal selector?** → `float` and `double` aren't supported as traditional switch selectors.
+<details>
+<summary>`if-else-if`?</summary>
+<br>
 
----
+Checks conditions from top to bottom.
+
+</details>
+
+<details>
+<summary>Nested `if`?</summary>
+<br>
+
+An `if` inside another `if`.
+
+</details>
+
+<details>
+<summary>Fall-through?</summary>
+<br>
+
+Traditional switch execution continues into later cases when not terminated.
+
+</details>
+
+<details>
+<summary>`default`?</summary>
+<br>
+
+Executes when no case matches.
+
+</details>
+
+<details>
+<summary>`break`?</summary>
+<br>
+
+Terminates the traditional switch.
+
+</details>
+
+<details>
+<summary>Decimal selector?</summary>
+<br>
+
+`float` and `double` aren't supported as traditional switch selectors.
+
+</details>
 
 ## 🗺️ Final Memory Map
 
