@@ -67,17 +67,33 @@ args[0] = "Java"
 args[1] = "27"
 ~~~
 
-## Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Where are command-line arguments written?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. Where are command-line arguments written?</summary>
+<br>
+
 After the class name in the Java launch command.
 
-### Q2. Is the class name stored in args[0]?
+</details>
+
+<details>
+<summary>Q2. Is the class name stored in args[0]?</summary>
+<br>
+
 No. args[0] contains the first supplied argument after the class name.
 
-### Q3. How are multiple arguments distinguished?
-They are separated by whitespace according to the command-line parsing rules of the environment.
+</details>
 
+<details>
+<summary>Q3. How are multiple arguments distinguished?</summary>
+<br>
+
+They are separated according to the command-line parsing rules of the environment; commonly whitespace separates arguments unless quoting/escaping rules group text.
+
+</details>
 ## Related Notes
 
 - [Basics →](01-command-line-arguments-basics.md)
