@@ -501,6 +501,7 @@ Each major concept will grow progressively:
 | 03 | [String & length()](17-java-standard-library/03-string-and-length.md) | ✅ |
 | 04 | [Commonly Used Java Packages](17-java-standard-library/04-commonly-used-java-packages.md) | ✅ |
 | 05 | [Java Standard Library Quick Revision](17-java-standard-library/05-java-standard-library-quick-revision.md) | ✅ |
+| 06 | [Arrays Class](17-java-standard-library/06-arrays-class.md) | ✅ |
 
 **[📖 Open Java Standard Library →](17-java-standard-library/)**
 
