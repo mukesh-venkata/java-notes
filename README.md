@@ -235,6 +235,19 @@
 
 **[📖 Open `this` Keyword →](08-oops/03-this-keyword/)**
 
+### 🧬 Inheritance
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Inheritance Basics](08-oops/04-inheritance/01-inheritance-basics.md) | ✅ |
+| 02 | [Types of Inheritance](08-oops/04-inheritance/02-types-of-inheritance.md) | ✅ |
+| 03 | [Access & Inheritance](08-oops/04-inheritance/03-access-and-inheritance.md) | ✅ |
+| 04 | [`super` & Constructor Chaining](08-oops/04-inheritance/04-super-and-constructor-chaining.md) | ✅ |
+| 05 | [Inheritance & Method Overriding](08-oops/04-inheritance/05-inheritance-and-method-overriding.md) | ✅ |
+| 06 | [Inheritance Quick Revision](08-oops/04-inheritance/06-inheritance-quick-revision.md) | ✅ |
+
+**[📖 Open Inheritance →](08-oops/04-inheritance/)**
+
 ## 🟢 09 — Variables — COMPLETE
 
 ### 📚 Topics
