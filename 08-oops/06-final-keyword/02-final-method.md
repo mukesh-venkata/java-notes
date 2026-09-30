@@ -159,22 +159,41 @@ The first method cannot be overridden, but methods can still be overloaded accor
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. Can a final method be overridden?
-**No.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Can a final method be overloaded?
-**Yes.** `final` restricts overriding, not overloading.
+<details>
+<summary>Q1. Can a final method be overridden?</summary>
+<br>
 
-### Q3. Why use a final method?
-To prevent subclasses from changing a particular inherited method implementation.
+No. A final method cannot be overridden by a subclass.
 
-### Q4. Does a final method become inaccessible to a child class?
-**No.** It can still be inherited and used, subject to the method's normal access rules.
+</details>
 
----
+<details>
+<summary>Q2. Can a final method be overloaded?</summary>
+<br>
 
+Yes. final restricts overriding, not overloading.
+
+</details>
+
+<details>
+<summary>Q3. Why use a final method?</summary>
+<br>
+
+To prevent subclasses from changing a particular inherited method implementation through overriding.
+
+</details>
+
+<details>
+<summary>Q4. Does a final method become inaccessible to a child class?</summary>
+<br>
+
+No. It can still be inherited and used, subject to the method's normal access rules.
+
+</details>
 ## ⚡ Quick Revision
 
 ```text
