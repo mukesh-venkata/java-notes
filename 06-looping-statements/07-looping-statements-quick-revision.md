@@ -102,21 +102,57 @@ Multiple levels of repetition?
 
 ---
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Which loop checks before execution?** → `for` and `while`.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Which loop checks after execution?** → `do-while`.
+<details>
+<summary>Which loop checks before execution?</summary>
+<br>
 
-**Which loop runs at least once?** → `do-while`.
+`for` and `while`.
 
-**Enhanced `for`?** → Iterates over array elements or `Iterable` elements without explicit index management.
+</details>
 
-**Nested loop?** → A loop inside another loop.
+<details>
+<summary>Which loop checks after execution?</summary>
+<br>
 
-**Common two-level nested complexity?** → O(n²), when both loops independently run n times.
+`do-while`.
 
----
+</details>
+
+<details>
+<summary>Which loop runs at least once?</summary>
+<br>
+
+`do-while`.
+
+</details>
+
+<details>
+<summary>Enhanced `for`?</summary>
+<br>
+
+Iterates over array elements or `Iterable` elements without explicit index management.
+
+</details>
+
+<details>
+<summary>Nested loop?</summary>
+<br>
+
+A loop inside another loop.
+
+</details>
+
+<details>
+<summary>Common two-level nested complexity?</summary>
+<br>
+
+O(n²), when both loops independently run n times.
+
+</details>
 
 ## 🗺️ Final Memory Map
 
