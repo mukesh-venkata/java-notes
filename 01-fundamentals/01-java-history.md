@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 01. Java History
 <div align="center">
 
@@ -60,9 +62,8 @@ The language was officially released as **Java**.
 
 </details>
 
-
 ---
 
 ## 🧭 Navigation
 
-⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
