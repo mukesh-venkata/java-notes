@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧬 Java `super` Keyword
 
 > **Topic 24 • `super` Keyword**
@@ -102,3 +104,9 @@ No. It refers to the immediate parent.
 ➡️ [`super` Method & Field](./03-super-method-and-field.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
