@@ -38,16 +38,17 @@
 | 14 | [🟣 Packages](#-14--packages--complete) | ✅ Done | Package organization & imports |
 | 15 | [🟢 Access Modifiers](#-15--access-modifiers--complete) | ✅ Done | public, protected, package-private & private |
 | 16 | [🖥️ Command-Line Arguments](#-16--command-line-arguments--complete) | ✅ Done | Program startup input via main(String[] args) |
-| 17 | [🟡 Exception Handling](#-17--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 18 | [🔷 Collections](#-18--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 19 | [🟢 Generics](#-19--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 20 | [🔵 Java 8](#-20--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 21 | [🔴 Stream API](#-21--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 22 | [🔴 Multithreading](#-22--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 23 | [🟠 I/O & NIO](#-23--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 24 | [🟣 JDBC](#-24--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 25 | [⚙️ JVM & Internals](#-25--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 26 | [🚀 Modern Java](#-26--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 17 | [📚 Java Standard Library](#-17--java-standard-library--complete) | ✅ Done | Standard API, java.lang & commonly used packages |
+| 18 | [🟡 Exception Handling](#-18--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 19 | [🔷 Collections](#-19--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 20 | [🟢 Generics](#-20--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 21 | [🔵 Java 8](#-21--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 22 | [🔴 Stream API](#-22--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 23 | [🔴 Multithreading](#-23--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 24 | [🟠 I/O & NIO](#-24--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 25 | [🟣 JDBC](#-25--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 26 | [⚙️ JVM & Internals](#-26--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 27 | [🚀 Modern Java](#-27--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -457,61 +458,79 @@ Each major concept will grow progressively:
 
 ---
 
-## 🟡 17 — Exception Handling — UPCOMING
+## 📚 17 — Java Standard Library — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Java Standard Library Overview](17-java-standard-library/01-java-standard-library-overview.md) | ✅ |
+| 02 | [java.lang & Automatic Import](17-java-standard-library/02-java-lang-and-automatic-import.md) | ✅ |
+| 03 | [String & length()](17-java-standard-library/03-string-and-length.md) | ✅ |
+| 04 | [Commonly Used Java Packages](17-java-standard-library/04-commonly-used-java-packages.md) | ✅ |
+| 05 | [Java Standard Library Quick Revision](17-java-standard-library/05-java-standard-library-quick-revision.md) | ✅ |
+
+**[📖 Open Java Standard Library →](17-java-standard-library/)**
+
+> 🎉 **Java Standard Library complete!** The next section is **Exception Handling**.
+
+---
+
+## 🟡 18 — Exception Handling — UPCOMING
 
 **try-catch → finally → throw → throws → Custom Exceptions**
 
 ---
 
-## 🔷 18 — Collections — UPCOMING
+## 🔷 19 — Collections — UPCOMING
 
 **List → Set → Map → Queue → Iterators → Collection Internals**
 
 ---
 
-## 🟢 19 — Generics — UPCOMING
+## 🟢 20 — Generics — UPCOMING
 
 **Generic Classes → Generic Methods → Bounds → Wildcards → Type Safety**
 
 ---
 
-## 🔵 20 — Java 8 — UPCOMING
+## 🔵 21 — Java 8 — UPCOMING
 
 **Lambda → Functional Interfaces → Optional → Date/Time API**
 
 ---
 
-## 🔴 21 — Stream API — UPCOMING
+## 🔴 22 — Stream API — UPCOMING
 
 **Filter → Map → Sort → Reduce → Collect → Grouping**
 
 ---
 
-## 🔴 22 — Multithreading — UPCOMING
+## 🔴 23 — Multithreading — UPCOMING
 
 **Threads → Synchronization → Executors → Concurrency**
 
 ---
 
-## 🟠 23 — I/O & NIO — UPCOMING
+## 🟠 24 — I/O & NIO — UPCOMING
 
 **Files → Streams → Readers/Writers → NIO**
 
 ---
 
-## 🟣 24 — JDBC — UPCOMING
+## 🟣 25 — JDBC — UPCOMING
 
 **Connection → SQL → PreparedStatement → ResultSet → Transactions**
 
 ---
 
-## ⚙️ 25 — JVM & Internals — UPCOMING
+## ⚙️ 26 — JVM & Internals — UPCOMING
 
 **Class Loading → Memory → Execution Engine → JIT → GC**
 
 ---
 
-## 🚀 26 — Modern Java — UPCOMING
+## 🚀 27 — Modern Java — UPCOMING
 
 **Post-Java-8 Features → Modern APIs → Current Java Practices**
 
