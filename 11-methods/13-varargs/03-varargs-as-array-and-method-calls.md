@@ -59,11 +59,41 @@ The supplied arguments must be compatible with the declared element type.
 void add(int... values)
 void print(String... values)
 ```
-## 🎯 Interview Questions
-1. What is a varargs parameter treated as inside the method? **An array.**
-2. What happens with zero arguments? **An empty array is received.**
-3. Can a compatible array be passed directly? **Yes.**
-4. Can unrelated types be passed? **No.**
+## 🎯 Interview Questions & Answers
+
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>1. What is a varargs parameter treated as inside the method?</summary>
+<br>
+
+An array of the declared element type.
+
+</details>
+
+<details>
+<summary>2. What happens with zero arguments?</summary>
+<br>
+
+An empty array is received for the varargs parameter.
+
+</details>
+
+<details>
+<summary>3. Can a compatible array be passed directly?</summary>
+<br>
+
+Yes.
+
+</details>
+
+<details>
+<summary>4. Can unrelated types be passed?</summary>
+<br>
+
+No. Arguments must be compatible with the declared varargs element type.
+
+</details>
 ## 🔗 Related Notes
 - [Varargs Basics →](01-varargs-basics.md)
 - [Varargs Rules & Parameters →](02-varargs-rules-and-parameters.md)
