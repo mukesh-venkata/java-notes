@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🎯 `super.method()` & `super.field`
 
 > **Topic 24 • `super` Keyword**
@@ -211,3 +213,9 @@ No.
 ➡️ [Quick Revision](./04-super-keyword-quick-revision.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
