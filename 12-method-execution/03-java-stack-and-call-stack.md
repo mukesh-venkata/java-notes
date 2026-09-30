@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧵 Java Stack, Call Stack & Recursion
 
 > **Topic 12 • Method Execution**
@@ -320,3 +322,9 @@ It can exhaust stack space and result in StackOverflowError.
 ➡️ [Method Execution Quick Revision](./04-method-execution-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
