@@ -79,7 +79,7 @@ Java 9.
 <summary>Q4. When was finalization removed from the modern Java API?</summary>
 <br>
 
-Java 18 deprecated and disabled finalization by default? Actually, Java 18 deprecated finalization for removal; it was not simply removed from the API in Java 18.
+Java 18 deprecated finalization for removal. It was not simply removed from the API in Java 18.
 
 </details>
 
