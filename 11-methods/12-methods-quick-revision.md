@@ -85,23 +85,73 @@ Static method + same signature in child
 | Selection | Compile time | Runtime dispatch |
 | Purpose | Multiple parameter forms | Specialized behavior |
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Method?** → Named block of code that performs a task.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Signature?** → Method name + formal parameter types.
+<details>
+<summary>Method?</summary>
+<br>
 
-**Can return type alone overload?** → No.
+Named block of code that performs a task.
 
-**Static method overridden?** → No, hidden.
+</details>
 
-**Final method overridden?** → No.
+<details>
+<summary>Signature?</summary>
+<br>
 
-**Private method overridden?** → No, not in the normal overriding sense.
+Method name + formal parameter types.
 
-**Why `@Override`?** → Lets the compiler verify the intended override.
+</details>
 
-**Recursion?** → A method directly or indirectly calling itself.
+<details>
+<summary>Can return type alone overload?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>Static method overridden?</summary>
+<br>
+
+No, hidden.
+
+</details>
+
+<details>
+<summary>Final method overridden?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>Private method overridden?</summary>
+<br>
+
+No, not in the normal overriding sense.
+
+</details>
+
+<details>
+<summary>Why `@Override`?</summary>
+<br>
+
+Lets the compiler verify the intended override.
+
+</details>
+
+<details>
+<summary>Recursion?</summary>
+<br>
+
+A method directly or indirectly calling itself.
+
+</details>
 
 ## 🔗 Navigation
 
