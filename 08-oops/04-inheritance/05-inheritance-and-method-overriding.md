@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔄 Inheritance & Method Overriding
 
 > **Topic 23 • Inheritance**
@@ -201,3 +203,9 @@ It demonstrates a parent reference referring to a child object and forms the bas
 ➡️ [Inheritance Quick Revision](./06-inheritance-quick-revision.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
