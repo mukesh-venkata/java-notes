@@ -75,17 +75,33 @@ Animal animal = new Dog();
 System.out.println(animal.getClass() == Dog.class); // true
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What does getClass() return?
-A `Class<?>` object representing the object's runtime class.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Is getClass() based on the reference type?
+<details>
+<summary>Q1. What does getClass() return?</summary>
+<br>
+
+A Class<?> object representing the object's runtime class.
+
+</details>
+
+<details>
+<summary>Q2. Is getClass() based on the reference type?</summary>
+<br>
+
 No. It reports the runtime class of the actual object.
 
-### Q3. What happens if the reference is null?
-Calling an instance method through a null reference causes `NullPointerException`.
+</details>
 
+<details>
+<summary>Q3. What happens if the reference is null?</summary>
+<br>
+
+Calling getClass() through a null reference causes NullPointerException.
+
+</details>
 ## 🔗 Related Notes
 
 - [Object Class Overview →](01-object-class-overview.md)
