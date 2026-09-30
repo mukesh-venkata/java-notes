@@ -34,17 +34,73 @@ char[]   → String
 intern() → Pool reference
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Where are String literals interned?
-2. Why can two identical literals have the same reference?
-3. What does new String("Java") create?
-4. Why can two new String() objects have == false?
-5. What is the difference between == and equals()?
-6. What does intern() return?
-7. Does intern() move a heap object into the pool?
-8. How can a char[] be converted to String?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. Where are String literals interned?</summary>
+<br>
+
+In the String Pool.
+
+</details>
+
+<details>
+<summary>2. Why can two identical literals have the same reference?</summary>
+<br>
+
+The same canonical pooled String can be reused.
+
+</details>
+
+<details>
+<summary>3. What does <code>new String("Java")</code> create?</summary>
+<br>
+
+A new String object.
+
+</details>
+
+<details>
+<summary>4. Why can two new String() objects have == false?</summary>
+<br>
+
+Each new expression creates a distinct String object, so the references are different.
+
+</details>
+
+<details>
+<summary>5. What is the difference between == and equals()?</summary>
+<br>
+
+For String objects, == checks reference identity while equals() checks content equality.
+
+</details>
+
+<details>
+<summary>6. What does intern() return?</summary>
+<br>
+
+The canonical pooled String for the same contents.
+
+</details>
+
+<details>
+<summary>7. Does intern() move a heap object into the pool?</summary>
+<br>
+
+No. It returns the canonical pooled reference.
+
+</details>
+
+<details>
+<summary>8. How can a char[] be converted to String?</summary>
+<br>
+
+For example, by using new String(charArray).
+
+</details>
 ## 🔗 Related Notes
 
 - [Creating String Objects Overview →](08-creating-string-objects-overview.md)
