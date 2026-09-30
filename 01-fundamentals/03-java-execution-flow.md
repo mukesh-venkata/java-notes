@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 03. Java Execution Flow
 <div align="center">
 
@@ -58,9 +60,8 @@ Write Java code once, compile it to bytecode, and run the bytecode on different 
 
 **Key idea:** Bytecode + JVM gives Java its platform-independent execution model.
 
-
 ---
 
 ## 🧭 Navigation
 
-⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
