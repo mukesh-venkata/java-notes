@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔗 Java Method Binding
 
 > **Topic 18 • Methods**
@@ -58,3 +60,9 @@ Overridable instance methods.
 ➡️ [Overloading](./06-method-overloading.md)
 
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
