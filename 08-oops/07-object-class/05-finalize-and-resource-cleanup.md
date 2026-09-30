@@ -47,23 +47,49 @@ The resource is closed automatically when the try block completes.
 | Cleanup timing not deterministic | Deterministic resource management |
 | Legacy mechanism | Recommended for `AutoCloseable` resources |
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What was finalize() historically intended for?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What was finalize() historically intended for?</summary>
+<br>
+
 Cleanup work before garbage collection reclaimed an object.
 
-### Q2. Should finalize() be used for resource cleanup?
-No.
+</details>
 
-### Q3. When was finalize() deprecated?
+<details>
+<summary>Q2. Should finalize() be used for resource cleanup?</summary>
+<br>
+
+No. Resource cleanup should be explicit and deterministic, such as with try-with-resources for AutoCloseable resources.
+
+</details>
+
+<details>
+<summary>Q3. When was finalize() deprecated?</summary>
+<br>
+
 Java 9.
 
-### Q4. When was finalization removed from the modern Java API?
-Java 18.
+</details>
 
-### Q5. What should be preferred for AutoCloseable resources?
-Try-with-resources or explicit `close()` management where appropriate.
+<details>
+<summary>Q4. When was finalization removed from the modern Java API?</summary>
+<br>
 
+Java 18 deprecated and disabled finalization by default? Actually, Java 18 deprecated finalization for removal; it was not simply removed from the API in Java 18.
+
+</details>
+
+<details>
+<summary>Q5. What should be preferred for AutoCloseable resources?</summary>
+<br>
+
+Try-with-resources or explicit close() management where appropriate.
+
+</details>
 ## 🔗 Related Notes
 
 - [Object Class Overview →](01-object-class-overview.md)
