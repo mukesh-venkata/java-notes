@@ -277,6 +277,20 @@
 
 **[📖 Open `final` Keyword →](08-oops/06-final-keyword/)**
 
+### 🧱 Ways to Create an Object
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Object Creation Overview](08-oops/08-object-creation/01-object-creation-overview.md) | ✅ |
+| 02 | [new Operator](08-oops/08-object-creation/02-new-operator.md) | ✅ |
+| 03 | [clone() & Shallow Copy](08-oops/08-object-creation/03-clone-and-shallow-copy.md) | ✅ |
+| 04 | [Reflection Object Creation](08-oops/08-object-creation/04-reflection-object-creation.md) | ✅ |
+| 05 | [Deserialization Object Creation](08-oops/08-object-creation/05-deserialization-object-creation.md) | ✅ |
+| 06 | [Object Creation Comparison](08-oops/08-object-creation/06-object-creation-comparison.md) | ✅ |
+| 07 | [Object Creation Quick Revision](08-oops/08-object-creation/07-object-creation-quick-revision.md) | ✅ |
+
+**[📖 Open Object Creation →](08-oops/08-object-creation/)**
+
 ### 🧩 Object Class
 
 | # | Topic | Status |
