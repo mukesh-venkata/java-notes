@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🪆 Java Nested `if`
 
 > **Topic 12 • Java Fundamentals**
@@ -80,3 +82,9 @@ A: Only when execution reaches the inner `if`, typically after the outer conditi
 ➡️ [switch Statement](./06-switch-statement.md)
 
 ➡️ [Quick Revision](./07-conditional-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
