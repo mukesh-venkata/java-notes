@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🏗️ Java Constructor Basics
 
 > **Topic 21 • Constructors**
@@ -261,3 +263,9 @@ Instantiation creates an object; initialization establishes its initial state.
 ➡️ [Constructor Chaining](./04-constructor-chaining.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
