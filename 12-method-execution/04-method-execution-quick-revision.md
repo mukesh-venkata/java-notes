@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Method Execution — Quick Revision
 
 > **Topic 12 • 30-Second Revision**
@@ -85,3 +87,9 @@ main continues
 **StackOverflowError:** Can occur when excessive active calls exhaust stack space.
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
