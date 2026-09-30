@@ -59,14 +59,49 @@ String literal → interned String Pool
 new String(...) → additional String object
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What happens with a String literal?
-2. What does new String() add?
-3. Can multiple references share a pooled String?
-4. Does the String Pool have to be treated as a separate memory region from the heap?
-5. What is the difference between reference equality and content equality?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What happens with a String literal?</summary>
+<br>
+
+A String literal is interned in the String Pool, and references to that literal can share the canonical pooled String.
+
+</details>
+
+<details>
+<summary>2. What does new String() add?</summary>
+<br>
+
+new String(...) creates a new String object even when the same text is already available as a pooled literal.
+
+</details>
+
+<details>
+<summary>3. Can multiple references share a pooled String?</summary>
+<br>
+
+Yes. Multiple references can point to the same canonical pooled String.
+
+</details>
+
+<details>
+<summary>4. Does the String Pool have to be treated as a separate memory region from the heap?</summary>
+<br>
+
+No. Modern JVMs manage interned Strings in the heap; the important concept is canonical reuse through the String Pool.
+
+</details>
+
+<details>
+<summary>5. What is the difference between reference equality and content equality?</summary>
+<br>
+
+== checks reference identity for objects, while equals() checks String content.
+
+</details>
 ## 🔗 Related Notes
 
 - [String Literals & String Pool →](09-string-literals-and-string-pool.md)
