@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java Variables — Comparison & Quick Revision
 
 > **Topic 16 • 30-Second Revision**
@@ -162,3 +164,9 @@ Local    → directly within scope
 ⬅️ [Local Variables](./04-local-variables.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
