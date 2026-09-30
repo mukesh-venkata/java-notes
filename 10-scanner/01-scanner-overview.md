@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⌨️ Java Scanner — Overview
 
 > **Topic 17 • User Input**
@@ -108,3 +110,9 @@ A: Creates a Scanner that reads from the standard input stream.
 ➡️ [Quick Revision](./06-scanner-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
