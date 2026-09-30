@@ -75,20 +75,41 @@ If an object does not support the cloning mechanism expected by `Object.clone()`
 
 Also note that `Cloneable` is a marker interface: it declares no `clone()` method.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What kind of copy does Object.clone() perform?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What kind of copy does Object.clone() perform?</summary>
+<br>
+
 A shallow copy.
 
-### Q2. Does clone() automatically deep-copy referenced objects?
-No.
+</details>
 
-### Q3. What is Cloneable?
+<details>
+<summary>Q2. Does clone() automatically deep-copy referenced objects?</summary>
+<br>
+
+No. Referenced objects are not recursively cloned by the default Object.clone() behavior.
+
+</details>
+
+<details>
+<summary>Q3. What is Cloneable?</summary>
+<br>
+
 A marker interface used to indicate support for the Object cloning mechanism.
 
-### Q4. Can clone() throw an exception?
-Yes, `CloneNotSupportedException` can be thrown.
+</details>
 
+<details>
+<summary>Q4. Can clone() throw an exception?</summary>
+<br>
+
+Yes. CloneNotSupportedException can be thrown when the object's class does not support cloning through the mechanism.
+
+</details>
 ## 🔗 Related Notes
 
 - [Object Class Overview →](01-object-class-overview.md)
