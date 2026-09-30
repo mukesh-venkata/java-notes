@@ -59,13 +59,41 @@ String s = new String("Java");
 
 explicitly creates a new String object.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What are String constructors?
-2. Can String be created from a char array?
-3. Can String be created from a byte array?
-4. Why should an explicit charset be used when decoding bytes?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What are String constructors?</summary>
+<br>
+
+Constructors of String that create String objects from sources such as another String, a character array, or a byte array.
+
+</details>
+
+<details>
+<summary>2. Can String be created from a char array?</summary>
+<br>
+
+Yes. For example, new String(charArray).
+
+</details>
+
+<details>
+<summary>3. Can String be created from a byte array?</summary>
+<br>
+
+Yes. The bytes are decoded using a charset.
+
+</details>
+
+<details>
+<summary>4. Why should an explicit charset be used when decoding bytes?</summary>
+<br>
+
+To make the byte-to-text conversion predictable and independent of the platform's default charset.
+
+</details>
 ## 🔗 Related Notes
 
 - [String Constructor from String →](16-string-constructor-from-string.md)
