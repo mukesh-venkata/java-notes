@@ -28,16 +28,17 @@
 | 06 | [🟢 Looping Statements](#-06--looping-statements--complete) | ✅ Done | for, while, do-while & enhanced for |
 | 07 | [🔵 Branching Statements](#-07--branching-statements--complete) | ✅ Done | break, continue & return |
 | 08 | [🟠 OOP](#-08--oops--in-progress) | 🚧 In Progress | OOP foundations → Basic → Advanced |
-| 09 | [🟡 Exception Handling](#-09--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 10 | [🔷 Collections](#-10--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 11 | [🟢 Generics](#-11--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 12 | [🔵 Java 8](#-12--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 13 | [🔴 Stream API](#-13--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 14 | [🔴 Multithreading](#-14--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 15 | [🟠 I/O & NIO](#-15--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 16 | [🟣 JDBC](#-16--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 17 | [⚙️ JVM & Internals](#-17--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 18 | [🚀 Modern Java](#-18--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 09 | [🟢 Variables](#-09--variables--complete) | ✅ Done | Static, instance & local variables |
+| 10 | [🟡 Exception Handling](#-10--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 11 | [🔷 Collections](#-11--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 12 | [🟢 Generics](#-12--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 13 | [🔵 Java 8](#-13--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 14 | [🔴 Stream API](#-14--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 15 | [🔴 Multithreading](#-15--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 16 | [🟠 I/O & NIO](#-16--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 17 | [🟣 JDBC](#-17--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 18 | [⚙️ JVM & Internals](#-18--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 19 | [🚀 Modern Java](#-19--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -52,9 +53,9 @@
 06 Looping           ████████████████████ 100% ✅
 07 Branching         ████████████████████ 100% ✅
 08 OOP              ███░░░░░░░░░░░░░░░░░  20% 🚧
-09 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-10 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-11 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+09 Variables        ████████████████████ 100% ✅
+10 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+11 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 ~~~
 
 ---
@@ -201,6 +202,24 @@
 | 05 | [OOP Quick Revision](08-oops/01-oops-introduction/05-oops-quick-revision.md) | ✅ |
 
 **[📖 Open OOP Introduction →](08-oops/01-oops-introduction/)**
+
+## 🟢 09 — Variables — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Variables Overview](09-variables/01-variables-overview.md) | ✅ |
+| 02 | [Class / Static Variables](09-variables/02-class-static-variables.md) | ✅ |
+| 03 | [Instance Variables](09-variables/03-instance-variables.md) | ✅ |
+| 04 | [Local Variables](09-variables/04-local-variables.md) | ✅ |
+| 05 | [Variables Comparison & Quick Revision](09-variables/05-variables-comparison-quick-revision.md) | ✅ |
+
+**[📖 Open Variables →](09-variables/)**
+
+> 🎉 **Variables complete!** OOP remains **IN PROGRESS** and will continue growing from Basic → Intermediate → Advanced.
+
+---
 
 ### 🌱 OOP Growth Plan
 
