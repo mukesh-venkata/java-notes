@@ -564,6 +564,7 @@ Each major concept will grow progressively:
 | 18 | [String Constructor from byte[]](19-string/18-string-constructor-from-byte-array.md) | ✅ |
 | 19 | [String Constructors Quick Revision](19-string/19-string-constructors-quick-revision.md) | ✅ |
 | 20 | [Overridden Methods in String](19-string/20-overridden-methods-in-string.md) | ✅ |
+| 21 | [Interfaces Implemented by String](19-string/21-interfaces-implemented-by-string.md) | ✅ |
 
 
 
