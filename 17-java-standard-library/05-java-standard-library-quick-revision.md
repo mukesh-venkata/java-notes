@@ -43,17 +43,73 @@ length()
 > **time → date/time**  
 > **net → networking**
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What is the Java Standard Library?
-2. Which package is automatically imported? **java.lang**
-3. Where is String located? **java.lang.String**
-4. What does String.length() return? **Number of characters**
-5. Where is ArrayList located? **java.util**
-6. Where is LocalDate located? **java.time**
-7. Is java.io automatically imported? **No**
-8. What is the difference between String.length() and array.length? **String uses a method; arrays use a field.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What is the Java Standard Library?</summary>
+<br>
+
+A collection of predefined Java APIs supplied for common programming tasks.
+
+</details>
+
+<details>
+<summary>2. Which package is automatically imported?</summary>
+<br>
+
+java.lang.
+
+</details>
+
+<details>
+<summary>3. Where is String located?</summary>
+<br>
+
+java.lang.String.
+
+</details>
+
+<details>
+<summary>4. What does String.length() return?</summary>
+<br>
+
+The number of UTF-16 code units in the String.
+
+</details>
+
+<details>
+<summary>5. Where is ArrayList located?</summary>
+<br>
+
+java.util.
+
+</details>
+
+<details>
+<summary>6. Where is LocalDate located?</summary>
+<br>
+
+java.time.
+
+</details>
+
+<details>
+<summary>7. Is java.io automatically imported?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>8. What is the difference between String.length() and array.length?</summary>
+<br>
+
+String uses the length() method; arrays use the length field.
+
+</details>
 ## 🔗 Related Notes
 
 - [Library Overview →](01-java-standard-library-overview.md)
