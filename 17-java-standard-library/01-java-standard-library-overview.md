@@ -76,17 +76,33 @@ In Java, the Java API is the documented collection of packages and types provide
 
 > **Remember:** A package organizes related types; a class or interface provides a particular type; methods provide operations.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What is the Java Standard Library?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is the Java Standard Library?</summary>
+<br>
+
 A collection of predefined APIs supplied with Java for common programming tasks.
 
-### Q2. Why is it useful?
+</details>
+
+<details>
+<summary>Q2. Why is it useful?</summary>
+<br>
+
 It provides reusable functionality and avoids reinventing common operations.
 
-### Q3. What is the relationship between package, class, and method?
-A package organizes types, a class provides a type, and methods define operations.
+</details>
 
+<details>
+<summary>Q3. What is the relationship between package, class, and method?</summary>
+<br>
+
+A package organizes types, a class or interface provides a type, and methods provide operations or behavior.
+
+</details>
 ## 🔗 Related Notes
 
 - [java.lang & Automatic Import →](02-java-lang-and-automatic-import.md)
