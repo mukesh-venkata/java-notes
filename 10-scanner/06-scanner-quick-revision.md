@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java Scanner — Quick Revision
 
 > **Topic 17 • 30-Second Revision**
@@ -107,3 +109,9 @@ String name = sc.nextLine();
 ⬅️ [nextInt() + nextLine()](./05-nextint-nextline-problem.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
