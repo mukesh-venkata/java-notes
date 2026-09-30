@@ -84,3 +84,18 @@ Build a searchable, continuously improving Java knowledge base that connects **c
 ---
 
 > 📌 Notes are continuously updated as new topics are learned and refined.
+
+
+## 🔵 02 — Data Types
+
+### Current Topics
+
+| # | Topic | Quick Purpose |
+|---:|---|---|
+| 01 | [Data Types Overview](02-data-types/01-data-types-overview.md) | Primitive vs Reference |
+| 02 | [Primitive Data Types](02-data-types/02-primitive-data-types.md) | All 8 primitive types |
+| 03 | [Reference Data Types](02-data-types/03-reference-data-types.md) | String, Array, Interface, Class |
+| 04 | [Quick Revision](02-data-types/04-data-types-quick-revision.md) | Fast revision + interview points |
+
+---
+
