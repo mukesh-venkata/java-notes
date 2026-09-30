@@ -56,16 +56,65 @@ Use when a mutable character sequence is needed and synchronization is not requi
 
 “StringBuilder is faster” is context-dependent. The usual distinction is that StringBuilder avoids the synchronization overhead present in StringBuffer, making it generally preferable for ordinary single-threaded use.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Is String immutable?
-2. Is StringBuffer mutable?
-3. Is StringBuilder mutable?
-4. Which one is synchronized?
-5. Why is StringBuilder commonly preferred in single-threaded code?
-6. What is the difference between immutability and synchronization?
-7. What happens when a String is modified?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. Is String immutable?</summary>
+<br>
+
+Yes. String objects are immutable.
+
+</details>
+
+<details>
+<summary>2. Is StringBuffer mutable?</summary>
+<br>
+
+Yes.
+
+</details>
+
+<details>
+<summary>3. Is StringBuilder mutable?</summary>
+<br>
+
+Yes.
+
+</details>
+
+<details>
+<summary>4. Which one is synchronized?</summary>
+<br>
+
+StringBuffer is synchronized; StringBuilder is not.
+
+</details>
+
+<details>
+<summary>5. Why is StringBuilder commonly preferred in single-threaded code?</summary>
+<br>
+
+It provides mutable operations without the synchronization overhead of StringBuffer.
+
+</details>
+
+<details>
+<summary>6. What is the difference between immutability and synchronization?</summary>
+<br>
+
+Immutability means an object cannot change after creation; synchronization coordinates access between threads. They solve different problems.
+
+</details>
+
+<details>
+<summary>7. What happens when a String is modified?</summary>
+<br>
+
+A new String is created or returned; the original String object remains unchanged.
+
+</details>
 ## 🔗 Related Notes
 
 - [String Overview →](01-string-overview.md)
