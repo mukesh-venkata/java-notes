@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧩 Types of Constructors in Java
 
 > **Topic 21 • Constructors**
@@ -255,3 +257,9 @@ A constructor that accepts one or more parameters.
 ➡️ [Constructor Overloading](./03-constructor-overloading.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
