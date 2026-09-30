@@ -62,21 +62,49 @@ class Student {
 }
 ~~~
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**What is `this`?** Current object reference in an instance context.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Why use `this.name = name`?** To distinguish the instance field from the parameter.
+<details>
+<summary>What is `this`?</summary>
+<br>
 
-**What does `this()` do?** Calls another constructor in the same class.
+Current object reference in an instance context.
 
-**What does `this.show()` do?** Calls `show()` on the current object.
+</details>
 
-**What does `return this` do?** Returns the current object reference.
+<details>
+<summary>Why use `this.name = name`?</summary>
+<br>
 
-🏠 [Java Notes Home](../../README.md)
+To distinguish the instance field from the parameter.
 
----
+</details>
+
+<details>
+<summary>What does `this()` do?</summary>
+<br>
+
+Calls another constructor in the same class.
+
+</details>
+
+<details>
+<summary>What does `this.show()` do?</summary>
+<br>
+
+Calls `show()` on the current object.
+
+</details>
+
+<details>
+<summary>What does `return this` do?</summary>
+<br>
+
+Returns the current object reference.
+
+</details>
 
 ## 🧭 Navigation
 
