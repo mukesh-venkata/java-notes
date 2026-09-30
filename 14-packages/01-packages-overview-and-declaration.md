@@ -133,22 +133,41 @@ Here:
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What is a package in Java?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is a package in Java?</summary>
+<br>
+
 A namespace used to group related Java types and organize applications.
 
-### Q2. How many package declarations can a source file contain?
-Only **one** package declaration.
+</details>
 
-### Q3. Where is the package declaration placed?
+<details>
+<summary>Q2. How many package declarations can a source file contain?</summary>
+<br>
+
+Only one package declaration.
+
+</details>
+
+<details>
+<summary>Q3. Where is the package declaration placed?</summary>
+<br>
+
 At the beginning of the source file, after permitted comments and package annotations.
 
-### Q4. What is the difference between package and import?
-`package` declares the current package; `import` allows types from another package to be referred to by simple name.
+</details>
 
----
+<details>
+<summary>Q4. What is the difference between package and import?</summary>
+<br>
 
+package declares the current package; import allows types from another package to be referred to by simple name.
+
+</details>
 ## ⚡ Quick Revision
 
 `text
