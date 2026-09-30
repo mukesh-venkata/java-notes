@@ -277,18 +277,79 @@ FINAL   → reference fixed, elements mutable
 
 > **`Arrays` provides ready-made utilities for common array operations.**
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What is `java.util.Arrays`?
-2. What is the difference between `Arrays.toString()` and `Arrays.deepToString()`?
-3. Does `Arrays.sort()` modify the original array?
-4. What condition should be satisfied before using `Arrays.binarySearch()`?
-5. What does `binarySearch()` return when an element is not found?
-6. What is the difference between `array.equals()` and `Arrays.equals()`?
-7. When should `Arrays.deepEquals()` be used?
-8. What does `Arrays.fill()` do?
-9. What happens when `Arrays.copyOf()` creates a larger array?
-10. Does `final int[] a` make the array elements immutable?
+> **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>1. What is <code>java.util.Arrays</code>?</summary>
+
+`java.util.Arrays` is a `final` utility class in the `java.util` package that provides static methods for performing common operations on arrays.
+
+</details>
+
+<details>
+<summary>2. What is the difference between <code>Arrays.toString()</code> and <code>Arrays.deepToString()</code>?</summary>
+
+`Arrays.toString()` is used for one-dimensional arrays, while `Arrays.deepToString()` is designed for multidimensional or nested arrays.
+
+</details>
+
+<details>
+<summary>3. Does <code>Arrays.sort()</code> modify the original array?</summary>
+
+Yes. `Arrays.sort()` sorts the supplied array in place, so the original array is modified.
+
+</details>
+
+<details>
+<summary>4. What condition should be satisfied before using <code>Arrays.binarySearch()</code>?</summary>
+
+The array must be sorted according to the ordering used by the search. Otherwise, the result is not reliable.
+
+</details>
+
+<details>
+<summary>5. What does <code>binarySearch()</code> return when an element is not found?</summary>
+
+It returns a negative value. For the standard sorted-array overload, the result is `-(insertion point) - 1`.
+
+</details>
+
+<details>
+<summary>6. What is the difference between <code>array.equals()</code> and <code>Arrays.equals()</code>?</summary>
+
+An array inherits `equals()` from `Object`, so `array.equals(other)` compares references. `Arrays.equals()` compares corresponding elements of one-dimensional arrays.
+
+</details>
+
+<details>
+<summary>7. When should <code>Arrays.deepEquals()</code> be used?</summary>
+
+Use `Arrays.deepEquals()` when you need content-based comparison of multidimensional or nested arrays.
+
+</details>
+
+<details>
+<summary>8. What does <code>Arrays.fill()</code> do?</summary>
+
+It assigns the specified value to the elements of an array. Range-based overloads can fill only a selected portion.
+
+</details>
+
+<details>
+<summary>9. What happens when <code>Arrays.copyOf()</code> creates a larger array?</summary>
+
+A new array is created. Existing elements are copied, and the additional positions receive the default value of the array's component type.
+
+</details>
+
+<details>
+<summary>10. Does <code>final int[] a</code> make the array elements immutable?</summary>
+
+No. `final` prevents the array reference from being reassigned, but the elements of the referenced array can still be changed.
+
+</details>
 
 ## 🔗 Related Notes
 
