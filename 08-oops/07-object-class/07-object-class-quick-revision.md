@@ -82,19 +82,89 @@ N → notify    → Wake one
 N → notifyAll → Wake all
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What is the root class of the Java class hierarchy?
-2. What is the difference between `==` and `equals()`?
-3. Why should `equals()` and `hashCode()` usually be overridden together?
-4. What does `getClass()` return?
-5. What kind of copy does `clone()` create?
-6. What is `Cloneable`?
-7. Why should `finalize()` not be used?
-8. What is the difference between `wait()` and `Thread.sleep()`?
-9. Why do `wait()`, `notify()`, and `notifyAll()` require monitor ownership?
-10. What is the difference between `notify()` and `notifyAll()`?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What is the root class of the Java class hierarchy?</summary>
+<br>
+
+java.lang.Object for Java classes.
+
+</details>
+
+<details>
+<summary>2. What is the difference between == and equals()?</summary>
+<br>
+
+== compares primitive values or object references depending on the operands; equals() is a method used for logical equality when a class overrides it.
+
+</details>
+
+<details>
+<summary>3. Why should equals() and hashCode() usually be overridden together?</summary>
+<br>
+
+Because equal objects must have equal hash codes for hash-based collections to behave correctly.
+
+</details>
+
+<details>
+<summary>4. What does getClass() return?</summary>
+<br>
+
+A Class<?> object representing the runtime class of the object.
+
+</details>
+
+<details>
+<summary>5. What kind of copy does clone() create?</summary>
+<br>
+
+Object.clone() provides a shallow copy by default.
+
+</details>
+
+<details>
+<summary>6. What is Cloneable?</summary>
+<br>
+
+A marker interface indicating support for the Object cloning mechanism.
+
+</details>
+
+<details>
+<summary>7. Why should finalize() not be used?</summary>
+<br>
+
+Finalization is deprecated for removal and is not a reliable deterministic resource-cleanup mechanism.
+
+</details>
+
+<details>
+<summary>8. What is the difference between wait() and Thread.sleep()?</summary>
+<br>
+
+wait() releases the object's monitor while waiting and is used for monitor-based coordination; Thread.sleep() pauses the current thread without releasing monitors it owns.
+
+</details>
+
+<details>
+<summary>9. Why do wait(), notify(), and notifyAll() require monitor ownership?</summary>
+<br>
+
+They coordinate through an object's monitor, so the calling thread must own that monitor.
+
+</details>
+
+<details>
+<summary>10. What is the difference between notify() and notifyAll()?</summary>
+<br>
+
+notify() wakes one waiting thread, while notifyAll() wakes all threads waiting on that object's monitor; awakened threads still must reacquire the monitor.
+
+</details>
 ## 🔗 Related Notes
 
 - [Object Class Overview →](01-object-class-overview.md)
