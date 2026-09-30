@@ -210,27 +210,41 @@ One Dog object
 
 **FIRST STATEMENT → IMPORTANT**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What does `super()` do?**  
-It invokes an applicable constructor of the immediate parent.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. Must `super()` be first?**  
-Yes, when explicitly used as a constructor invocation.
+<details>
+<summary>Q1. What does <code>super()</code> do?</summary>
+<br>
 
-**Q3. What happens if the parent has no accessible no-argument constructor?**  
-The child must explicitly invoke an applicable parent constructor.
+It invokes an applicable constructor of the immediate parent class.
 
-**Q4. Are parent constructors inherited?**  
-No.
+</details>
 
-➡️ [`super` Basics](./01-super-keyword-basics.md)
-➡️ [`super` Method & Field](./03-super-method-and-field.md)
+<details>
+<summary>Q2. Must <code>super()</code> be first?</summary>
+<br>
 
-🏠 [Java Notes Home](../../README.md)
+Yes, when explicitly used as a constructor invocation, it must be the first statement in the constructor.
 
----
+</details>
 
+<details>
+<summary>Q3. What happens if the parent has no accessible no-argument constructor?</summary>
+<br>
+
+The child must explicitly invoke an accessible parent constructor with matching arguments.
+
+</details>
+
+<details>
+<summary>Q4. Are parent constructors inherited?</summary>
+<br>
+
+No. Constructors are not inherited.
+
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
