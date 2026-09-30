@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔀 Java Relational, Logical & Ternary Operators
 
 > **Topic 11 • Java Fundamentals**
@@ -141,3 +143,9 @@ A: The conditional operator `?:`, which selects one of two expressions based on 
 ➡️ [Bitwise Operators](./05-bitwise-operators.md)
 
 ➡️ [Quick Revision](./07-operators-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
