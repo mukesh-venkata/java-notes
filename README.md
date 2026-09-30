@@ -30,16 +30,17 @@
 | 08 | [🟠 OOP](#-08--oops--in-progress) | 🚧 In Progress | OOP foundations → Basic → Advanced |
 | 09 | [🟢 Variables](#-09--variables--complete) | ✅ Done | Static, instance & local variables |
 | 10 | [🔵 Scanner](#-10--scanner--complete) | ✅ Done | User input & Scanner methods |
-| 11 | [🟡 Exception Handling](#-11--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 12 | [🔷 Collections](#-12--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 13 | [🟢 Generics](#-13--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 14 | [🔵 Java 8](#-14--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 15 | [🔴 Stream API](#-15--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 16 | [🔴 Multithreading](#-16--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 17 | [🟠 I/O & NIO](#-17--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 18 | [🟣 JDBC](#-18--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 19 | [⚙️ JVM & Internals](#-19--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 20 | [🚀 Modern Java](#-20--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 11 | [🟣 Methods](#-11--methods--complete) | ✅ Done | Methods, overloading, overriding & recursion |
+| 12 | [🟡 Exception Handling](#-12--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 13 | [🔷 Collections](#-13--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 14 | [🟢 Generics](#-14--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 15 | [🔵 Java 8](#-15--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 16 | [🔴 Stream API](#-16--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 17 | [🔴 Multithreading](#-17--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 18 | [🟠 I/O & NIO](#-18--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 19 | [🟣 JDBC](#-19--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 20 | [⚙️ JVM & Internals](#-20--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 21 | [🚀 Modern Java](#-21--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -56,8 +57,9 @@
 08 OOP              ███░░░░░░░░░░░░░░░░░  20% 🚧
 09 Variables        ████████████████████ 100% ✅
 10 Scanner          ████████████████████ 100% ✅
-11 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-12 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+11 Methods          ████████████████████ 100% ✅
+12 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+13 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 ~~~
 
 ---
@@ -238,7 +240,32 @@
 
 **[📖 Open Scanner →](10-scanner/)**
 
-> 🎉 **Scanner complete!** The next section is **Exception Handling**.
+> 🎉 **Scanner complete!** The next section is **Methods**.
+
+---
+
+## 🟣 11 — Methods — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Methods Overview](11-methods/01-methods-overview.md) | ✅ |
+| 02 | [Method Declaration & Definition](11-methods/02-method-declaration-and-definition.md) | ✅ |
+| 03 | [Method Signature](11-methods/03-method-signature.md) | ✅ |
+| 04 | [Static & Instance Methods](11-methods/04-static-and-instance-methods.md) | ✅ |
+| 05 | [Method Binding](11-methods/05-method-binding.md) | ✅ |
+| 06 | [Method Overloading](11-methods/06-method-overloading.md) | ✅ |
+| 07 | [Method Overriding](11-methods/07-method-overriding.md) | ✅ |
+| 08 | [Overriding vs Overloading](11-methods/08-overriding-vs-overloading.md) | ✅ |
+| 09 | [Access & Overriding Rules](11-methods/09-method-access-and-overriding-rules.md) | ✅ |
+| 10 | [Recursion](11-methods/10-recursion.md) | ✅ |
+| 11 | [Method Hiding](11-methods/11-method-hiding.md) | ✅ |
+| 12 | [Methods Quick Revision](11-methods/12-methods-quick-revision.md) | ✅ |
+
+**[📖 Open Methods →](11-methods/)**
+
+> 🎉 **Methods complete!** The next section is **Exception Handling**.
 
 ---
 
