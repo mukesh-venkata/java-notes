@@ -274,6 +274,20 @@
 **[📖 Open `final` Keyword →](08-oops/06-final-keyword/)**
 
 
+### 📦 Packages
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Packages Overview & Declaration](08-oops/07-packages/01-packages-overview-and-declaration.md) | ✅ |
+| 02 | [java.lang Package](08-oops/07-packages/02-java-lang-package.md) | ✅ |
+| 03 | [Import Statement & Wildcard](08-oops/07-packages/03-import-statement-and-wildcard.md) | ✅ |
+| 04 | [Package Naming & Structure](08-oops/07-packages/04-package-naming-and-structure.md) | ✅ |
+| 05 | [Packages Quick Revision](08-oops/07-packages/05-packages-quick-revision.md) | ✅ |
+
+**[📖 Open Packages →](08-oops/07-packages/)**
+
+
+
 ## 🟢 09 — Variables — COMPLETE
 
 ### 📚 Topics
