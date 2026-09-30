@@ -24,6 +24,13 @@
 ```text
 java-notes/
 ├── 01-fundamentals/
+│   ├── 01-java-history.md
+│   ├── 02-java-editions.md
+│   ├── 03-java-execution-flow.md
+│   ├── 04-jdk-jre-jvm.md
+│   ├── 05-jvm.md
+│   ├── 06-java-features.md
+│   └── 07-java-fundamentals-quick-revision.md
 ├── 02-oops/
 ├── 03-exception-handling/
 ├── 04-collections/
@@ -36,6 +43,18 @@ java-notes/
 ├── 11-jvm/
 └── 12-modern-java/
 ```
+
+## 📝 Fundamentals — Current Topics
+
+1. [Java History](01-fundamentals/01-java-history.md)
+2. [Java Editions](01-fundamentals/02-java-editions.md)
+3. [Java Execution Flow](01-fundamentals/03-java-execution-flow.md)
+4. [JDK → JRE → JVM](01-fundamentals/04-jdk-jre-jvm.md)
+5. [JVM](01-fundamentals/05-jvm.md)
+6. [Features of Java](01-fundamentals/06-java-features.md)
+7. [Java Fundamentals — Quick Revision](01-fundamentals/07-java-fundamentals-quick-revision.md)
+
+> **Note:** One source image can contain multiple concepts. Topics are split into separate files whenever that makes the notes easier to read, search, revise, and maintain.
 
 ## ✨ What Each Topic Contains
 
