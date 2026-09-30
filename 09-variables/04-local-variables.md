@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 📍 Java Local Variables
 
 > **Topic 16 • Variables**
@@ -122,3 +124,9 @@ A: Within its applicable lexical scope.
 ➡️ [Comparison & Quick Revision](./05-variables-comparison-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
