@@ -1,4 +1,13 @@
 # 02. Java Editions
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-Java_Editions-2DD4BF?style=for-the-badge)
+
+</div>
+
+---
+
 
 Java is available in different editions for different application needs.
 
@@ -25,3 +34,10 @@ Java is available in different editions for different application needs.
 **Q: What are the main Java editions?**
 
 **A:** Java SE for core Java, Java EE (now Jakarta EE) for enterprise applications, and Java ME for mobile/embedded environments.
+
+
+---
+
+## 🧭 Navigation
+
+⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
