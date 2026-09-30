@@ -31,16 +31,17 @@
 | 09 | [🟢 Variables](#-09--variables--complete) | ✅ Done | Static, instance & local variables |
 | 10 | [🔵 Scanner](#-10--scanner--complete) | ✅ Done | User input & Scanner methods |
 | 11 | [🟣 Methods](#-11--methods--complete) | ✅ Done | Methods, overloading, overriding & recursion |
-| 12 | [🟡 Exception Handling](#-12--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 13 | [🔷 Collections](#-13--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 14 | [🟢 Generics](#-14--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 15 | [🔵 Java 8](#-15--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 16 | [🔴 Stream API](#-16--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 17 | [🔴 Multithreading](#-17--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 18 | [🟠 I/O & NIO](#-18--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 19 | [🟣 JDBC](#-19--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 20 | [⚙️ JVM & Internals](#-20--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 21 | [🚀 Modern Java](#-21--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 12 | [🔵 Method Execution](#-12--method-execution--complete) | ✅ Done | Stack frames, Java Stack & call flow |
+| 13 | [🟡 Exception Handling](#-13--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 14 | [🔷 Collections](#-14--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 15 | [🟢 Generics](#-15--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 16 | [🔵 Java 8](#-16--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 17 | [🔴 Stream API](#-17--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 18 | [🔴 Multithreading](#-18--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 19 | [🟠 I/O & NIO](#-19--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 20 | [🟣 JDBC](#-20--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 21 | [⚙️ JVM & Internals](#-21--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 22 | [🚀 Modern Java](#-22--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -58,8 +59,9 @@
 09 Variables        ████████████████████ 100% ✅
 10 Scanner          ████████████████████ 100% ✅
 11 Methods          ████████████████████ 100% ✅
-12 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-13 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+12 Method Execution ████████████████████ 100% ✅
+13 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+14 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 ~~~
 
 ---
@@ -265,7 +267,25 @@
 
 **[📖 Open Methods →](11-methods/)**
 
-> 🎉 **Methods complete!** The next section is **Exception Handling**.
+> 🎉 **Methods complete!** The next section is **Method Execution**.
+
+---
+
+## 🔵 12 — Method Execution — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Method Call & Stack Frame](12-method-execution/01-method-call-and-stack-frame.md) | ✅ |
+| 02 | [Stack Frame](12-method-execution/02-stack-frame.md) | ✅ |
+| 03 | [Method Execution Flow](12-method-execution/03-method-execution-flow.md) | ✅ |
+| 04 | [Java Stack & Call Stack](12-method-execution/04-java-stack-and-call-stack.md) | ✅ |
+| 05 | [Method Execution Quick Revision](12-method-execution/05-method-execution-quick-revision.md) | ✅ |
+
+**[📖 Open Method Execution →](12-method-execution/)**
+
+> 🎉 **Method Execution complete!** The next section is **Exception Handling**.
 
 ---
 
