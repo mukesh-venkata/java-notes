@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 05. JVM — Java Virtual Machine
 <div align="center">
 
@@ -109,10 +111,8 @@ Native Libraries
 
 **Class Loader → Runtime Data Areas → Execution Engine → JNI → Native Libraries**
 
-
-
 ---
 
 ## 🧭 Navigation
 
-⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
