@@ -195,21 +195,89 @@ SAVE / SEND → Serializable
 
 ---
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Which interfaces does `String` implement?
-2. Why does `String` implement `CharSequence`?
-3. What are the important methods in `CharSequence`?
-4. What does `String.compareTo()` do?
-5. What do negative, zero, and positive values from `compareTo()` mean?
-6. Why should you not depend on the exact negative or positive value returned by `compareTo()`?
-7. Why does `String` implement `Serializable`?
-8. What is a marker interface?
-9. Can a String be assigned to a `CharSequence` reference?
-10. How does `Comparable<String>` help when Strings are sorted?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
----
+<details>
+<summary>1. Which interfaces does String implement?</summary>
+<br>
 
+CharSequence, Comparable<String>, and Serializable.
+
+</details>
+
+<details>
+<summary>2. Why does String implement CharSequence?</summary>
+<br>
+
+To provide the standard CharSequence abstraction for working with a sequence of characters.
+
+</details>
+
+<details>
+<summary>3. What are the important methods in CharSequence?</summary>
+<br>
+
+charAt(), length(), subSequence(), and toString().
+
+</details>
+
+<details>
+<summary>4. What does String.compareTo() do?</summary>
+<br>
+
+It performs a lexicographical comparison and returns a negative, zero, or positive integer according to natural ordering.
+
+</details>
+
+<details>
+<summary>5. What do negative, zero, and positive values from compareTo() mean?</summary>
+<br>
+
+Negative means the first String comes before the second; zero means equal in natural ordering; positive means the first comes after the second.
+
+</details>
+
+<details>
+<summary>6. Why should you not depend on the exact negative or positive value returned by compareTo()?</summary>
+<br>
+
+The contract specifies the sign and ordering relationship, not one particular numeric value for all comparisons.
+
+</details>
+
+<details>
+<summary>7. Why does String implement Serializable?</summary>
+<br>
+
+So String objects can participate in Java serialization.
+
+</details>
+
+<details>
+<summary>8. What is a marker interface?</summary>
+<br>
+
+An interface used to mark a class as having a particular capability or property without requiring implementation of interface methods.
+
+</details>
+
+<details>
+<summary>9. Can a String be assigned to a CharSequence reference?</summary>
+<br>
+
+Yes. String implements CharSequence.
+
+</details>
+
+<details>
+<summary>10. How does Comparable<String> help when Strings are sorted?</summary>
+<br>
+
+It provides String's natural ordering through compareTo(), which sorting APIs can use.
+
+</details>
 ## ⚡ Quick Revision
 
 | Interface | String's Role | Remember |
