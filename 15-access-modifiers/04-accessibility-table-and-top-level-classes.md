@@ -45,14 +45,49 @@ protected class Employee { }  // ❌
 
 `private` and `protected` can be used for nested classes, but not ordinary top-level classes.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-- Broadest access? **public**
-- Most restrictive? **private**
-- Can a top-level class be private? **No.**
-- Can a top-level class be protected? **No.**
-- What is the access level when no modifier is written? **Package-private.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>What is the broadest access level?</summary>
+<br>
+
+public.
+
+</details>
+
+<details>
+<summary>What is the most restrictive access level?</summary>
+<br>
+
+private.
+
+</details>
+
+<details>
+<summary>Can a top-level class be private?</summary>
+<br>
+
+No. A top-level class can be public or package-private, but not private.
+
+</details>
+
+<details>
+<summary>Can a top-level class be protected?</summary>
+<br>
+
+No. protected is not allowed for ordinary top-level classes.
+
+</details>
+
+<details>
+<summary>What is the access level when no modifier is written?</summary>
+<br>
+
+Package-private access.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-access-modifiers-overview.md)
