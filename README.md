@@ -23,17 +23,18 @@
 | 01 | [🟢 Fundamentals](#-01--fundamentals--complete) | ✅ Done | Java basics & JVM foundation |
 | 02 | [🔵 Data Types](#-02--data-types--complete) | ✅ Done | Primitive & reference types |
 | 03 | [🟣 Identifiers](#-03--identifiers--complete) | ✅ Done | Identifier rules & naming conventions |
-| 04 | [🟠 OOP](#-04--oops--upcoming) | ⏳ Upcoming | Classes, objects & OOP principles |
-| 05 | [🟡 Exception Handling](#-05--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 06 | [🔷 Collections](#-06--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 07 | [🟢 Generics](#-07--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 08 | [🔵 Java 8](#-08--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 09 | [🔴 Stream API](#-09--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 10 | [🟠 Multithreading](#-10--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 11 | [🟠 I/O & NIO](#-11--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 12 | [🟣 JDBC](#-12--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 13 | [⚙️ JVM & Internals](#-13--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 14 | [🚀 Modern Java](#-14--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 04 | [🟢 Operators](#-04--operators--complete) | ✅ Done | Arithmetic, logical, bitwise & more |
+| 05 | [🟠 OOP](#-05--oops--upcoming) | ⏳ Upcoming | Classes, objects & OOP principles |
+| 06 | [🟡 Exception Handling](#-06--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 07 | [🔷 Collections](#-07--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 08 | [🟢 Generics](#-08--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 09 | [🔵 Java 8](#-09--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 10 | [🔴 Stream API](#-10--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 11 | [🔴 Multithreading](#-11--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 12 | [🟠 I/O & NIO](#-12--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 13 | [🟣 JDBC](#-13--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 14 | [⚙️ JVM & Internals](#-14--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 15 | [🚀 Modern Java](#-15--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -43,10 +44,11 @@
 01 Fundamentals     ████████████████████ 100% ✅
 02 Data Types       ████████████████████ 100% ✅
 03 Identifiers      ████████████████████ 100% ✅
-04 OOP              ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-05 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-06 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-07 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+04 Operators        ████████████████████ 100% ✅
+05 OOP              ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+06 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+07 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+08 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 ~~~
 
 ---
@@ -98,71 +100,91 @@
 
 **[📖 Open Identifiers →](03-identifiers/)**
 
-> 🎉 **Identifiers complete!** The next section is **OOP**.
+> 🎉 **Identifiers complete!** The next section is **Operators**.
 
 ---
 
-## 🟠 04 — OOPs — UPCOMING
+## 🟢 04 — Operators — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Operators Overview](04-operators/01-operators-overview.md) | ✅ |
+| 02 | [Arithmetic & Assignment](04-operators/02-arithmetic-assignment.md) | ✅ |
+| 03 | [Increment, Decrement & Unary](04-operators/03-increment-decrement-unary.md) | ✅ |
+| 04 | [Relational, Logical & Ternary](04-operators/04-relational-logical-ternary.md) | ✅ |
+| 05 | [Bitwise & Shift Operators](04-operators/05-bitwise-operators.md) | ✅ |
+| 06 | [new & Dot Operators](04-operators/06-new-and-dot-operators.md) | ✅ |
+| 07 | [Operators Quick Revision](04-operators/07-operators-quick-revision.md) | ✅ |
+
+**[📖 Open Operators →](04-operators/)**
+
+> 🎉 **Operators complete!** The next section is **OOP**.
+
+---
+
+## 🟠 05 — OOPs — UPCOMING
 
 **Classes → Objects → Encapsulation → Inheritance → Polymorphism → Abstraction**
 
 ---
 
-## 🟡 05 — Exception Handling — UPCOMING
+## 🟡 06 — Exception Handling — UPCOMING
 
 **try-catch → finally → throw → throws → Custom Exceptions**
 
 ---
 
-## 🔷 06 — Collections — UPCOMING
+## 🔷 07 — Collections — UPCOMING
 
 **List → Set → Map → Queue → Iterators → Collection Internals**
 
 ---
 
-## 🟢 07 — Generics — UPCOMING
+## 🟢 08 — Generics — UPCOMING
 
 **Generic Classes → Generic Methods → Bounds → Wildcards → Type Safety**
 
 ---
 
-## 🔵 08 — Java 8 — UPCOMING
+## 🔵 09 — Java 8 — UPCOMING
 
 **Lambda → Functional Interfaces → Optional → Date/Time API**
 
 ---
 
-## 🔴 09 — Stream API — UPCOMING
+## 🔴 10 — Stream API — UPCOMING
 
 **Filter → Map → Sort → Reduce → Collect → Grouping**
 
 ---
 
-## 🔴 10 — Multithreading — UPCOMING
+## 🔴 11 — Multithreading — UPCOMING
 
 **Threads → Synchronization → Executors → Concurrency**
 
 ---
 
-## 🟠 11 — I/O & NIO — UPCOMING
+## 🟠 12 — I/O & NIO — UPCOMING
 
 **Files → Streams → Readers/Writers → NIO**
 
 ---
 
-## 🟣 12 — JDBC — UPCOMING
+## 🟣 13 — JDBC — UPCOMING
 
 **Connection → SQL → PreparedStatement → ResultSet → Transactions**
 
 ---
 
-## ⚙️ 13 — JVM & Internals — UPCOMING
+## ⚙️ 14 — JVM & Internals — UPCOMING
 
 **Class Loading → Memory → Execution Engine → JIT → GC**
 
 ---
 
-## 🚀 14 — Modern Java — UPCOMING
+## 🚀 15 — Modern Java — UPCOMING
 
 **Post-Java-8 Features → Modern APIs → Current Java Practices**
 
