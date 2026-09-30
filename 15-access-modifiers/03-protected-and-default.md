@@ -66,13 +66,41 @@ The word **default** describes the access level; it is not the access modifier u
 
 *Subject to protected inheritance/access rules.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-- Can protected be accessed in the same package? **Yes.**
-- Can a subclass in another package access it? **Yes, subject to the protected rules.**
-- Can an unrelated class in another package access it directly? **No.**
-- Is `default` the access-modifier keyword? **No.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>Can protected be accessed in the same package?</summary>
+<br>
+
+Yes. Protected members are accessible to classes in the same package.
+
+</details>
+
+<details>
+<summary>Can a subclass in another package access it?</summary>
+<br>
+
+Yes, subject to protected access rules; from another package, access is through inheritance and has additional restrictions.
+
+</details>
+
+<details>
+<summary>Can an unrelated class in another package access it directly?</summary>
+<br>
+
+No. An unrelated class in another package cannot directly access a protected member.
+
+</details>
+
+<details>
+<summary>Is <code>default</code> the access-modifier keyword?</summary>
+<br>
+
+No. The access level is commonly called package-private or default access; it is obtained by omitting an access modifier.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-access-modifiers-overview.md)
