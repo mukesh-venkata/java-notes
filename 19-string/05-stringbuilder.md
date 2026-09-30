@@ -41,11 +41,33 @@ Mutable + not synchronized
 Modification → same builder
 ~~~
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Is StringBuilder mutable? **Yes**
-2. Is StringBuilder synchronized? **No**
-3. Why is it commonly faster than StringBuffer? **It normally avoids synchronization overhead.**
+> **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Is StringBuilder mutable?</summary>
+<br>
+
+Yes
+
+</details>
+
+<details>
+<summary>Is StringBuilder synchronized?</summary>
+<br>
+
+No
+
+</details>
+
+<details>
+<summary>Why is it commonly faster than StringBuffer?</summary>
+<br>
+
+It normally avoids synchronization overhead.
+
+</details>
 
 ## 🔗 Related Notes
 
