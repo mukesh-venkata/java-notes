@@ -211,6 +211,18 @@
 
 **[📖 Open OOP Introduction →](08-oops/01-oops-introduction/)**
 
+### 🏗️ Constructors
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Constructor Basics](08-oops/02-constructors/01-constructor-basics.md) | ✅ |
+| 02 | [Constructor Types](08-oops/02-constructors/02-constructor-types.md) | ✅ |
+| 03 | [Constructor Overloading](08-oops/02-constructors/03-constructor-overloading.md) | ✅ |
+| 04 | [Constructor Chaining](08-oops/02-constructors/04-constructor-chaining.md) | ✅ |
+| 05 | [Constructors Quick Revision](08-oops/02-constructors/05-constructors-quick-revision.md) | ✅ |
+
+**[📖 Open Constructors →](08-oops/02-constructors/)**
+
 ## 🟢 09 — Variables — COMPLETE
 
 ### 📚 Topics
