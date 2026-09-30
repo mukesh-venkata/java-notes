@@ -1,21 +1,12 @@
-# 🟢 Java Instance Initialization Block
+# 🟢 Instance Initialization Block
 
 > **Topic 20 • Blocks**
 
-An **instance initialization block** is a block inside a class that does not use `static`.
+An **instance block** is a block without the static keyword.
 
-```java
-{
-    System.out.println("Instance Block");
-}
-```
-
-## 🔹 When Does It Run?
-
-It runs as part of **each object construction**, before the constructor body of that class.
-
-```java
+~~~java
 class Student {
+
     {
         System.out.println("Instance Block");
     }
@@ -24,61 +15,35 @@ class Student {
         System.out.println("Constructor");
     }
 }
-```
+~~~
 
-Conceptually:
+## When Does It Run?
 
-```text
+It runs during **object creation**, before the constructor body.
+
+~~~text
 new Student()
-    ↓
-Instance initialization
-    ↓
-Constructor body
-```
+      ↓
+Instance Block
+      ↓
+Constructor
+~~~
 
-## 🔹 Multiple Instance Blocks
+If two objects are created, the instance initialization runs for each object construction.
 
-Multiple instance initialization blocks execute in source order, interleaved with instance field initializers according to their textual order.
+Multiple instance blocks follow their source order together with instance field initializers.
 
-```java
-class Demo {
-    int x = 10;
+### 🧠 Easy Trick
 
-    {
-        System.out.println("Block 1");
-    }
+**Instance → Object → Every construction**
 
-    int y = 20;
+### 🎯 Interview
 
-    {
-        System.out.println("Block 2");
-    }
-}
-```
+**Does an instance block use static?**  
+No.
 
-## 🧠 Key Difference
+**Does it run before the constructor body?**  
+Yes.
 
-```text
-STATIC BLOCK
-→ class initialization
-
-INSTANCE BLOCK
-→ object construction
-```
-
-## 🎤 Interview Quick Check
-
-**Does an instance block use `static`?** No.
-
-**How often can it execute?** For each object construction.
-
-**Does it execute before the constructor body?** Yes.
-
-**Can there be multiple instance blocks?** Yes; their initialization actions follow source order.
-
-## 🔗 Navigation
-
-⬅️ [Blocks Overview](./01-blocks-overview.md)  
 ➡️ [Static Block](./02-static-block.md)  
-➡️ [Constructor & Initialization Order](./04-constructor-and-initialization-order.md)  
-➡️ [Quick Revision](./05-blocks-quick-revision.md)
+➡️ [Initialization Order](./04-constructor-and-initialization-order.md)
