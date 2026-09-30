@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ➕ Java Arithmetic & Assignment Operators
 
 > **Topic 11 • Java Fundamentals**
@@ -108,3 +110,9 @@ A: `a = a + 5`.
 ➡️ [Increment, Decrement & Unary](./03-increment-decrement-unary.md)
 
 ➡️ [Quick Revision](./07-operators-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
