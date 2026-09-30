@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔗 `super` & Constructor Chaining in Inheritance
 
 > **Topic 23 • Inheritance**
@@ -190,3 +192,9 @@ When the parent has no applicable no-argument constructor.
 ➡️ [Method Overriding](./05-inheritance-and-method-overriding.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
