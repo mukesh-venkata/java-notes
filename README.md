@@ -248,6 +248,17 @@
 
 **[📖 Open Inheritance →](08-oops/04-inheritance/)**
 
+### 🧬 `super` Keyword
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [`super` Keyword Basics](08-oops/05-super-keyword/01-super-keyword-basics.md) | ✅ |
+| 02 | [`super()` — Parent Constructor](08-oops/05-super-keyword/02-super-constructor.md) | ✅ |
+| 03 | [`super.method()` & `super.field`](08-oops/05-super-keyword/03-super-method-and-field.md) | ✅ |
+| 04 | [`super` Keyword Quick Revision](08-oops/05-super-keyword/04-super-keyword-quick-revision.md) | ✅ |
+
+**[📖 Open `super` Keyword →](08-oops/05-super-keyword/)**
+
 ## 🟢 09 — Variables — COMPLETE
 
 ### 📚 Topics
