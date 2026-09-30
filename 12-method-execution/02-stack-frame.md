@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧱 Java Stack Frame
 
 > **Topic 12 • Method Execution**
@@ -182,3 +184,9 @@ The frame is no longer active and is discarded.
 No. The JVM specification defines the conceptual behavior; implementations can optimize internal representation.
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
