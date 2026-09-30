@@ -25,17 +25,18 @@
 | 03 | [🟣 Identifiers](#-03--identifiers--complete) | ✅ Done | Identifier rules & naming conventions |
 | 04 | [🟢 Operators](#-04--operators--complete) | ✅ Done | Arithmetic, logical, bitwise & more |
 | 05 | [🔵 Conditional Statements](#-05--conditional-statements--complete) | ✅ Done | if, if-else, nested if & switch |
-| 06 | [🟠 OOP](#-06--oops--upcoming) | ⏳ Upcoming | Classes, objects & OOP principles |
-| 07 | [🟡 Exception Handling](#-07--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
-| 08 | [🔷 Collections](#-08--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
-| 09 | [🟢 Generics](#-09--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
-| 10 | [🔵 Java 8](#-10--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
-| 11 | [🔴 Stream API](#-11--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
-| 12 | [🔴 Multithreading](#-12--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
-| 13 | [🟠 I/O & NIO](#-13--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
-| 14 | [🟣 JDBC](#-14--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
-| 15 | [⚙️ JVM & Internals](#-15--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
-| 16 | [🚀 Modern Java](#-16--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+| 06 | [🟢 Looping Statements](#-06--looping-statements--complete) | ✅ Done | for, while, do-while & enhanced for |
+| 07 | [🟠 OOP](#-07--oops--upcoming) | ⏳ Upcoming | Classes, objects & OOP principles |
+| 08 | [🟡 Exception Handling](#-08--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 09 | [🔷 Collections](#-09--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 10 | [🟢 Generics](#-10--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 11 | [🔵 Java 8](#-11--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 12 | [🔴 Stream API](#-12--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 13 | [🔴 Multithreading](#-13--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 14 | [🟠 I/O & NIO](#-14--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 15 | [🟣 JDBC](#-15--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 16 | [⚙️ JVM & Internals](#-16--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 17 | [🚀 Modern Java](#-17--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
 
 ---
 
@@ -47,10 +48,11 @@
 03 Identifiers      ████████████████████ 100% ✅
 04 Operators        ████████████████████ 100% ✅
 05 Conditional      ████████████████████ 100% ✅
-06 OOP              ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-07 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-08 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
-09 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+06 Looping           ████████████████████ 100% ✅
+07 OOP              ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+08 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+09 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+10 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
 ~~~
 
 ---
@@ -142,71 +144,91 @@
 
 **[📖 Open Conditional Statements →](05-conditional-statements/)**
 
-> 🎉 **Conditional Statements complete!** The next section is **OOP**.
+> 🎉 **Conditional Statements complete!** The next section is **Looping Statements**.
 
 ---
 
-## 🟠 06 — OOPs — UPCOMING
+## 🟢 06 — Looping Statements — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Looping Statements Overview](06-looping-statements/01-looping-statements-overview.md) | ✅ |
+| 02 | [for Loop](06-looping-statements/02-for-loop.md) | ✅ |
+| 03 | [while Loop](06-looping-statements/03-while-loop.md) | ✅ |
+| 04 | [do-while Loop](06-looping-statements/04-do-while-loop.md) | ✅ |
+| 05 | [Enhanced for Loop](06-looping-statements/05-enhanced-for-loop.md) | ✅ |
+| 06 | [Nested Loops](06-looping-statements/06-nested-loops.md) | ✅ |
+| 07 | [Looping Statements Quick Revision](06-looping-statements/07-looping-statements-quick-revision.md) | ✅ |
+
+**[📖 Open Looping Statements →](06-looping-statements/)**
+
+> 🎉 **Looping Statements complete!** The next section is **OOP**.
+
+---
+
+## 🟠 07 — OOPs — UPCOMING
 
 **Classes → Objects → Encapsulation → Inheritance → Polymorphism → Abstraction**
 
 ---
 
-## 🟡 07 — Exception Handling — UPCOMING
+## 🟡 08 — Exception Handling — UPCOMING
 
 **try-catch → finally → throw → throws → Custom Exceptions**
 
 ---
 
-## 🔷 08 — Collections — UPCOMING
+## 🔷 09 — Collections — UPCOMING
 
 **List → Set → Map → Queue → Iterators → Collection Internals**
 
 ---
 
-## 🟢 09 — Generics — UPCOMING
+## 🟢 10 — Generics — UPCOMING
 
 **Generic Classes → Generic Methods → Bounds → Wildcards → Type Safety**
 
 ---
 
-## 🔵 10 — Java 8 — UPCOMING
+## 🔵 11 — Java 8 — UPCOMING
 
 **Lambda → Functional Interfaces → Optional → Date/Time API**
 
 ---
 
-## 🔴 11 — Stream API — UPCOMING
+## 🔴 12 — Stream API — UPCOMING
 
 **Filter → Map → Sort → Reduce → Collect → Grouping**
 
 ---
 
-## 🔴 12 — Multithreading — UPCOMING
+## 🔴 13 — Multithreading — UPCOMING
 
 **Threads → Synchronization → Executors → Concurrency**
 
 ---
 
-## 🟠 13 — I/O & NIO — UPCOMING
+## 🟠 14 — I/O & NIO — UPCOMING
 
 **Files → Streams → Readers/Writers → NIO**
 
 ---
 
-## 🟣 14 — JDBC — UPCOMING
+## 🟣 15 — JDBC — UPCOMING
 
 **Connection → SQL → PreparedStatement → ResultSet → Transactions**
 
 ---
 
-## ⚙️ 15 — JVM & Internals — UPCOMING
+## ⚙️ 16 — JVM & Internals — UPCOMING
 
 **Class Loading → Memory → Execution Engine → JIT → GC**
 
 ---
 
-## 🚀 16 — Modern Java — UPCOMING
+## 🚀 17 — Modern Java — UPCOMING
 
 **Post-Java-8 Features → Modern APIs → Current Java Practices**
 
