@@ -323,34 +323,57 @@ Constructor chaining helps:
 
 **FIRST STATEMENT → ALWAYS**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What is constructor chaining?**  
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is constructor chaining?</summary>
+<br>
+
 Invoking one constructor from another during object construction.
 
-**Q2. What does `this()` do?**  
-Invokes another constructor in the same class.
+</details>
 
-**Q3. What does `super()` do?**  
-Invokes a constructor of the parent class.
+<details>
+<summary>Q2. What does <code>this()</code> do?</summary>
+<br>
 
-**Q4. Where must `this()` or `super()` appear?**  
+It invokes another constructor in the same class.
+
+</details>
+
+<details>
+<summary>Q3. What does <code>super()</code> do?</summary>
+<br>
+
+It invokes a constructor of the immediate parent class.
+
+</details>
+
+<details>
+<summary>Q4. Where must <code>this()</code> or <code>super()</code> appear?</summary>
+<br>
+
 If explicitly used, it must be the first statement in the constructor.
 
-**Q5. Can a constructor directly call both `this()` and `super()`?**  
-No. It can explicitly start with only one constructor-invocation statement.
+</details>
 
-**Q6. What happens if the parent has no accessible no-argument constructor?**  
-A child constructor cannot rely on an implicit `super()`; it must invoke an applicable parent constructor explicitly.
+<details>
+<summary>Q5. Can a constructor directly call both <code>this()</code> and <code>super()</code>?</summary>
+<br>
 
-➡️ [Constructor Basics](./01-constructor-basics.md)  
-➡️ [Constructor Overloading](./03-constructor-overloading.md)  
-➡️ [Quick Revision](./05-constructors-quick-revision.md)
+No. A constructor can explicitly start with only one constructor-invocation statement.
 
-🏠 [Java Notes Home](../../README.md)
+</details>
 
----
+<details>
+<summary>Q6. What happens if the parent has no accessible no-argument constructor?</summary>
+<br>
 
+A child constructor cannot rely on an implicit super(); it must invoke an applicable parent constructor explicitly.
+
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
