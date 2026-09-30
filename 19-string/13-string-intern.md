@@ -65,10 +65,10 @@ System.out.println(s1.intern() == "Java"); // true
 
 ## 🎯 Interview Questions & Answers
 
-> **Try answering each question yourself first. Click the question to reveal the answer.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
 <details>
-<summary>What does intern() return?</summary>
+<summary>Q1. What does <code>intern()</code> return?</summary>
 <br>
 
 The canonical pooled String for the same contents.
@@ -76,29 +76,28 @@ The canonical pooled String for the same contents.
 </details>
 
 <details>
-<summary>Does intern() modify the original String?</summary>
+<summary>Q2. Does <code>intern()</code> modify the original String?</summary>
 <br>
 
-No. String remains immutable.
+No. String is immutable. intern() returns a pooled reference; it does not modify the original String.
 
 </details>
 
 <details>
-<summary>Does intern() move the heap object into the pool?</summary>
+<summary>Q3. Does <code>intern()</code> move the heap object into the pool?</summary>
 <br>
 
-No. It returns the canonical pooled reference.
+No. It returns the canonical pooled reference for the String's contents.
 
 </details>
 
 <details>
-<summary>Why can intern() make == true?</summary>
+<summary>Q4. Why can <code>intern()</code> make <code>==</code> true?</summary>
 <br>
 
-Because both references can point to the same canonical pooled String.
+Because two references can point to the same canonical pooled String after interning.
 
 </details>
-
 ## 🔗 Related Notes
 
 - [String Literals & String Pool →](09-string-literals-and-string-pool.md)
