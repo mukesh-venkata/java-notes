@@ -130,24 +130,33 @@ Student(int age) {
 
 **`this.field` = current object's field**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. Why use `this` in constructors?**  
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. Why use <code>this</code> in constructors?</summary>
+<br>
+
 To distinguish an instance variable from a parameter with the same name.
 
-**Q2. What does `this.name = name` mean?**  
-Assign the parameter to the current object's instance variable.
+</details>
 
-**Q3. Can `this` be omitted when there is no name conflict?**  
-Often yes.
+<details>
+<summary>Q2. What does <code>this.name = name</code> mean?</summary>
+<br>
 
-➡️ [`this` Basics](./01-this-keyword-basics.md)
-➡️ [Constructor & Method Calls](./03-this-constructor-and-method-calls.md)
+It assigns the parameter name to the current object's instance variable name.
 
-🏠 [Java Notes Home](../../README.md)
+</details>
 
----
+<details>
+<summary>Q3. Can <code>this</code> be omitted when there is no name conflict?</summary>
+<br>
 
+Often yes. If there is no ambiguity, the instance member can frequently be accessed without explicitly writing this.
+
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
