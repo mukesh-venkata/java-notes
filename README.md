@@ -554,6 +554,18 @@ Each major concept will grow progressively:
 
 **[📖 Open String →](19-string/)**
 
+### 📚 Topic 36 — String Constructors
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 15 | [String Constructors — Overview](19-string/15-string-constructors-overview.md) | ✅ |
+| 16 | [String Constructor from String](19-string/16-string-constructor-from-string.md) | ✅ |
+| 17 | [String Constructor from char[]](19-string/17-string-constructor-from-char-array.md) | ✅ |
+| 18 | [String Constructor from byte[]](19-string/18-string-constructor-from-byte-array.md) | ✅ |
+| 19 | [String Constructors Quick Revision](19-string/19-string-constructors-quick-revision.md) | ✅ |
+
+
+
 ---
 
 ## 🟡 20 — Exception Handling — UPCOMING
