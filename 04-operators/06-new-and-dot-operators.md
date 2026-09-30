@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🆕 Java `new` & Dot `.` — Object Creation and Member Access
 
 > **Topic 11 • Java Fundamentals**
@@ -75,3 +77,9 @@ A: No. It is a Java keyword used in object/array creation expressions.
 ⬅️ [Bitwise Operators](./05-bitwise-operators.md)
 
 ➡️ [Quick Revision](./07-operators-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
