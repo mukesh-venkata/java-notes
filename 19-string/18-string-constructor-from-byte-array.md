@@ -74,13 +74,41 @@ new String(bytes, StandardCharsets.UTF_8)
 
 over relying on the platform default charset.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Can String be created from byte[]? **Yes.**
-2. What does byte[] → String involve? **Decoding bytes using a charset.**
-3. What does `new String(byte[])` use? **The platform default charset.**
-4. How can you make decoding predictable? **Specify an explicit Charset.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. Can String be created from byte[]?</summary>
+<br>
+
+Yes.
+
+</details>
+
+<details>
+<summary>2. What does byte[] → String involve?</summary>
+<br>
+
+Decoding bytes into characters using a charset.
+
+</details>
+
+<details>
+<summary>3. What does <code>new String(byte[])</code> use?</summary>
+<br>
+
+The platform's default charset for the relevant constructor.
+
+</details>
+
+<details>
+<summary>4. How can you make decoding predictable?</summary>
+<br>
+
+Specify an explicit Charset, such as StandardCharsets.UTF_8.
+
+</details>
 ## 🔗 Related Notes
 
 - [Constructors Overview →](15-string-constructors-overview.md)
