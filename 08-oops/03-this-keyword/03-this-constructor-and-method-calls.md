@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔗 `this()` and `this.method()`
 
 > **Topic 22 • `this` Keyword**
@@ -142,3 +144,9 @@ No. It is constructor-invocation syntax.
 ➡️ [Pass & Return `this`](./04-this-as-argument-and-return-value.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
