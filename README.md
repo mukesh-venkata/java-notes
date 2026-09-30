@@ -1,67 +1,57 @@
+<div align="center">
+
 # ☕ Java Notes
 
-> A structured, practical Java knowledge base covering Core Java, JVM internals, coding examples, interview preparation and quick revision.
+### **Learn → Build → Practice → Revise**
 
-## 📚 Learning Path
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=800&color=2DD4BF&center=true&vCenter=true&width=650&lines=Master+Java+Step+by+Step;Concepts+%E2%86%92+Code+%E2%86%92+Interview;Build+Strong+Java+Foundations;Keep+Learning.+Keep+Building." alt="Java learning animation" />
 
-| # | Section | Status | Focus |
-|---:|---|:---:|---|
-| 01 | Fundamentals | ✅ Done | History, Java editions, execution flow, JDK/JRE/JVM, JVM, features |
-| 02 | Data Types | 🔄 In Progress | Primitive & reference types |
-| 03 | OOP | ⏳ Upcoming | Classes, objects, inheritance, polymorphism, abstraction, encapsulation |
-| 04 | Exception Handling | ⏳ Upcoming | Exceptions, custom exceptions, try-catch, finally |
-| 05 | Collections | ⏳ Upcoming | List, Set, Map, Queue, iterators, collection internals |
-| 06 | Generics | ⏳ Upcoming | Generic classes, methods, wildcards, type safety |
-| 07 | Java 8 | ⏳ Upcoming | Lambdas, functional interfaces, Optional, Date/Time API |
-| 08 | Stream API | ⏳ Upcoming | Stream operations, collectors, grouping, reduction |
-| 09 | Multithreading | ⏳ Upcoming | Threads, synchronization, executors, concurrency |
-| 10 | I/O & NIO | ⏳ Upcoming | Files, streams, readers/writers, NIO |
-| 11 | JDBC | ⏳ Upcoming | Database connectivity, queries, prepared statements |
-| 12 | JVM & Internals | ⏳ Upcoming | Advanced JVM, memory, class loading, execution, GC |
-| 13 | Modern Java | ⏳ Upcoming | Features after Java 8 and current Java practices |
+[![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Learning](https://img.shields.io/badge/Learning-In%20Progress-2DD4BF?style=for-the-badge)](#-learning-roadmap)
+[![Notes](https://img.shields.io/badge/Notes-Structured-412991?style=for-the-badge)](#-how-each-section-works)
+
+</div>
 
 ---
 
-## 🧭 Repository Structure
+## 🗺️ Learning Roadmap
 
-```text
-java-notes/
-│
-├── 01-fundamentals/              ✅ DONE
-│   ├── 01-java-history.md
-│   ├── 02-java-editions.md
-│   ├── 03-java-execution-flow.md
-│   ├── 04-jdk-jre-jvm.md
-│   ├── 05-jvm.md
-│   ├── 06-java-features.md
-│   └── 07-java-fundamentals-quick-revision.md
-│
-├── 02-data-types/                🔄 IN PROGRESS
-│   ├── 01-data-types-overview.md
-│   ├── 02-primitive-data-types.md
-│   ├── 03-reference-data-types.md
-│   └── 04-data-types-quick-revision.md
-│
-├── 03-oops/
-├── 04-exception-handling/
-├── 05-collections/
-├── 06-generics/
-├── 07-java-8/
-├── 08-stream-api/
-├── 09-multithreading/
-├── 10-io-nio/
-├── 11-jdbc/
-├── 12-jvm/
-└── 13-modern-java/
-```
+> **Tap any section below to jump directly to its notes.**
+
+| # | Section | Status | Focus |
+|---:|---|:---:|---|
+| 01 | [🟢 Fundamentals](#-01--fundamentals--complete) | ✅ Done | Java basics & JVM foundation |
+| 02 | [🔵 Data Types](#-02--data-types--complete) | ✅ Done | Primitive & reference types |
+| 03 | [🟣 OOP](#-03--oops--upcoming) | ⏳ Upcoming | Classes, objects & OOP principles |
+| 04 | [🟠 Exception Handling](#-04--exception-handling--upcoming) | ⏳ Upcoming | Exceptions & error handling |
+| 05 | [🟡 Collections](#-05--collections--upcoming) | ⏳ Upcoming | List, Set, Map & internals |
+| 06 | [🔷 Generics](#-06--generics--upcoming) | ⏳ Upcoming | Type safety & wildcards |
+| 07 | [🟢 Java 8](#-07--java-8--upcoming) | ⏳ Upcoming | Lambdas, Optional & functional programming |
+| 08 | [🔵 Stream API](#-08--stream-api--upcoming) | ⏳ Upcoming | Streams, collectors & transformations |
+| 09 | [🔴 Multithreading](#-09--multithreading--upcoming) | ⏳ Upcoming | Threads & concurrency |
+| 10 | [🟠 I/O & NIO](#-10--io--nio--upcoming) | ⏳ Upcoming | Files & I/O |
+| 11 | [🟣 JDBC](#-11--jdbc--upcoming) | ⏳ Upcoming | Java database connectivity |
+| 12 | [⚙️ JVM & Internals](#-12--jvm--internals--upcoming) | ⏳ Upcoming | Memory, class loading, GC & execution |
+| 13 | [🚀 Modern Java](#-13--modern-java--upcoming) | ⏳ Upcoming | Modern Java features |
+
+---
+
+## 🚦 Progress
+
+~~~text
+01 Fundamentals     ████████████████████ 100% ✅
+02 Data Types       ████████████████████ 100% ✅
+03 OOP              ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+04 Exception        ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+05 Collections      ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+06 Generics         ░░░░░░░░░░░░░░░░░░░░  0% ⏳
+~~~
 
 ---
 
 ## 🟢 01 — Fundamentals — COMPLETE
 
-The Fundamentals section is now complete.
-
-### Topics Covered
+### 📚 Topics
 
 | # | Topic | Status |
 |---:|---|:---:|
@@ -73,13 +63,13 @@ The Fundamentals section is now complete.
 | 06 | [Features of Java](01-fundamentals/06-java-features.md) | ✅ |
 | 07 | [Fundamentals Quick Revision](01-fundamentals/07-java-fundamentals-quick-revision.md) | ✅ |
 
-> 🎉 **Fundamentals complete!** The next major section is **Data Types**.
+**[📖 Open Fundamentals →](01-fundamentals/)**
 
 ---
 
-## 🔵 02 — Data Types — IN PROGRESS
+## 🔵 02 — Data Types — COMPLETE
 
-### Current Topics
+### 📚 Topics
 
 | # | Topic | Status |
 |---:|---|:---:|
@@ -88,36 +78,108 @@ The Fundamentals section is now complete.
 | 03 | [Reference Data Types](02-data-types/03-reference-data-types.md) | ✅ |
 | 04 | [Data Types Quick Revision](02-data-types/04-data-types-quick-revision.md) | ✅ |
 
+**[📖 Open Data Types →](02-data-types/)**
+
+> 🎉 **Data Types complete!** The next section is **OOP**.
+
 ---
 
-## ✨ Note Structure
+## 🟣 03 — OOPs — UPCOMING
 
-Each topic is organized for **learning + revision**, with content added according to what the topic needs:
+**Classes → Objects → Encapsulation → Inheritance → Polymorphism → Abstraction**
+
+---
+
+## 🟠 04 — Exception Handling — UPCOMING
+
+**try-catch → finally → throw → throws → Custom Exceptions**
+
+---
+
+## 🟡 05 — Collections — UPCOMING
+
+**List → Set → Map → Queue → Iterators → Collection Internals**
+
+---
+
+## 🔷 06 — Generics — UPCOMING
+
+**Generic Classes → Generic Methods → Bounds → Wildcards → Type Safety**
+
+---
+
+## 🟢 07 — Java 8 — UPCOMING
+
+**Lambda → Functional Interfaces → Optional → Date/Time API**
+
+---
+
+## 🔵 08 — Stream API — UPCOMING
+
+**Filter → Map → Sort → Reduce → Collect → Grouping**
+
+---
+
+## 🔴 09 — Multithreading — UPCOMING
+
+**Threads → Synchronization → Executors → Concurrency**
+
+---
+
+## 🟠 10 — I/O & NIO — UPCOMING
+
+**Files → Streams → Readers/Writers → NIO**
+
+---
+
+## 🟣 11 — JDBC — UPCOMING
+
+**Connection → SQL → PreparedStatement → ResultSet → Transactions**
+
+---
+
+## ⚙️ 12 — JVM & Internals — UPCOMING
+
+**Class Loading → Memory → Execution Engine → JIT → GC**
+
+---
+
+## 🚀 13 — Modern Java — UPCOMING
+
+**Post-Java-8 Features → Modern APIs → Current Java Practices**
+
+---
+
+## ✨ How Each Section Works
+
+Every section is designed around:
+
+~~~text
+        📖 LEARN
+           ↓
+      🧠 UNDERSTAND
+           ↓
+      🔀 VISUALIZE
+           ↓
+       💻 CODE
+           ↓
+      🎯 PRACTICE
+           ↓
+      ⚡ REVISE
+           ↓
+    🚀 INTERVIEW READY
+~~~
+
+Topics may include:
 
 - 📌 Clear explanations
-- 🔀 Visual flows and diagrams
+- 🔀 Mermaid diagrams and visual flows
 - 📊 Comparison tables
 - 💻 Java examples
 - 🧠 Memory tricks
 - 🎯 Interview questions
-- ⚡ 30-second / quick revision
-- 🔗 Navigation between related topics
-
-> **One source image can contain multiple concepts. We split it into logical topic files whenever that makes the notes easier to read, search and revise.**
-
----
-
-## 🔄 Learning Flow
-
-```mermaid
-flowchart LR
-    A[Concept] --> B[Understand]
-    B --> C[Visualize]
-    C --> D[Code]
-    D --> E[Practice]
-    E --> F[Interview Revision]
-    F --> G[Quick Revision]
-```
+- ⚡ Quick revision
+- 🔗 Navigation between related notes
 
 ---
 
