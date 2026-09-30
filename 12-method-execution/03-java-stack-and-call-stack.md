@@ -299,32 +299,57 @@ For recursion:
 
 **RECURSE → MORE FRAMES → BASE CASE → UNWIND**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. Does each thread have its own JVM stack?**  
-Yes.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. What is a call stack?**  
+<details>
+<summary>Q1. Does each thread have its own JVM stack?</summary>
+<br>
+
+Yes. Each thread has its own JVM stack.
+
+</details>
+
+<details>
+<summary>Q2. What is a call stack?</summary>
+<br>
+
 The currently active chain of method invocations.
 
-**Q3. Why is method execution described as LIFO?**  
+</details>
+
+<details>
+<summary>Q3. Why is method execution described as LIFO?</summary>
+<br>
+
 Because the most recently active call normally completes and returns before the calls beneath it.
 
-**Q4. Why does recursion use the stack?**  
-Each active recursive invocation needs its own invocation state/frame.
+</details>
 
-**Q5. What is stack unwinding?**  
+<details>
+<summary>Q4. Why does recursion use the stack?</summary>
+<br>
+
+Each active recursive invocation needs its own invocation state or frame.
+
+</details>
+
+<details>
+<summary>Q5. What is stack unwinding?</summary>
+<br>
+
 Active recursive calls return one by one after the base condition is reached.
 
-**Q6. What can uncontrolled recursion cause?**  
+</details>
+
+<details>
+<summary>Q6. What can uncontrolled recursion cause?</summary>
+<br>
+
 It can exhaust stack space and result in StackOverflowError.
 
-➡️ [Method Execution Quick Revision](./04-method-execution-quick-revision.md)
-
-🏠 [Java Notes Home](../README.md)
-
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
