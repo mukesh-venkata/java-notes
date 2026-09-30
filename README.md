@@ -508,61 +508,115 @@ Each major concept will grow progressively:
 
 ---
 
-## 🟡 18 — Exception Handling — UPCOMING
+## 🔄 18 — Type Casting — COMPLETE
+
+### 📚 Topics
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Type Casting Overview](18-type-casting/01-type-casting-overview.md) | ✅ |
+| 02 | [Primitive Widening & Narrowing](18-type-casting/02-primitive-widening-and-narrowing.md) | ✅ |
+| 03 | [Numeric Literals & Casting](18-type-casting/03-numeric-literals-and-casting.md) | ✅ |
+| 04 | [Reference Upcasting & Downcasting](18-type-casting/04-reference-upcasting-and-downcasting.md) | ✅ |
+| 05 | [instanceof & ClassCastException](18-type-casting/05-instanceof-and-classcastexception.md) | ✅ |
+| 06 | [Type Casting Comparison](18-type-casting/06-type-casting-comparison.md) | ✅ |
+| 07 | [Type Casting Quick Revision](18-type-casting/07-type-casting-quick-revision.md) | ✅ |
+
+**[📖 Open Type Casting →](18-type-casting/)**
+
+---
+
+## 🔤 19 — String — COMPLETE
+
+### 📚 Topic 34 — String
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [String Overview](19-string/01-string-overview.md) | ✅ |
+| 02 | [String Immutability](19-string/02-string-immutability.md) | ✅ |
+| 03 | [String References & Garbage Collection](19-string/03-string-reference-and-garbage-collection.md) | ✅ |
+| 04 | [StringBuffer](19-string/04-stringbuffer.md) | ✅ |
+| 05 | [StringBuilder](19-string/05-stringbuilder.md) | ✅ |
+| 06 | [String vs StringBuffer vs StringBuilder](19-string/06-string-vs-stringbuffer-vs-stringbuilder.md) | ✅ |
+| 07 | [String Quick Revision](19-string/07-string-quick-revision.md) | ✅ |
+
+### 📚 Topic 35 — Creating String Objects
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 08 | [Creating String Objects Overview](19-string/08-creating-string-objects-overview.md) | ✅ |
+| 09 | [String Literals & String Pool](19-string/09-string-literals-and-string-pool.md) | ✅ |
+| 10 | [String Using new Operator](19-string/10-string-using-new-operator.md) | ✅ |
+| 11 | [String from Character Array](19-string/11-string-from-character-array.md) | ✅ |
+| 12 | [String Memory & Storage](19-string/12-string-memory-and-storage.md) | ✅ |
+| 13 | [String intern()](19-string/13-string-intern.md) | ✅ |
+| 14 | [String Object Creation Quick Revision](19-string/14-string-object-creation-quick-revision.md) | ✅ |
+
+**[📖 Open String →](19-string/)**
+
+---
+
+## 🟡 20 — Exception Handling — UPCOMING
 
 **try-catch → finally → throw → throws → Custom Exceptions**
 
 ---
 
-## 🔷 19 — Collections — UPCOMING
+## 🟡 20 — Exception Handling — UPCOMING
+
+**try-catch → finally → throw → throws → Custom Exceptions**
+
+---
+
+## 🔷 21 — Collections — UPCOMING
 
 **List → Set → Map → Queue → Iterators → Collection Internals**
 
 ---
 
-## 🟢 20 — Generics — UPCOMING
+## 🟢 22 — Generics — UPCOMING
 
 **Generic Classes → Generic Methods → Bounds → Wildcards → Type Safety**
 
 ---
 
-## 🔵 21 — Java 8 — UPCOMING
+## 🔵 23 — Java 8 — UPCOMING
 
 **Lambda → Functional Interfaces → Optional → Date/Time API**
 
 ---
 
-## 🔴 22 — Stream API — UPCOMING
+## 🔴 24 — Stream API — UPCOMING
 
 **Filter → Map → Sort → Reduce → Collect → Grouping**
 
 ---
 
-## 🔴 23 — Multithreading — UPCOMING
+## 🔴 25 — Multithreading — UPCOMING
 
 **Threads → Synchronization → Executors → Concurrency**
 
 ---
 
-## 🟠 24 — I/O & NIO — UPCOMING
+## 🟠 26 — I/O & NIO — UPCOMING
 
 **Files → Streams → Readers/Writers → NIO**
 
 ---
 
-## 🟣 25 — JDBC — UPCOMING
+## 🟣 27 — JDBC — UPCOMING
 
 **Connection → SQL → PreparedStatement → ResultSet → Transactions**
 
 ---
 
-## ⚙️ 26 — JVM & Internals — UPCOMING
+## ⚙️ 28 — JVM & Internals — UPCOMING
 
 **Class Loading → Memory → Execution Engine → JIT → GC**
 
 ---
 
-## 🚀 27 — Modern Java — UPCOMING
+## 🚀 29 — Modern Java — UPCOMING
 
 **Post-Java-8 Features → Modern APIs → Current Java Practices**
 
