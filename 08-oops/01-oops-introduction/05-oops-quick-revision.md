@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java OOP — Introduction Quick Revision
 
 > **Topic 15 • 30-Second Revision**
@@ -114,3 +116,9 @@ Composition & Advanced OOP
 ⬅️ [Object Basics](./04-object-basics.md)
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
