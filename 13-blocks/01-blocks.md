@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🧱 Java Blocks
 
 > **Topic 13 • Blocks**
@@ -185,3 +187,9 @@ OBJECT → INSTANCE → CONSTRUCTOR
 ➡️ [Blocks Quick Revision](./03-blocks-quick-revision.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
