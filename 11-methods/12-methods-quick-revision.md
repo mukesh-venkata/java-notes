@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java Methods — Quick Revision
 
 > **Topic 18 • 30-Second Revision**
@@ -126,3 +128,9 @@ Static method + same signature in child
 ⬅️ [Method Hiding](./11-method-hiding.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
