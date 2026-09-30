@@ -99,9 +99,9 @@ This is only a preview. The detailed constructor-chaining rules will be covered 
 
 **OBJECT → INSTANCE → CONSTRUCTOR**
 
-## 🎯 Interview Questions & Answers
+## 🎤 Interview Questions & Answers
 
-> **Try answering each question yourself first. Click the question to reveal the answer.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
 <details>
 <summary>When does a static block run?</summary>
@@ -115,7 +115,7 @@ During class initialization.
 <summary>When does an instance block run?</summary>
 <br>
 
-During object construction, before the constructor body for that class.
+During object construction, after instance field initializers and before the constructor body for that class.
 
 </details>
 
@@ -123,26 +123,9 @@ During object construction, before the constructor body for that class.
 <summary>What happens before the constructor body?</summary>
 <br>
 
-Instance field initialization and instance initialization actions for that class.
+Instance field initialization and instance initialization blocks for that class execute before the constructor body.
 
 </details>
-
-<details>
-<summary>⬅️ [Blocks](./01-blocks.md)</summary>
-<br>
-
-➡️ [Quick Revision](./03-blocks-quick-revision.md)
-
-</details>
-
-<details>
-<summary>🏠 [Java Notes Home](../README.md)</summary>
-<br>
-
----
-
-</details>
-
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
