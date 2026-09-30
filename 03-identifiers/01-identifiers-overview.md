@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔤 Java Identifiers — Overview
 
 > **Topic 10 • Java Fundamentals**
@@ -148,3 +150,9 @@ A: No.
 ➡️ [Java Naming Conventions](./02-java-naming-conventions.md)
 
 ➡️ [Quick Revision](./03-identifiers-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
