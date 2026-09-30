@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 07. Java Fundamentals — Quick Revision
 <div align="center">
 
@@ -80,9 +82,8 @@ Native Libraries
 
 > **Java code becomes bytecode, and the JVM provides the platform-specific runtime needed to execute it.**
 
-
 ---
 
 ## 🧭 Navigation
 
-⬅️ [Java Notes Home](../README.md) &nbsp; • &nbsp; 📚 [Fundamentals](./) &nbsp; • &nbsp; ☕ Keep learning!
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
