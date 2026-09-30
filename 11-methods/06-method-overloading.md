@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔀 Java Method Overloading
 
 > **Topic 18 • Methods**
@@ -62,3 +64,9 @@ It is commonly classified as compile-time polymorphism.
 ➡️ [Overriding vs Overloading](./08-overriding-vs-overloading.md)
 
 ➡️ [Quick Revision](./12-methods-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
