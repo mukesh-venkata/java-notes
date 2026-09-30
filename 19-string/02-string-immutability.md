@@ -76,11 +76,33 @@ System.out.println(upper); // JAVA
 
 > **String cannot change itself; operations create a new String.**
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Why is String immutable?
-2. Does concat() modify the original String?
-3. How do you keep the concatenated result?
+> **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Why is String immutable?</summary>
+<br>
+
+Because String objects cannot change after creation; this supports safe sharing, String Pool reuse, and predictable behavior.
+
+</details>
+
+<details>
+<summary>Does concat() modify the original String?</summary>
+<br>
+
+No. `concat()` returns a new String containing the combined content.
+
+</details>
+
+<details>
+<summary>How do you keep the concatenated result?</summary>
+<br>
+
+Assign the returned String to a reference, for example `s = s.concat("Java")`.
+
+</details>
 
 ## 🔗 Related Notes
 
