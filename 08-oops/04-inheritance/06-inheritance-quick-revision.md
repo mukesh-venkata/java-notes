@@ -80,25 +80,65 @@ Runtime polymorphism
 - An explicit `super(...)` constructor invocation must be first.
 - An explicit `this(...)` constructor invocation must be first.
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Inheritance?** Child class acquires accessible members from a parent class.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Keyword?** `extends`.
+<details>
+<summary>Inheritance?</summary>
+<br>
 
-**Multiple class inheritance?** Not supported in Java.
+Child class acquires accessible members from a parent class.
 
-**Constructors inherited?** No.
+</details>
 
-**Private members directly accessible?** No.
+<details>
+<summary>Keyword?</summary>
+<br>
 
-**`super()`?** Invokes an immediate parent constructor.
+`extends`.
 
-**`super.method()`?** Invokes an accessible parent implementation.
+</details>
 
-🏠 [Java Notes Home](../../README.md)
+<details>
+<summary>Multiple class inheritance?</summary>
+<br>
 
----
+Not supported in Java.
+
+</details>
+
+<details>
+<summary>Constructors inherited?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>Private members directly accessible?</summary>
+<br>
+
+No.
+
+</details>
+
+<details>
+<summary>`super()`?</summary>
+<br>
+
+Invokes an immediate parent constructor.
+
+</details>
+
+<details>
+<summary>`super.method()`?</summary>
+<br>
+
+Invokes an accessible parent implementation.
+
+</details>
 
 ## 🧭 Navigation
 
