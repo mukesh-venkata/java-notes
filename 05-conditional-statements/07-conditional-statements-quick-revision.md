@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Java Conditional Statements — Quick Revision
 
 > **Topic 12 • 30-Second Revision**
@@ -146,3 +148,9 @@ Traditional switch does not support `float` or `double` selectors.
 ⬅️ [switch](./06-switch-statement.md)
 
 🏠 [Java Notes Home](../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
