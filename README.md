@@ -277,6 +277,22 @@
 
 **[📖 Open `final` Keyword →](08-oops/06-final-keyword/)**
 
+### 🧩 Object Class
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Object Class Overview](08-oops/07-object-class/01-object-class-overview.md) | ✅ |
+| 02 | [toString(), hashCode() & equals()](08-oops/07-object-class/02-tostring-hashcode-equals.md) | ✅ |
+| 03 | [getClass() & Runtime Type](08-oops/07-object-class/03-getclass-and-runtime-type.md) | ✅ |
+| 04 | [clone() & Shallow Copy](08-oops/07-object-class/04-clone-and-shallow-copy.md) | ✅ |
+| 05 | [finalize() & Resource Cleanup](08-oops/07-object-class/05-finalize-and-resource-cleanup.md) | ✅ |
+| 06 | [wait(), notify() & notifyAll()](08-oops/07-object-class/06-wait-notify-notifyall.md) | ✅ |
+| 07 | [Object Class Quick Revision](08-oops/07-object-class/07-object-class-quick-revision.md) | ✅ |
+
+**[📖 Open Object Class →](08-oops/07-object-class/)**
+
+
+
 
 
 
