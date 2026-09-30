@@ -80,23 +80,65 @@ class PaymentService {
 
 ---
 
-## 🎤 Interview One-Liners
+## 🎤 Interview Questions & Answers
 
-**Identifier?** → Name given to a program element.
+> **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Case-sensitive?** → Yes.
+<details>
+<summary>Identifier?</summary>
+<br>
 
-**Keyword as identifier?** → Not allowed.
+Name given to a program element.
 
-**Class convention?** → PascalCase.
+</details>
 
-**Variable/method convention?** → camelCase.
+<details>
+<summary>Case-sensitive?</summary>
+<br>
 
-**Constant convention?** → UPPER_SNAKE_CASE.
+Yes.
 
-**Package convention?** → lowercase.
+</details>
 
----
+<details>
+<summary>Keyword as identifier?</summary>
+<br>
+
+Not allowed.
+
+</details>
+
+<details>
+<summary>Class convention?</summary>
+<br>
+
+PascalCase.
+
+</details>
+
+<details>
+<summary>Variable/method convention?</summary>
+<br>
+
+camelCase.
+
+</details>
+
+<details>
+<summary>Constant convention?</summary>
+<br>
+
+UPPER_SNAKE_CASE.
+
+</details>
+
+<details>
+<summary>Package convention?</summary>
+<br>
+
+lowercase.
+
+</details>
 
 ## 🔗 Navigation
 
