@@ -89,17 +89,33 @@ student  ─────────→  Student object
 reference             object
 ```
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-### Q1. What is the most common way to create an object?
-Using the `new` operator.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-### Q2. Does new invoke a constructor?
-Yes, object creation through a class instance creation expression invokes the selected constructor.
+<details>
+<summary>Q1. What is the most common way to create an object?</summary>
+<br>
 
-### Q3. Is the reference variable the object?
-No. It stores a reference to the object.
+Using the new operator with a class constructor.
 
+</details>
+
+<details>
+<summary>Q2. Does new invoke a constructor?</summary>
+<br>
+
+Yes. A class instance creation expression selects and invokes a constructor.
+
+</details>
+
+<details>
+<summary>Q3. Is the reference variable the object?</summary>
+<br>
+
+No. The reference variable stores a reference to an object; it is not the object itself.
+
+</details>
 ## 🔗 Related Notes
 
 - [Overview →](01-object-creation-overview.md)
