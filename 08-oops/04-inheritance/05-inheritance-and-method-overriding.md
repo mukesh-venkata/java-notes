@@ -182,30 +182,49 @@ Overridden Child implementation executes
 
 **INHERIT → OVERRIDE → RUNTIME DISPATCH**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What is method overriding?**  
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is method overriding?</summary>
+<br>
+
 A subclass provides a compatible implementation of an inherited instance method.
 
-**Q2. Is static method overriding?**  
+</details>
+
+<details>
+<summary>Q2. Is static method overriding?</summary>
+<br>
+
 No. Static methods are hidden, not overridden.
 
-**Q3. Can a private method be overridden?**  
+</details>
+
+<details>
+<summary>Q3. Can a private method be overridden?</summary>
+<br>
+
+No. Private methods are not inherited by subclasses and therefore cannot be overridden.
+
+</details>
+
+<details>
+<summary>Q4. Can a final method be overridden?</summary>
+<br>
+
 No.
 
-**Q4. Can a final method be overridden?**  
-No.
+</details>
 
-**Q5. Why is `Animal a = new Dog()` important?**  
+<details>
+<summary>Q5. Why is <code>Animal a = new Dog()</code> important?</summary>
+<br>
+
 It demonstrates a parent reference referring to a child object and forms the basis for runtime polymorphism.
 
-➡️ [`super` & Constructor Chaining](./04-super-and-constructor-chaining.md)
-➡️ [Inheritance Quick Revision](./06-inheritance-quick-revision.md)
-
-🏠 [Java Notes Home](../../README.md)
-
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
