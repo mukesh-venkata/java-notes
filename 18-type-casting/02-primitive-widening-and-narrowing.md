@@ -101,14 +101,49 @@ So:
 | Common use | Safe promotion | Deliberate conversion |
 | Data loss | Generally avoided by the conversion | Possible |
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. What is widening casting?
-2. What is narrowing casting?
-3. Which one normally happens automatically?
-4. Why can narrowing cause data loss?
-5. Is `char` convertible to `int` by widening? **Yes.**
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. What is widening casting?</summary>
+<br>
+
+Converting a narrower primitive type to a wider compatible primitive type, usually automatically.
+
+</details>
+
+<details>
+<summary>2. What is narrowing casting?</summary>
+<br>
+
+Converting a wider primitive type to a narrower type, generally using an explicit cast.
+
+</details>
+
+<details>
+<summary>3. Which one normally happens automatically?</summary>
+<br>
+
+Widening primitive conversion normally happens automatically.
+
+</details>
+
+<details>
+<summary>4. Why can narrowing cause data loss?</summary>
+<br>
+
+The target type may not be able to represent the full range or precision of the source value.
+
+</details>
+
+<details>
+<summary>5. Is char convertible to int by widening?</summary>
+<br>
+
+Yes. A char value can be widened to int.
+
+</details>
 ## 🔗 Related Notes
 
 - [Type Casting Overview →](01-type-casting-overview.md)
