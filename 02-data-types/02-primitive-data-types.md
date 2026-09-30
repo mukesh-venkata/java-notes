@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 02. Primitive Data Types
 
 <div align="center">
@@ -176,4 +178,4 @@ A: -2³¹ to 2³¹ − 1.
 
 ## 🧭 Navigation
 
-⬅️ [Data Types Overview](01-data-types-overview.md) • 📚 Data Types
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
