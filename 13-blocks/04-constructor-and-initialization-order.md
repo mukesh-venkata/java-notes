@@ -1,40 +1,36 @@
-# 🏗️ Java Constructor & Initialization Order
+# 🏗️ Constructor & Initialization Order
 
 > **Topic 20 • Blocks**
 
-Constructors, static initialization and instance initialization work together during class initialization and object construction.
+The easiest way to understand this is to separate **class initialization** from **object creation**.
 
-## 1️⃣ Class Initialization
+## 🟣 Class Initialization
 
-When a class is initialized, its static initialization occurs.
-
-```text
-Class initialization
+~~~text
+Class initialized
       ↓
-Static field initializers / static blocks
+Static fields / static blocks
+~~~
+
+Static initialization happens once for the class.
+
+## 🟢 Object Creation
+
+For a simple class:
+
+~~~text
+new Student()
       ↓
-Class initialization completes
-```
-
-Static initialization occurs once for a given class initialization.
-
-## 2️⃣ Object Construction
-
-When an object is created, instance initialization occurs before the constructor body.
-
-```text
-Object creation
+Instance fields
       ↓
-Instance field initializers / instance initialization blocks
+Instance block
       ↓
-Constructor body
-```
+Constructor
+~~~
 
-Instance field initializers and instance initialization blocks execute in their textual order.
+## Example
 
-## 💻 Example
-
-```java
+~~~java
 class Student {
     static {
         System.out.println("Static");
@@ -50,64 +46,13 @@ class Student {
         System.out.println("Constructor");
     }
 }
-```
+~~~
 
-After class initialization has occurred, conceptually:
+### 🧠 Easy Trick
 
-```text
-new Student()
-      ↓
-instance field initialization
-      ↓
-instance initialization block
-      ↓
-constructor body
-```
+**Class → Static**  
+**Object → Instance → Constructor**
 
-## 🧬 Inheritance
-
-A useful simplified mental model is:
-
-```text
-Class initialization
-    ↓
-Superclass initialization
-    ↓
-Subclass initialization
-
-Object construction
-    ↓
-Superclass instance initialization
-    ↓
-Superclass constructor
-    ↓
-Subclass instance initialization
-    ↓
-Subclass constructor
-```
-
-The full Java Language Specification rules are more detailed, especially around explicit constructor invocation and field initializers.
-
-## ⚠️ Important
-
-Do not memorize static initialization and object construction as one uninterrupted sequence.
-
-**Static initialization belongs to class initialization.**  
-**Instance initialization and constructors belong to object construction.**
-
-## 🎤 Interview Quick Check
-
-**When does static initialization happen?** During class initialization.
-
-**When does an instance initialization block run?** During object construction, before the constructor body for that class.
-
-**What runs before the constructor body?** Instance field initializers and instance initialization blocks for that class.
-
-## 🔗 Navigation
-
-⬅️ [Blocks Overview](./01-blocks-overview.md)  
-⬅️ [Static Block](./02-static-block.md)  
-⬅️ [Instance Initialization Block](./03-instance-initialization-block.md)  
-➡️ [Quick Revision](./05-blocks-quick-revision.md)
+Inheritance has additional constructor-chaining rules. We will learn those properly in the **Inheritance** section instead of mixing them into this basic topic.
 
 🏠 [Java Notes Home](../README.md)
