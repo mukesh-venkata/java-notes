@@ -89,24 +89,33 @@ Child Class
 
 Inside `Dog`, `super` provides access to the immediate `Animal` context.
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What is `super`?**  
+ **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Q1. What is <code>super</code>?</summary>
+<br>
+
 A keyword used by a subclass to refer to its immediate superclass context.
 
-**Q2. What are the three major uses of `super`?**  
+</details>
+
+<details>
+<summary>Q2. What are the three major uses of <code>super</code>?</summary>
+<br>
+
 Calling a parent constructor, calling a parent method, and accessing a parent field.
 
-**Q3. Does `super` refer to the grandparent?**  
-No. It refers to the immediate parent.
+</details>
 
-➡️ [`super()` — Parent Constructor](./02-super-constructor.md)
-➡️ [`super` Method & Field](./03-super-method-and-field.md)
+<details>
+<summary>Q3. Does <code>super</code> refer to the grandparent?</summary>
+<br>
 
-🏠 [Java Notes Home](../../README.md)
+No. It refers to the immediate parent class.
 
----
-
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
