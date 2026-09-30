@@ -33,16 +33,73 @@ StringBuffer → Mutable + Synchronized
 StringBuilder→ Mutable + No synchronization
 ~~~
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. Why is String immutable?
-2. Is String final?
-3. Which package contains String?
-4. What happens when concat() is called without assigning its result?
-5. When does an old String become eligible for garbage collection?
-6. What is the difference between StringBuffer and StringBuilder?
-7. Which one is synchronized?
-8. Why is StringBuilder commonly used in single-threaded code?
+> **Try answering each question yourself first. Click the question to reveal the answer.**
+
+<details>
+<summary>Why is String immutable?</summary>
+<br>
+
+`String` objects cannot be changed after creation. This supports safe sharing, String Pool reuse, and predictable behavior.
+
+</details>
+
+<details>
+<summary>Is String final?</summary>
+<br>
+
+Yes. `String` is a `final` class.
+
+</details>
+
+<details>
+<summary>Which package contains String?</summary>
+<br>
+
+`java.lang`.
+
+</details>
+
+<details>
+<summary>What happens when concat() is called without assigning its result?</summary>
+<br>
+
+A new String is returned, but the original reference is unchanged if the result is not stored.
+
+</details>
+
+<details>
+<summary>When does an old String become eligible for garbage collection?</summary>
+<br>
+
+When no live reference can reach that String object. Eligibility does not mean collection happens immediately.
+
+</details>
+
+<details>
+<summary>What is the difference between StringBuffer and StringBuilder?</summary>
+<br>
+
+`StringBuffer` is mutable and synchronized; `StringBuilder` is mutable and not synchronized.
+
+</details>
+
+<details>
+<summary>Which one is synchronized?</summary>
+<br>
+
+`StringBuffer`.
+
+</details>
+
+<details>
+<summary>Why is StringBuilder commonly used in single-threaded code?</summary>
+<br>
+
+`StringBuilder` avoids synchronization overhead and is commonly used when thread-safe mutation is not required.
+
+</details>
 
 ## 🔗 Related Notes
 
