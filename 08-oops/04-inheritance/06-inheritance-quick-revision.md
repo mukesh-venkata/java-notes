@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # ⚡ Inheritance — Quick Revision
 
 > **Topic 23 • 30-Second Revision**
@@ -95,3 +97,9 @@ Runtime polymorphism
 **`super.method()`?** Invokes an accessible parent implementation.
 
 🏠 [Java Notes Home](../../README.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
