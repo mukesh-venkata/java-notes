@@ -49,12 +49,33 @@ So the old object is not eligible merely because first changed.
 
 Eligible for garbage collection does **not** mean the object is immediately collected. The JVM determines when garbage collection occurs.
 
-## 🎯 Interview Questions
+## 🎯 Interview Questions & Answers
 
-1. When does a String object become eligible for GC?
-2. Does reassignment always make the old String eligible?
-3. Does eligible for GC mean immediately collected?
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
+<details>
+<summary>1. When does a String object become eligible for GC?</summary>
+<br>
+
+When no live reference can reach that String object. A pooled literal can remain reachable through the String Pool.
+
+</details>
+
+<details>
+<summary>2. Does reassignment always make the old String eligible?</summary>
+<br>
+
+No. It makes the old object eligible only if no other live reference can reach it.
+
+</details>
+
+<details>
+<summary>3. Does eligible for GC mean immediately collected?</summary>
+<br>
+
+No. It only means the object is available for collection; the JVM decides when or whether to perform garbage collection.
+
+</details>
 ## 🔗 Related Notes
 
 - [String Overview →](01-string-overview.md)
