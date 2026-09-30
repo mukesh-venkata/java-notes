@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 03. Non-Primitive / Reference Data Types
 
 <div align="center">
@@ -184,4 +186,4 @@ A: Yes.
 
 ## 🧭 Navigation
 
-⬅️ [Data Types Overview](01-data-types-overview.md) • 📚 Data Types
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
