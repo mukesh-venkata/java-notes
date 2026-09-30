@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # 🔵 Java `if` Statement
 
 > **Topic 12 • Java Fundamentals**
@@ -82,3 +84,9 @@ A: No. Java requires a boolean expression.
 ➡️ [if-else](./03-if-else-statement.md)
 
 ➡️ [Quick Revision](./07-conditional-statements-quick-revision.md)
+
+---
+
+## 🧭 Navigation
+
+⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../README.md) · 📁 [Section Home](./)
