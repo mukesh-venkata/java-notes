@@ -195,27 +195,41 @@ A child cannot write something like `super.super.method()`.
 
 **super → PARENT**
 
-## 🎤 Interview Questions
+## 🎤 Interview Questions & Answers
 
-**Q1. What does `super.method()` do?**  
-Calls an accessible implementation of the method from the immediate parent class.
+ **Try answering each question yourself first. Click the question to reveal the answer.**
 
-**Q2. What does `super.field` do?**  
-Accesses an accessible parent-class field.
+<details>
+<summary>Q1. What does <code>super.method()</code> do?</summary>
+<br>
 
-**Q3. Can `super` access a private parent field?**  
-No.
+It calls an accessible implementation of the method from the immediate parent class.
 
-**Q4. Can `super` directly access a grandparent?**  
-No.
+</details>
 
-➡️ [`super` Basics](./01-super-keyword-basics.md)
-➡️ [Quick Revision](./04-super-keyword-quick-revision.md)
+<details>
+<summary>Q2. What does <code>super.field</code> do?</summary>
+<br>
 
-🏠 [Java Notes Home](../../README.md)
+It accesses an accessible parent-class field.
 
----
+</details>
 
+<details>
+<summary>Q3. Can <code>super</code> access a private parent field?</summary>
+<br>
+
+No. Private members are not directly accessible from the subclass.
+
+</details>
+
+<details>
+<summary>Q4. Can <code>super</code> directly access a grandparent?</summary>
+<br>
+
+No. super refers to the immediate parent class context.
+
+</details>
 ## 🧭 Navigation
 
 ⬆️ [Back to Top](#top) · 🏠 [Java Notes Home](../../README.md) · 📁 [Section Home](./)
