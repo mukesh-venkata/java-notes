@@ -323,6 +323,14 @@
 
 **[📖 Open Abstract Class →](08-oops/10-abstract-class/)**
 
+### 🔌 Interface
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Interface](08-oops/11-interface/01-interface.md) | ✅ |
+
+**[📖 Open Interface →](08-oops/11-interface/)**
+
 
 
 
