@@ -307,6 +307,22 @@
 
 **[📖 Open Object Class →](08-oops/07-object-class/)**
 
+### 🧱 Concrete Class
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Concrete Class](08-oops/09-concrete-class/01-concrete-class.md) | ✅ |
+
+**[📖 Open Concrete Class →](08-oops/09-concrete-class/)**
+
+### 🧩 Abstract Class
+
+| # | Topic | Status |
+|---:|---|:---:|
+| 01 | [Abstract Class](08-oops/10-abstract-class/01-abstract-class.md) | ✅ |
+
+**[📖 Open Abstract Class →](08-oops/10-abstract-class/)**
+
 
 
 
